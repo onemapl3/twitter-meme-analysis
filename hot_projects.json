@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-05-13T14:31:26.652296",
+  "projects": [
+    {
+      "name": "elonmusk",
+      "mentions": 202,
+      "engagement": 782140.5999999999,
+      "influence": 466645.3089999994,
+      "recent_mentions": 0,
+      "previous_mentions": 202,
+      "mention_score": 17.657342657342657,
+      "engagement_score": 100.0,
+      "influence_score": 22.14066544132661,
+      "trend_bonus": -0.1,
+      "final_score": 46.74546218664071,
+      "unique_users": 23,
+      "tweet_count": 202
+    },
+    {
+      "name": "nft",
+      "mentions": 1144,
+      "engagement": 13585.999999999985,
+      "influence": 1177578.0358999933,
+      "recent_mentions": 0,
+      "previous_mentions": 1144,
+      "mention_score": 100.0,
+      "engagement_score": 1.7370278438429083,
+      "influence_score": 55.87190275155274,
+      "trend_bonus": -0.1,
+      "final_score": 42.710743766702684,
+      "unique_users": 51,
+      "tweet_count": 1144
+    },
+    {
+      "name": "bitcoin",
+      "mentions": 508,
+      "engagement": 30563.40000000005,
+      "influence": 2107639.041999992,
+      "recent_mentions": 0,
+      "previous_mentions": 508,
+      "mention_score": 44.40559440559441,
+      "engagement_score": 3.9076605919702994,
+      "influence_score": 100.0,
+      "trend_bonus": -0.1,
+      "final_score": 40.3962683026198,
+      "unique_users": 43,
+      "tweet_count": 508
+    }
+  ]
+}
