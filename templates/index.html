@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Meme币分析平台</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+        :root {
+            --primary-color: #6366f1;
+            --secondary-color: #8b5cf6;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --danger-color: #ef4444;
+            --dark-color: #1f2937;
+            --light-color: #f8fafc;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .navbar {
+            background: rgba(255, 255, 255, 0.1) !important;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .main-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            margin: 2rem auto;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+        }
+        
+        .stats-card {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .stats-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stats-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stats-label {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+        
+        .search-box {
+            background: white;
+            border-radius: 25px;
+            padding: 1rem 1.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        .search-input {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 1.1rem;
+        }
+        
+        .filter-section {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .meme-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .meme-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .meme-symbol {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        
+        .meme-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .meme-category {
+            display: inline-block;
+            background: var(--light-color);
+            color: var(--dark-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .meme-stats {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        
+        .stat-label {
+            font-size: 0.8rem;
+            color: #6b7280;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #6b7280;
+        }
+        
+        .error {
+            background: #fef2f2;
+            color: #dc2626;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+        
+        .pagination {
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        
+        .chart-container {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-custom {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border: none;
+            border-radius: 25px;
+            padding: 0.5rem 1.5rem;
+            color: white;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+        
+        .btn-custom:hover {
+            transform: translateY(-2px);
+            color: white;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-rocket"></i> Meme币分析平台
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#overview">概览</a>
+                <a class="nav-link" href="#memes">Meme币</a>
+                <a class="nav-link" href="#kol">KOL分析</a>
+                <a class="nav-link" href="#about">关于</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- 主容器 -->
+        <div class="main-container">
+            <!-- 概览统计 -->
+            <section id="overview">
+                <h2 class="text-center mb-4">
+                    <i class="fas fa-chart-line"></i> 市场概览
+                </h2>
+                <div class="row" id="overview-stats">
+                    <div class="col-md-3">
+                        <div class="stats-card text-center">
+                            <div class="stats-number" id="total-memes">-</div>
+                            <div class="stats-label">总Meme币</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stats-card text-center">
+                            <div class="stats-number" id="known-memes">-</div>
+                            <div class="stats-label">已知项目</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stats-card text-center">
+                            <div class="stats-number" id="potential-memes">-</div>
+                            <div class="stats-label">潜在发现</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stats-card text-center">
+                            <div class="stats-number" id="total-mentions">-</div>
+                            <div class="stats-label">总提及次数</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 搜索和筛选 -->
+            <section id="search-filter">
+                <div class="search-box">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <input type="text" class="search-input" id="search-input" 
+                                   placeholder="🔍 搜索meme币名称、符号或描述...">
+                        </div>
+                        <div class="col-md-4 text-end">
+                            <button class="btn btn-custom" onclick="searchMemes()">
+                                <i class="fas fa-search"></i> 搜索
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label class="form-label">分类筛选</label>
+                            <select class="form-select" id="category-filter">
+                                <option value="">所有分类</option>
+                                <option value="ai_meme">AI主题</option>
+                                <option value="animal_meme">动物主题</option>
+                                <option value="internet_culture">网络文化</option>
+                                <option value="community_meme">社区驱动</option>
+                                <option value="potential_meme">潜在项目</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">排序方式</label>
+                            <select class="form-select" id="sort-filter">
+                                <option value="total_score">热度分数</option>
+                                <option value="mention_count">提及次数</option>
+                                <option value="unique_users">用户数量</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">每页显示</label>
+                            <select class="form-select" id="limit-filter">
+                                <option value="10">10条</option>
+                                <option value="20">20条</option>
+                                <option value="50" selected>50条</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">&nbsp;</label>
+                            <button class="btn btn-custom w-100" onclick="applyFilters()">
+                                <i class="fas fa-filter"></i> 应用筛选
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Meme币列表 -->
+            <section id="memes">
+                <h3 class="mb-3">
+                    <i class="fas fa-coins"></i> Meme币列表
+                </h3>
+                <div id="memes-container">
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i> 加载中...
+                    </div>
+                </div>
+                <div id="pagination-container"></div>
+            </section>
+
+            <!-- 图表分析 -->
+            <section id="charts">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h3>
+                        <i class="fas fa-chart-pie"></i> 数据分析
+                    </h3>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-primary btn-sm" onclick="refreshCharts()">
+                            <i class="fas fa-sync-alt"></i> 刷新图表
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" onclick="exportChartData()">
+                            <i class="fas fa-download"></i> 导出数据
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <h5>分类分布</h5>
+                            <canvas id="categoryChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <h5>热度分布</h5>
+                            <canvas id="scoreChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 新增统计图表 -->
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <h5>Top Meme币热度对比</h5>
+                            <canvas id="topMemesChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <h5>用户参与度分析</h5>
+                            <canvas id="engagementChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="chart-container">
+                            <h5>Meme币热度趋势雷达图</h5>
+                            <canvas id="radarChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="chart-container">
+                            <h5>检测类型分布</h5>
+                            <canvas id="detectionTypeChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="chart-container">
+                            <h5>热度趋势分析</h5>
+                            <canvas id="trendChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 新增趋势分析图表 -->
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <div class="chart-container">
+                            <h5>Meme币热度趋势时间线</h5>
+                            <canvas id="timelineChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Meme币分析平台. 基于Twitter数据分析的智能meme币发现系统.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // 全局变量
+        let currentPage = 0;
+        let currentLimit = 50;
+        let currentCategory = '';
+        let currentSortBy = 'total_score';
+        let allMemes = [];
+        let filteredMemes = [];
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            loadOverview();
+            loadMemes();
+            loadCategories();
+            
+            // 设置定时刷新（每5分钟）
+            setInterval(() => {
+                loadOverview();
+                loadMemes();
+            }, 5 * 60 * 1000);
+        });
+
+        // 加载概览数据
+        async function loadOverview() {
+            try {
+                const response = await fetch('/api/memes/overview');
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                document.getElementById('total-memes').textContent = data.total_memes;
+                document.getElementById('known-memes').textContent = data.known_memes;
+                document.getElementById('potential-memes').textContent = data.potential_memes;
+                document.getElementById('total-mentions').textContent = data.total_mentions.toLocaleString();
+                
+            } catch (error) {
+                console.error('加载概览失败:', error);
+                showError('加载概览数据失败');
+            }
+        }
+
+        // 加载Meme币列表
+        async function loadMemes() {
+            try {
+                const response = await fetch(`/api/memes?limit=${currentLimit}&offset=${currentPage * currentLimit}&category=${currentCategory}&sort_by=${currentSortBy}`);
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                allMemes = data.data;
+                filteredMemes = data.data;
+                displayMemes();
+                displayPagination(data.pagination);
+                
+                // 创建所有图表
+                createScoreChart(allMemes);
+                createTopMemesChart(allMemes);
+                createEngagementChart(allMemes);
+                createRadarChart(allMemes);
+                createDetectionTypeChart(allMemes);
+                createTrendChart(allMemes);
+                createTimelineChart(allMemes);
+                
+            } catch (error) {
+                console.error('加载Meme币列表失败:', error);
+                showError('加载Meme币列表失败');
+            }
+        }
+
+        // 加载分类统计
+        async function loadCategories() {
+            try {
+                const response = await fetch('/api/memes/categories');
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                createCategoryChart(data);
+                
+            } catch (error) {
+                console.error('加载分类统计失败:', error);
+            }
+        }
+
+        // 显示Meme币列表
+        function displayMemes() {
+            const container = document.getElementById('memes-container');
+            
+            if (filteredMemes.length === 0) {
+                container.innerHTML = '<div class="text-center text-muted">没有找到符合条件的meme币</div>';
+                return;
+            }
+            
+            let html = '';
+            filteredMemes.forEach(meme => {
+                html += `
+                    <div class="meme-card">
+                        <div class="row align-items-center">
+                            <div class="col-md-3">
+                                <div class="meme-symbol">${meme.symbol}</div>
+                                <div class="meme-name">${meme.name}</div>
+                                <span class="meme-category">${formatCategory(meme.category)}</span>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="meme-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">${meme.total_score.toFixed(1)}</div>
+                                        <div class="stat-label">热度分数</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">${meme.mention_count}</div>
+                                        <div class="stat-label">提及次数</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">${meme.unique_users}</div>
+                                        <div class="stat-label">用户数量</div>
+                                    </div>
+                                </div>
+                                <p class="text-muted mb-0">${meme.description || '暂无描述'}</p>
+                            </div>
+                            <div class="col-md-3 text-end">
+                                <button class="btn btn-outline-primary btn-sm" onclick="viewMemeDetail('${meme.id}')">
+                                    <i class="fas fa-eye"></i> 查看详情
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+
+        // 显示分页
+        function displayPagination(pagination) {
+            const container = document.getElementById('pagination-container');
+            
+            if (pagination.total <= pagination.limit) {
+                container.innerHTML = '';
+                return;
+            }
+            
+            const totalPages = Math.ceil(pagination.total / pagination.limit);
+            let html = '<nav><ul class="pagination">';
+            
+            // 上一页
+            html += `<li class="page-item ${currentPage === 0 ? 'disabled' : ''}">
+                        <a class="page-link" href="#" onclick="changePage(${currentPage - 1})">上一页</a>
+                     </li>`;
+            
+            // 页码
+            for (let i = 0; i < totalPages; i++) {
+                if (i === currentPage) {
+                    html += `<li class="page-item active"><span class="page-link">${i + 1}</span></li>`;
+                } else {
+                    html += `<li class="page-item"><a class="page-link" href="#" onclick="changePage(${i})">${i + 1}</a></li>`;
+                }
+            }
+            
+            // 下一页
+            html += `<li class="page-item ${currentPage >= totalPages - 1 ? 'disabled' : ''}">
+                        <a class="page-link" href="#" onclick="changePage(${currentPage + 1})">下一页</a>
+                     </li>`;
+            
+            html += '</ul></nav>';
+            container.innerHTML = html;
+        }
+
+        // 搜索Meme币
+        async function searchMemes() {
+            const query = document.getElementById('search-input').value.trim();
+            
+            if (!query) {
+                loadMemes();
+                return;
+            }
+            
+            try {
+                const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&limit=50`);
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                filteredMemes = data.results;
+                currentPage = 0;
+                displayMemes();
+                
+                // 清空分页
+                document.getElementById('pagination-container').innerHTML = '';
+                
+            } catch (error) {
+                console.error('搜索失败:', error);
+                showError('搜索失败');
+            }
+        }
+
+        // 应用筛选
+        function applyFilters() {
+            currentCategory = document.getElementById('category-filter').value;
+            currentSortBy = document.getElementById('sort-filter').value;
+            currentLimit = parseInt(document.getElementById('limit-filter').value);
+            currentPage = 0;
+            
+            loadMemes();
+        }
+
+        // 切换页面
+        function changePage(page) {
+            currentPage = page;
+            loadMemes();
+        }
+
+        // 查看Meme币详情
+        function viewMemeDetail(memeId) {
+            // 这里可以实现模态框显示详情
+            alert(`查看 ${memeId} 的详细信息`);
+        }
+
+        // 创建分类图表
+        function createCategoryChart(categoryData) {
+            const ctx = document.getElementById('categoryChart').getContext('2d');
+            
+            const labels = Object.keys(categoryData).map(cat => formatCategory(cat));
+            const data = Object.values(categoryData).map(cat => cat.count);
+            const colors = [
+                '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FECA57'
+            ];
+            
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: data,
+                        backgroundColor: colors,
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        }
+        
+        // 创建热度分布图表
+        function createScoreChart(memes) {
+            const ctx = document.getElementById('scoreChart').getContext('2d');
+            
+            // 按分数分组
+            const scoreRanges = {
+                '0-50': 0,
+                '51-100': 0,
+                '101-200': 0,
+                '201-300': 0,
+                '300+': 0
+            };
+            
+            memes.forEach(meme => {
+                const score = meme.total_score;
+                if (score <= 50) scoreRanges['0-50']++;
+                else if (score <= 100) scoreRanges['51-100']++;
+                else if (score <= 200) scoreRanges['101-200']++;
+                else if (score <= 300) scoreRanges['201-300']++;
+                else scoreRanges['300+']++;
+            });
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(scoreRanges),
+                    datasets: [{
+                        label: 'Meme币数量',
+                        data: Object.values(scoreRanges),
+                        backgroundColor: 'rgba(99, 102, 241, 0.8)',
+                        borderColor: 'rgba(99, 102, 241, 1)',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        
+        // 创建Top Meme币热度对比图表
+        function createTopMemesChart(memes) {
+            const ctx = document.getElementById('topMemesChart').getContext('2d');
+            
+            // 取前10名
+            const topMemes = memes.slice(0, 10);
+            const labels = topMemes.map(meme => meme.symbol);
+            const scores = topMemes.map(meme => meme.total_score);
+            const mentions = topMemes.map(meme => meme.mention_count);
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: '热度分数',
+                            data: scores,
+                            backgroundColor: 'rgba(139, 92, 246, 0.8)',
+                            borderColor: 'rgba(139, 92, 246, 1)',
+                            borderWidth: 2,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: '提及次数',
+                            data: mentions,
+                            backgroundColor: 'rgba(16, 185, 129, 0.8)',
+                            borderColor: 'rgba(16, 185, 129, 1)',
+                            borderWidth: 2,
+                            yAxisID: 'y1'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top'
+                        }
+                    },
+                    scales: {
+                        x: {
+                            display: true,
+                            title: {
+                                display: true,
+                                text: 'Meme币'
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: {
+                                display: true,
+                                text: '热度分数'
+                            }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: {
+                                display: true,
+                                text: '提及次数'
+                            },
+                            grid: {
+                                drawOnChartArea: false,
+                            },
+                        }
+                    }
+                }
+            });
+        }
+        
+        // 创建用户参与度分析图表
+        function createEngagementChart(memes) {
+            const ctx = document.getElementById('engagementChart').getContext('2d');
+            
+            // 计算参与度指标
+            const engagementData = memes.map(meme => ({
+                symbol: meme.symbol,
+                engagement_rate: meme.mention_count > 0 ? meme.unique_users / meme.mention_count : 0,
+                user_diversity: meme.unique_users,
+                mention_intensity: meme.mention_count
+            }));
+            
+            // 按参与度排序，取前15名
+            engagementData.sort((a, b) => b.engagement_rate - a.engagement_rate);
+            const topEngagement = engagementData.slice(0, 15);
+            
+            new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: '用户参与度 vs 提及强度',
+                        data: topEngagement.map(item => ({
+                            x: item.mention_intensity,
+                            y: item.engagement_rate,
+                            r: Math.min(item.user_diversity / 2, 20) // 气泡大小基于用户多样性
+                        })),
+                        backgroundColor: 'rgba(245, 158, 11, 0.6)',
+                        borderColor: 'rgba(245, 158, 11, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const item = topEngagement[context.dataIndex];
+                                    return `${item.symbol}: 参与度=${context.parsed.y.toFixed(3)}, 提及=${context.parsed.x}, 用户=${item.user_diversity}`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: '提及次数'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: '用户参与度 (用户数/提及数)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        
+        // 创建雷达图
+        function createRadarChart(memes) {
+            const ctx = document.getElementById('radarChart').getContext('2d');
+            
+            // 选择前8个meme币进行雷达图分析
+            const topMemes = memes.slice(0, 8);
+            
+            const datasets = topMemes.map((meme, index) => {
+                const colors = [
+                    'rgba(99, 102, 241, 0.6)',
+                    'rgba(139, 92, 246, 0.6)',
+                    'rgba(16, 185, 129, 0.6)',
+                    'rgba(245, 158, 11, 0.6)',
+                    'rgba(239, 68, 68, 0.6)',
+                    'rgba(236, 72, 153, 0.6)',
+                    'rgba(14, 165, 233, 0.6)',
+                    'rgba(34, 197, 94, 0.6)'
+                ];
+                
+                return {
+                    label: meme.symbol,
+                    data: [
+                        normalizeScore(meme.total_score, 0, 400), // 热度分数
+                        normalizeScore(meme.mention_count, 0, 1000), // 提及次数
+                        normalizeScore(meme.unique_users, 0, 100), // 用户数量
+                        normalizeScore(meme.total_score / (meme.mention_count || 1), 0, 10), // 效率分数
+                        normalizeScore(meme.unique_users / (meme.mention_count || 1), 0, 1) // 用户参与度
+                    ],
+                    backgroundColor: colors[index],
+                    borderColor: colors[index].replace('0.6', '1'),
+                    borderWidth: 2,
+                    pointBackgroundColor: colors[index].replace('0.6', '1'),
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: colors[index].replace('0.6', '1')
+                };
+            });
+            
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['热度分数', '提及次数', '用户数量', '效率分数', '用户参与度'],
+                    datasets: datasets
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                usePointStyle: true,
+                                padding: 15
+                            }
+                        }
+                    },
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                stepSize: 20
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        
+        // 创建检测类型分布图表
+        function createDetectionTypeChart(memes) {
+            const ctx = document.getElementById('detectionTypeChart').getContext('2d');
+            
+            const typeCounts = {};
+            memes.forEach(meme => {
+                const type = meme.detection_type;
+                typeCounts[type] = (typeCounts[type] || 0) + 1;
+            });
+            
+            const labels = Object.keys(typeCounts).map(type => 
+                type === 'known_meme' ? '已知项目' : '潜在发现'
+            );
+            const data = Object.values(typeCounts);
+            const colors = ['rgba(16, 185, 129, 0.8)', 'rgba(245, 158, 11, 0.8)'];
+            
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: data,
+                        backgroundColor: colors,
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        }
+        
+        // 辅助函数：标准化分数到0-100范围
+        function normalizeScore(score, min, max) {
+            return Math.min(100, Math.max(0, ((score - min) / (max - min)) * 100));
+        }
+        
+        // 创建热度趋势分析图表
+        function createTrendChart(memes) {
+            const ctx = document.getElementById('trendChart').getContext('2d');
+            
+            // 按分类统计平均热度
+            const categoryTrends = {};
+            memes.forEach(meme => {
+                const category = meme.category;
+                if (!categoryTrends[category]) {
+                    categoryTrends[category] = {
+                        total_score: 0,
+                        count: 0,
+                        avg_mentions: 0,
+                        total_mentions: 0
+                    };
+                }
+                categoryTrends[category].total_score += meme.total_score;
+                categoryTrends[category].count += 1;
+                categoryTrends[category].total_mentions += meme.mention_count;
+            });
+            
+            // 计算平均值
+            Object.keys(categoryTrends).forEach(category => {
+                const data = categoryTrends[category];
+                data.avg_score = data.total_score / data.count;
+                data.avg_mentions = data.total_mentions / data.count;
+            });
+            
+            const labels = Object.keys(categoryTrends).map(cat => formatCategory(cat));
+            const avgScores = Object.values(categoryTrends).map(data => data.avg_score);
+            const avgMentions = Object.values(categoryTrends).map(data => data.avg_mentions);
+            
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: '平均热度分数',
+                            data: avgScores,
+                            borderColor: 'rgba(99, 102, 241, 1)',
+                            backgroundColor: 'rgba(99, 102, 241, 0.1)',
+                            tension: 0.4,
+                            fill: true
+                        },
+                        {
+                            label: '平均提及次数',
+                            data: avgMentions,
+                            borderColor: 'rgba(16, 185, 129, 1)',
+                            backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                            tension: 0.4,
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                usePointStyle: true
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+        
+        // 创建时间线趋势图表
+        function createTimelineChart(memes) {
+            const ctx = document.getElementById('timelineChart').getContext('2d');
+            
+            // 按成立时间分组
+            const timelineData = {};
+            memes.forEach(meme => {
+                const year = meme.founded;
+                if (!timelineData[year]) {
+                    timelineData[year] = {
+                        count: 0,
+                        total_score: 0,
+                        total_mentions: 0
+                    };
+                }
+                timelineData[year].count += 1;
+                timelineData[year].total_score += meme.total_score;
+                timelineData[year].total_mentions += meme.mention_count;
+            });
+            
+            // 按年份排序
+            const sortedYears = Object.keys(timelineData).sort();
+            const counts = sortedYears.map(year => timelineData[year].count);
+            const avgScores = sortedYears.map(year => timelineData[year].total_score / timelineData[year].count);
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: sortedYears,
+                    datasets: [
+                        {
+                            label: '项目数量',
+                            data: counts,
+                            backgroundColor: 'rgba(139, 92, 246, 0.8)',
+                            borderColor: 'rgba(139, 92, 246, 1)',
+                            borderWidth: 2,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: '平均热度分数',
+                            data: avgScores,
+                            backgroundColor: 'rgba(16, 185, 129, 0.8)',
+                            borderColor: 'rgba(16, 185, 129, 1)',
+                            borderWidth: 2,
+                            yAxisID: 'y1',
+                            type: 'line'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top'
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: '成立年份'
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: {
+                                display: true,
+                                text: '项目数量'
+                            }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: {
+                                display: true,
+                                text: '平均热度分数'
+                            },
+                            grid: {
+                                drawOnChartArea: false,
+                            },
+                        }
+                    }
+                }
+            });
+        }
+
+        // 格式化分类名称
+        function formatCategory(category) {
+            const categoryMap = {
+                'ai_meme': 'AI主题',
+                'animal_meme': '动物主题',
+                'internet_culture': '网络文化',
+                'community_meme': '社区驱动',
+                'potential_meme': '潜在项目'
+            };
+            return categoryMap[category] || category;
+        }
+
+        // 显示错误信息
+        function showError(message) {
+            const container = document.getElementById('memes-container');
+            container.innerHTML = `<div class="error"><i class="fas fa-exclamation-triangle"></i> ${message}</div>`;
+        }
+
+        // 回车搜索
+        document.getElementById('search-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchMemes();
+            }
+        });
+        
+        // 刷新图表
+        function refreshCharts() {
+            loadMemes();
+            loadCategories();
+        }
+        
+        // 导出图表数据
+        function exportChartData() {
+            if (allMemes.length === 0) {
+                alert('暂无数据可导出');
+                return;
+            }
+            
+            // 准备导出数据
+            const exportData = {
+                export_timestamp: new Date().toISOString(),
+                total_memes: allMemes.length,
+                meme_data: allMemes.map(meme => ({
+                    symbol: meme.symbol,
+                    name: meme.name,
+                    category: meme.category,
+                    total_score: meme.total_score,
+                    mention_count: meme.mention_count,
+                    unique_users: meme.unique_users,
+                    founded: meme.founded,
+                    detection_type: meme.detection_type
+                })),
+                statistics: {
+                    categories: Object.fromEntries(
+                        Object.entries(
+                            allMemes.reduce((acc, meme) => {
+                                acc[meme.category] = (acc[meme.category] || 0) + 1;
+                                return acc;
+                            }, {})
+                        )
+                    ),
+                    detection_types: Object.fromEntries(
+                        Object.entries(
+                            allMemes.reduce((acc, meme) => {
+                                acc[meme.detection_type] = (acc[meme.detection_type] || 0) + 1;
+                                return acc;
+                            }, {})
+                        )
+                    )
+                }
+            };
+            
+            // 创建下载链接
+            const dataStr = JSON.stringify(exportData, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `meme_analysis_${new Date().toISOString().split('T')[0]}.json`;
+            link.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>

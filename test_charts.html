@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图表测试页面</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .chart-container { width: 600px; height: 400px; margin: 20px 0; border: 1px solid #ddd; padding: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Meme币分析图表测试</h1>
+    
+    <div class="chart-container">
+        <h3>分类分布饼图</h3>
+        <canvas id="categoryChart"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h3>热度分布柱状图</h3>
+        <canvas id="scoreChart"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h3>Top Meme币对比图</h3>
+        <canvas id="topMemesChart"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h3>用户参与度散点图</h3>
+        <canvas id="engagementChart"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h3>雷达图分析</h3>
+        <canvas id="radarChart"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h3>检测类型分布</h3>
+        <canvas id="detectionTypeChart"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h3>分类趋势线图</h3>
+        <canvas id="trendChart"></canvas>
+    </div>
+    
+    <div class="chart-container">
+        <h3>时间线趋势图</h3>
+        <canvas id="timelineChart"></canvas>
+    </div>
+
+    <script>
+        // 模拟数据
+        const mockMemes = [
+            {
+                symbol: 'ACT',
+                name: 'Act I The AI Prophecy',
+                category: 'ai_meme',
+                total_score: 392.45,
+                mention_count: 935,
+                unique_users: 63,
+                founded: '2024',
+                detection_type: 'known_meme'
+            },
+            {
+                symbol: 'DOGE',
+                name: 'Dogecoin',
+                category: 'animal_meme',
+                total_score: 77.07,
+                mention_count: 178,
+                unique_users: 19,
+                founded: '2013',
+                detection_type: 'known_meme'
+            },
+            {
+                symbol: 'GOAT',
+                name: 'Goatseus Maximus',
+                category: 'ai_meme',
+                total_score: 50.2,
+                mention_count: 112,
+                unique_users: 18,
+                founded: '2024',
+                detection_type: 'known_meme'
+            },
+            {
+                symbol: 'CHAD',
+                name: 'Chad',
+                category: 'internet_culture',
+                total_score: 42.4,
+                mention_count: 94,
+                unique_users: 14,
+                founded: '2023',
+                detection_type: 'known_meme'
+            },
+            {
+                symbol: 'PEPE',
+                name: 'Pepe',
+                category: 'internet_culture',
+                total_score: 33.7,
+                mention_count: 67,
+                unique_users: 14,
+                founded: '2023',
+                detection_type: 'known_meme'
+            }
+        ];
+
+        // 创建所有图表
+        createCategoryChart();
+        createScoreChart();
+        createTopMemesChart();
+        createEngagementChart();
+        createRadarChart();
+        createDetectionTypeChart();
+        createTrendChart();
+        createTimelineChart();
+
+        function createCategoryChart() {
+            const ctx = document.getElementById('categoryChart').getContext('2d');
+            const categoryCounts = {};
+            mockMemes.forEach(meme => {
+                categoryCounts[meme.category] = (categoryCounts[meme.category] || 0) + 1;
+            });
+            
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: Object.keys(categoryCounts).map(cat => cat.replace('_', ' ')),
+                    datasets: [{
+                        data: Object.values(categoryCounts),
+                        backgroundColor: ['#FF6B6B', '#4ECDC4', '#45B7D1']
+                    }]
+                }
+            });
+        }
+
+        function createScoreChart() {
+            const ctx = document.getElementById('scoreChart').getContext('2d');
+            const scoreRanges = {'0-50': 0, '51-100': 0, '101-200': 0, '201-300': 0, '300+': 0};
+            
+            mockMemes.forEach(meme => {
+                const score = meme.total_score;
+                if (score <= 50) scoreRanges['0-50']++;
+                else if (score <= 100) scoreRanges['51-100']++;
+                else if (score <= 200) scoreRanges['101-200']++;
+                else if (score <= 300) scoreRanges['201-300']++;
+                else scoreRanges['300+']++;
+            });
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(scoreRanges),
+                    datasets: [{
+                        label: 'Meme币数量',
+                        data: Object.values(scoreRanges),
+                        backgroundColor: 'rgba(99, 102, 241, 0.8)'
+                    }]
+                }
+            });
+        }
+
+        function createTopMemesChart() {
+            const ctx = document.getElementById('topMemesChart').getContext('2d');
+            const labels = mockMemes.map(meme => meme.symbol);
+            const scores = mockMemes.map(meme => meme.total_score);
+            const mentions = mockMemes.map(meme => meme.mention_count);
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: '热度分数',
+                            data: scores,
+                            backgroundColor: 'rgba(139, 92, 246, 0.8)',
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: '提及次数',
+                            data: mentions,
+                            backgroundColor: 'rgba(16, 185, 129, 0.8)',
+                            yAxisID: 'y1'
+                        }
+                    ]
+                },
+                options: {
+                    scales: {
+                        y: { position: 'left' },
+                        y1: { position: 'right', grid: { drawOnChartArea: false } }
+                    }
+                }
+            });
+        }
+
+        function createEngagementChart() {
+            const ctx = document.getElementById('engagementChart').getContext('2d');
+            const engagementData = mockMemes.map(meme => ({
+                x: meme.mention_count,
+                y: meme.unique_users / meme.mention_count,
+                r: meme.unique_users / 2
+            }));
+            
+            new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: '用户参与度 vs 提及强度',
+                        data: engagementData,
+                        backgroundColor: 'rgba(245, 158, 11, 0.6)'
+                    }]
+                }
+            });
+        }
+
+        function createRadarChart() {
+            const ctx = document.getElementById('radarChart').getContext('2d');
+            const datasets = mockMemes.map((meme, index) => ({
+                label: meme.symbol,
+                data: [
+                    meme.total_score / 4, // 标准化到0-100
+                    meme.mention_count / 10,
+                    meme.unique_users,
+                    meme.total_score / meme.mention_count * 10,
+                    meme.unique_users / meme.mention_count * 100
+                ],
+                backgroundColor: `rgba(${99 + index * 20}, ${102 + index * 15}, ${241 - index * 20}, 0.6)`
+            }));
+            
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['热度分数', '提及次数', '用户数量', '效率分数', '用户参与度'],
+                    datasets: datasets
+                }
+            });
+        }
+
+        function createDetectionTypeChart() {
+            const ctx = document.getElementById('detectionTypeChart').getContext('2d');
+            const typeCounts = {};
+            mockMemes.forEach(meme => {
+                typeCounts[meme.detection_type] = (typeCounts[meme.detection_type] || 0) + 1;
+            });
+            
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(typeCounts).map(type => 
+                        type === 'known_meme' ? '已知项目' : '潜在发现'
+                    ),
+                    datasets: [{
+                        data: Object.values(typeCounts),
+                        backgroundColor: ['rgba(16, 185, 129, 0.8)', 'rgba(245, 158, 11, 0.8)']
+                    }]
+                }
+            });
+        }
+
+        function createTrendChart() {
+            const ctx = document.getElementById('trendChart').getContext('2d');
+            const categoryTrends = {};
+            mockMemes.forEach(meme => {
+                if (!categoryTrends[meme.category]) {
+                    categoryTrends[meme.category] = { total_score: 0, count: 0 };
+                }
+                categoryTrends[meme.category].total_score += meme.total_score;
+                categoryTrends[meme.category].count += 1;
+            });
+            
+            const labels = Object.keys(categoryTrends).map(cat => cat.replace('_', ' '));
+            const avgScores = Object.values(categoryTrends).map(data => data.total_score / data.count);
+            
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: '平均热度分数',
+                        data: avgScores,
+                        borderColor: 'rgba(99, 102, 241, 1)',
+                        backgroundColor: 'rgba(99, 102, 241, 0.1)',
+                        fill: true
+                    }]
+                }
+            });
+        }
+
+        function createTimelineChart() {
+            const ctx = document.getElementById('timelineChart').getContext('2d');
+            const timelineData = {};
+            mockMemes.forEach(meme => {
+                if (!timelineData[meme.founded]) {
+                    timelineData[meme.founded] = { count: 0, total_score: 0 };
+                }
+                timelineData[meme.founded].count += 1;
+                timelineData[meme.founded].total_score += meme.total_score;
+            });
+            
+            const years = Object.keys(timelineData).sort();
+            const counts = years.map(year => timelineData[year].count);
+            const avgScores = years.map(year => timelineData[year].total_score / timelineData[year].count);
+            
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: years,
+                    datasets: [
+                        {
+                            label: '项目数量',
+                            data: counts,
+                            backgroundColor: 'rgba(139, 92, 246, 0.8)',
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: '平均热度分数',
+                            data: avgScores,
+                            backgroundColor: 'rgba(16, 185, 129, 0.8)',
+                            yAxisID: 'y1',
+                            type: 'line'
+                        }
+                    ]
+                },
+                options: {
+                    scales: {
+                        y: { position: 'left' },
+                        y1: { position: 'right', grid: { drawOnChartArea: false } }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
