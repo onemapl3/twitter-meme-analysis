@@ -1,0 +1,1243 @@
+{
+  "detection_timestamp": "2025-08-19T22:58:21.915064",
+  "detected_memes": {
+    "eth": {
+      "mention_count": 199,
+      "frequency": 0.006877,
+      "sample_contexts": [
+        {
+          "user_id": 1613350207336464384,
+          "context": "taught dev who sold eth at $90 reveals how",
+          "timestamp": 1742506968
+        },
+        {
+          "user_id": 1305859724802482178,
+          "context": "orld comes true?\n\n- eth via da and settleme",
+          "timestamp": 1742243315
+        },
+        {
+          "user_id": 1305859724802482178,
+          "context": "and store of value\n\neth and sol maybe, but",
+          "timestamp": 1742311234
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "neyl0rd run it back eth to valhalla",
+          "timestamp": 1742384754
+        },
+        {
+          "user_id": 1490626149629980673,
+          "context": "tility should be on eth and for that reason",
+          "timestamp": 1743388501
+        }
+      ],
+      "total_contexts": 184
+    },
+    "bitcoin": {
+      "mention_count": 385,
+      "frequency": 0.013304,
+      "sample_contexts": [
+        {
+          "user_id": 1490626149629980673,
+          "context": "art on bitcoin.",
+          "timestamp": 1742875656
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "@cryptocom @bitcoin everyone in the wor",
+          "timestamp": 1742367683
+        },
+        {
+          "user_id": 107637333,
+          "context": "bitcoin want so bad to brea",
+          "timestamp": 1742729668
+        },
+        {
+          "user_id": 1850055852,
+          "context": "ave yet to separate bitcoin from the us dollar",
+          "timestamp": 1742921968
+        },
+        {
+          "user_id": 1490626149629980673,
+          "context": "@ianb93 bitcoin",
+          "timestamp": 1742961985
+        }
+      ],
+      "total_contexts": 351
+    },
+    "investment": {
+      "mention_count": 10,
+      "frequency": 0.000346,
+      "sample_contexts": [
+        {
+          "user_id": 766578266,
+          "context": "h_ considering a 5k investment",
+          "timestamp": 1742915718
+        },
+        {
+          "user_id": 1453982860663087107,
+          "context": "likbuterin mfer -ev investment",
+          "timestamp": 1744652837
+        },
+        {
+          "user_id": 1322453807293325312,
+          "context": "o, most trading and investment strategies end up u",
+          "timestamp": 1743569355
+        },
+        {
+          "user_id": 1305859724802482178,
+          "context": "orts on $hood as an investment \n\nthis is probably",
+          "timestamp": 1742508448
+        },
+        {
+          "user_id": 1509912900038582272,
+          "context": "only cryptocurrency investment project that the tr",
+          "timestamp": 1743535535
+        }
+      ],
+      "total_contexts": 10
+    },
+    "ai": {
+      "mention_count": 337,
+      "frequency": 0.011645,
+      "sample_contexts": [
+        {
+          "user_id": 1328686769508732929,
+          "context": "taversedrug @world3_ai 是的吧，都是web3 ai llm",
+          "timestamp": 1743003135
+        },
+        {
+          "user_id": 376626032,
+          "context": "ady actively adding ai to your skill stack",
+          "timestamp": 1743526230
+        },
+        {
+          "user_id": 107637333,
+          "context": "ctoryb – all-in-one ai agent on bnb chain",
+          "timestamp": 1742481076
+        },
+        {
+          "user_id": 548986652,
+          "context": "ver had a chance as ai was not born into r",
+          "timestamp": 1743215341
+        },
+        {
+          "user_id": 1524559440741306368,
+          "context": "rt @dezzanz: ai wayfinder tge is ge",
+          "timestamp": 1743271756
+        }
+      ],
+      "total_contexts": 232
+    },
+    "crypto": {
+      "mention_count": 381,
+      "frequency": 0.013166,
+      "sample_contexts": [
+        {
+          "user_id": 1448644422380310537,
+          "context": "seen in the entire crypto data space.\n\na dao'",
+          "timestamp": 1743081175
+        },
+        {
+          "user_id": 234848990,
+          "context": "🇯🇵 japan to give crypto assets\nlegal status",
+          "timestamp": 1743336271
+        },
+        {
+          "user_id": 1850055852,
+          "context": "om knows more about crypto than sb lol",
+          "timestamp": 1742155842
+        },
+        {
+          "user_id": 946430947662086144,
+          "context": "@decu0x crypto opened a whole new",
+          "timestamp": 1742962649
+        },
+        {
+          "user_id": 801518825690824707,
+          "context": "am. \n\nit seems like crypto expects the next jo",
+          "timestamp": 1743048140
+        }
+      ],
+      "total_contexts": 348
+    },
+    "nft": {
+      "mention_count": 86,
+      "frequency": 0.002972,
+      "sample_contexts": [
+        {
+          "user_id": 1429631187543265286,
+          "context": "ve in.\n\ni've missed nft mints, plays, no ti",
+          "timestamp": 1742408366
+        },
+        {
+          "user_id": 802898471544090624,
+          "context": "dope @guttercatgang nft to celebrate the la",
+          "timestamp": 1743088487
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "@getgemsdotio is nft season back? 👀 \n\n/g",
+          "timestamp": 1743163505
+        },
+        {
+          "user_id": 765,
+          "context": "me lately that*:\n\n• nft market is primed to",
+          "timestamp": 1742666026
+        },
+        {
+          "user_id": 1490626149629980673,
+          "context": "nkrypto’s on1 force nft. https://t.co/yd8vb",
+          "timestamp": 1742757433
+        }
+      ],
+      "total_contexts": 79
+    },
+    "game": {
+      "mention_count": 125,
+      "frequency": 0.004319,
+      "sample_contexts": [
+        {
+          "user_id": 946430947662086144,
+          "context": "aling sounds like a game changer for polkado",
+          "timestamp": 1742963164
+        },
+        {
+          "user_id": 1613350207336464384,
+          "context": "r that defeated the game in week one . i am",
+          "timestamp": 1743223294
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "olute thriller of a game what an upset!",
+          "timestamp": 1742678835
+        },
+        {
+          "user_id": 385749492,
+          "context": "esterday. it’s hard game we play.",
+          "timestamp": 1742560745
+        },
+        {
+          "user_id": 376626032,
+          "context": "from the rock-band game https://t.co/jwl65t",
+          "timestamp": 1742506493
+        }
+      ],
+      "total_contexts": 120
+    },
+    "trading": {
+      "mention_count": 55,
+      "frequency": 0.001901,
+      "sample_contexts": [
+        {
+          "user_id": 1509912900038582272,
+          "context": "onekoshimizu: alpha trading group宣布永久封杀热宝，望所有想和",
+          "timestamp": 1743171724
+        },
+        {
+          "user_id": 1192644966343823360,
+          "context": "gic over emotion in trading",
+          "timestamp": 1744646788
+        },
+        {
+          "user_id": 1305859724802482178,
+          "context": "institutions start trading onchain\n\nmany of th",
+          "timestamp": 1742328127
+        },
+        {
+          "user_id": 32331693,
+          "context": "thdrawals, and spot trading are now live on hyp",
+          "timestamp": 1743092861
+        },
+        {
+          "user_id": 102953447,
+          "context": "xdexhawk: helios ai trading binance futures - 2",
+          "timestamp": 1743491198
+        }
+      ],
+      "total_contexts": 54
+    },
+    "defi": {
+      "mention_count": 48,
+      "frequency": 0.001659,
+      "sample_contexts": [
+        {
+          "user_id": 1447862012906807296,
+          "context": "@defisoulog gmmmm defi! ☀",
+          "timestamp": 1743260642
+        },
+        {
+          "user_id": 1447862012906807296,
+          "context": "2/ @defi tiene más de 3 mill",
+          "timestamp": 1742492133
+        },
+        {
+          "user_id": 1447862012906807296,
+          "context": "@zacknfa @defi alpha!",
+          "timestamp": 1742467457
+        },
+        {
+          "user_id": 2328641624,
+          "context": "evenbartlett \n\nonly defi, depin related.",
+          "timestamp": 1742903331
+        },
+        {
+          "user_id": 1322453807293325312,
+          "context": "n,” “bitcoin,” and “defi” 20, 7, and 1 time",
+          "timestamp": 1743468940
+        }
+      ],
+      "total_contexts": 44
+    },
+    "blockchain": {
+      "mention_count": 61,
+      "frequency": 0.002108,
+      "sample_contexts": [
+        {
+          "user_id": 1401592429938196480,
+          "context": "transferred to the blockchain.\n\nyou cannot transf",
+          "timestamp": 1742527430
+        },
+        {
+          "user_id": 1850055852,
+          "context": "nders @kennethbosak blockchain semantics lol",
+          "timestamp": 1743260672
+        },
+        {
+          "user_id": 38115087,
+          "context": "training or we use blockchain based incentive mec",
+          "timestamp": 1742091354
+        },
+        {
+          "user_id": 1850055852,
+          "context": "ve - bringing ai to blockchain and latest news htt",
+          "timestamp": 1743009236
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "be in tokens on the blockchain, not dollar bills i",
+          "timestamp": 1742423607
+        }
+      ],
+      "total_contexts": 60
+    },
+    "tech": {
+      "mention_count": 95,
+      "frequency": 0.003283,
+      "sample_contexts": [
+        {
+          "user_id": 1101723347249963008,
+          "context": "@cb_doge gud tech",
+          "timestamp": 1742718762
+        },
+        {
+          "user_id": 1524559440741306368,
+          "context": "@aiwayfinder insane tech.",
+          "timestamp": 1742947436
+        },
+        {
+          "user_id": 802898471544090624,
+          "context": "our 3d avatar. \n\nno tech skills needed. just",
+          "timestamp": 1743170983
+        },
+        {
+          "user_id": 548986652,
+          "context": "ulatory issue not a tech issue.",
+          "timestamp": 1742663156
+        },
+        {
+          "user_id": 20872437,
+          "context": "t us.\n\nfocus on the tech.",
+          "timestamp": 1742240447
+        }
+      ],
+      "total_contexts": 91
+    },
+    "player": {
+      "mention_count": 9,
+      "frequency": 0.000311,
+      "sample_contexts": [
+        {
+          "user_id": 1613350207336464384,
+          "context": "as a genius contra player that defeated the g",
+          "timestamp": 1743223294
+        },
+        {
+          "user_id": 1429631187543265286,
+          "context": "eam as the next big player in the defi space",
+          "timestamp": 1742574023
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "“ant is my favorite player in the league thoug",
+          "timestamp": 1743302869
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "ram will be a major player in the onboarding o",
+          "timestamp": 1742962201
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "ards_ @nba favorite player in the league “.”",
+          "timestamp": 1743570212
+        }
+      ],
+      "total_contexts": 8
+    },
+    "stocks": {
+      "mention_count": 31,
+      "frequency": 0.001071,
+      "sample_contexts": [
+        {
+          "user_id": 1448644422380310537,
+          "context": "ing everything from stocks to bonds and rea…",
+          "timestamp": 1744650712
+        },
+        {
+          "user_id": 548986652,
+          "context": "e vietnam dependent stocks with the expectatio",
+          "timestamp": 1743733448
+        },
+        {
+          "user_id": 1322453807293325312,
+          "context": "decouple from u.s. stocks?\n\ns&amp;p 500 -6.0%",
+          "timestamp": 1743800540
+        },
+        {
+          "user_id": 1305859724802482178,
+          "context": "assets (crypto and stocks)\n\nso while this is",
+          "timestamp": 1744221589
+        },
+        {
+          "user_id": 1322453807293325312,
+          "context": "asset classes like stocks and real estate. th",
+          "timestamp": 1742901329
+        }
+      ],
+      "total_contexts": 29
+    },
+    "btc": {
+      "mention_count": 119,
+      "frequency": 0.004112,
+      "sample_contexts": [
+        {
+          "user_id": 234848990,
+          "context": "ts a drop to 80k. \n\nbtc’s leaning bearish.",
+          "timestamp": 1742302501
+        },
+        {
+          "user_id": 234848990,
+          "context": "can btc bounce back from th",
+          "timestamp": 1743170030
+        },
+        {
+          "user_id": 1480330966698708994,
+          "context": "these prices 70-80k btc, rather than 109k b",
+          "timestamp": 1742224558
+        },
+        {
+          "user_id": 766578266,
+          "context": "educed their short $btc position\n\nthis user",
+          "timestamp": 1743461486
+        },
+        {
+          "user_id": 234848990,
+          "context": "hat's happening for btc!\nhttps://t.co/sdzew",
+          "timestamp": 1743688433
+        }
+      ],
+      "total_contexts": 102
+    },
+    "ethereum": {
+      "mention_count": 84,
+      "frequency": 0.002903,
+      "sample_contexts": [
+        {
+          "user_id": 1448644422380310537,
+          "context": "the network works. ethereum blocks are full, th",
+          "timestamp": 1743367181
+        },
+        {
+          "user_id": 1448644422380310537,
+          "context": "y with $50m left on ethereum. \n\nit is a usd-back",
+          "timestamp": 1742730882
+        },
+        {
+          "user_id": 1463538031286231049,
+          "context": "rt @owocki: ethereum is for everyone\n\net",
+          "timestamp": 1742356280
+        },
+        {
+          "user_id": 54573794,
+          "context": "gja94 #cryptopunks #ethereum…",
+          "timestamp": 1743668093
+        },
+        {
+          "user_id": 1322453807293325312,
+          "context": "wn\n\nbitcoin 1.1% up\nethereum flat\nsolana 5.5% up",
+          "timestamp": 1743800540
+        }
+      ],
+      "total_contexts": 71
+    },
+    "innovation": {
+      "mention_count": 33,
+      "frequency": 0.00114,
+      "sample_contexts": [
+        {
+          "user_id": 1101723347249963008,
+          "context": "and also they push innovation on thier platform ⚡",
+          "timestamp": 1742703503
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "@ton_blockchain the innovation doesn’t stop over h",
+          "timestamp": 1742967914
+        },
+        {
+          "user_id": 1524559440741306368,
+          "context": "nding paths are the innovation we needed going for",
+          "timestamp": 1743531071
+        },
+        {
+          "user_id": 38115087,
+          "context": "= the next wave of innovation. at @0g_labs , team",
+          "timestamp": 1743283286
+        },
+        {
+          "user_id": 17390286,
+          "context": "but appreciate the innovation in the nft space!",
+          "timestamp": 1744000579
+        }
+      ],
+      "total_contexts": 31
+    },
+    "gaming": {
+      "mention_count": 14,
+      "frequency": 0.000484,
+      "sample_contexts": [
+        {
+          "user_id": 99184295,
+          "context": "lution of socialfi, gaming, excitement, and co",
+          "timestamp": 1742624262
+        },
+        {
+          "user_id": 1429631187543265286,
+          "context": "rd billions, casual gaming where you can make",
+          "timestamp": 1743625049
+        },
+        {
+          "user_id": 1322453807293325312,
+          "context": "tractchain the best gaming chain",
+          "timestamp": 1743653189
+        },
+        {
+          "user_id": 1101723347249963008,
+          "context": "@avax gaming",
+          "timestamp": 1742304928
+        },
+        {
+          "user_id": 946430947662086144,
+          "context": "mutable @0xpolygon @gamingonavax @gamingonsola",
+          "timestamp": 1742787998
+        }
+      ],
+      "total_contexts": 13
+    },
+    "finance": {
+      "mention_count": 32,
+      "frequency": 0.001106,
+      "sample_contexts": [
+        {
+          "user_id": 38115087,
+          "context": "the intersection of finance and technology.\n\nth",
+          "timestamp": 1742022520
+        },
+        {
+          "user_id": 1463538031286231049,
+          "context": "ct \nethereum is for finance \nethereum is for ar",
+          "timestamp": 1742356280
+        },
+        {
+          "user_id": 548986652,
+          "context": "@ameensol pragmatic finance",
+          "timestamp": 1744143281
+        },
+        {
+          "user_id": 376626032,
+          "context": "futurre of finance!",
+          "timestamp": 1744576714
+        },
+        {
+          "user_id": 796375237763993600,
+          "context": "hest signal info on finance, crypto, and ai? st",
+          "timestamp": 1742830958
+        }
+      ],
+      "total_contexts": 31
+    },
+    "startup": {
+      "mention_count": 4,
+      "frequency": 0.000138,
+      "sample_contexts": [
+        {
+          "user_id": 2328641624,
+          "context": "ng about building a startup is finding people s",
+          "timestamp": 1743678835
+        },
+        {
+          "user_id": 1609762513465352192,
+          "context": "to grow your crypto startup from 0 to 100 on so",
+          "timestamp": 1742594168
+        },
+        {
+          "user_id": 2328641624,
+          "context": "f acceleration. one startup’s journey.\n\nintrodu",
+          "timestamp": 1742404791
+        },
+        {
+          "user_id": 1448644422380310537,
+          "context": "ing a dao is like a startup. our new arbitrum d",
+          "timestamp": 1743154347
+        }
+      ],
+      "total_contexts": 4
+    }
+  },
+  "report": {
+    "detection_timestamp": "2025-08-19T22:58:21.915078",
+    "total_memes_detected": 19,
+    "total_tweets_analyzed": 28939,
+    "top_memes": [
+      {
+        "name": "bitcoin",
+        "category": "crypto",
+        "mention_count": 385,
+        "frequency": 0.013304,
+        "sample_contexts": [
+          {
+            "user_id": 1490626149629980673,
+            "context": "art on bitcoin.",
+            "timestamp": 1742875656
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "@cryptocom @bitcoin everyone in the wor",
+            "timestamp": 1742367683
+          },
+          {
+            "user_id": 107637333,
+            "context": "bitcoin want so bad to brea",
+            "timestamp": 1742729668
+          },
+          {
+            "user_id": 1850055852,
+            "context": "ave yet to separate bitcoin from the us dollar",
+            "timestamp": 1742921968
+          },
+          {
+            "user_id": 1490626149629980673,
+            "context": "@ianb93 bitcoin",
+            "timestamp": 1742961985
+          }
+        ]
+      },
+      {
+        "name": "crypto",
+        "category": "crypto",
+        "mention_count": 381,
+        "frequency": 0.013166,
+        "sample_contexts": [
+          {
+            "user_id": 1448644422380310537,
+            "context": "seen in the entire crypto data space.\n\na dao'",
+            "timestamp": 1743081175
+          },
+          {
+            "user_id": 234848990,
+            "context": "🇯🇵 japan to give crypto assets\nlegal status",
+            "timestamp": 1743336271
+          },
+          {
+            "user_id": 1850055852,
+            "context": "om knows more about crypto than sb lol",
+            "timestamp": 1742155842
+          },
+          {
+            "user_id": 946430947662086144,
+            "context": "@decu0x crypto opened a whole new",
+            "timestamp": 1742962649
+          },
+          {
+            "user_id": 801518825690824707,
+            "context": "am. \n\nit seems like crypto expects the next jo",
+            "timestamp": 1743048140
+          }
+        ]
+      },
+      {
+        "name": "ai",
+        "category": "tech",
+        "mention_count": 337,
+        "frequency": 0.011645,
+        "sample_contexts": [
+          {
+            "user_id": 1328686769508732929,
+            "context": "taversedrug @world3_ai 是的吧，都是web3 ai llm",
+            "timestamp": 1743003135
+          },
+          {
+            "user_id": 376626032,
+            "context": "ady actively adding ai to your skill stack",
+            "timestamp": 1743526230
+          },
+          {
+            "user_id": 107637333,
+            "context": "ctoryb – all-in-one ai agent on bnb chain",
+            "timestamp": 1742481076
+          },
+          {
+            "user_id": 548986652,
+            "context": "ver had a chance as ai was not born into r",
+            "timestamp": 1743215341
+          },
+          {
+            "user_id": 1524559440741306368,
+            "context": "rt @dezzanz: ai wayfinder tge is ge",
+            "timestamp": 1743271756
+          }
+        ]
+      },
+      {
+        "name": "eth",
+        "category": "crypto",
+        "mention_count": 199,
+        "frequency": 0.006877,
+        "sample_contexts": [
+          {
+            "user_id": 1613350207336464384,
+            "context": "taught dev who sold eth at $90 reveals how",
+            "timestamp": 1742506968
+          },
+          {
+            "user_id": 1305859724802482178,
+            "context": "orld comes true?\n\n- eth via da and settleme",
+            "timestamp": 1742243315
+          },
+          {
+            "user_id": 1305859724802482178,
+            "context": "and store of value\n\neth and sol maybe, but",
+            "timestamp": 1742311234
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "neyl0rd run it back eth to valhalla",
+            "timestamp": 1742384754
+          },
+          {
+            "user_id": 1490626149629980673,
+            "context": "tility should be on eth and for that reason",
+            "timestamp": 1743388501
+          }
+        ]
+      },
+      {
+        "name": "game",
+        "category": "gaming",
+        "mention_count": 125,
+        "frequency": 0.004319,
+        "sample_contexts": [
+          {
+            "user_id": 946430947662086144,
+            "context": "aling sounds like a game changer for polkado",
+            "timestamp": 1742963164
+          },
+          {
+            "user_id": 1613350207336464384,
+            "context": "r that defeated the game in week one . i am",
+            "timestamp": 1743223294
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "olute thriller of a game what an upset!",
+            "timestamp": 1742678835
+          },
+          {
+            "user_id": 385749492,
+            "context": "esterday. it’s hard game we play.",
+            "timestamp": 1742560745
+          },
+          {
+            "user_id": 376626032,
+            "context": "from the rock-band game https://t.co/jwl65t",
+            "timestamp": 1742506493
+          }
+        ]
+      },
+      {
+        "name": "btc",
+        "category": "crypto",
+        "mention_count": 119,
+        "frequency": 0.004112,
+        "sample_contexts": [
+          {
+            "user_id": 234848990,
+            "context": "ts a drop to 80k. \n\nbtc’s leaning bearish.",
+            "timestamp": 1742302501
+          },
+          {
+            "user_id": 234848990,
+            "context": "can btc bounce back from th",
+            "timestamp": 1743170030
+          },
+          {
+            "user_id": 1480330966698708994,
+            "context": "these prices 70-80k btc, rather than 109k b",
+            "timestamp": 1742224558
+          },
+          {
+            "user_id": 766578266,
+            "context": "educed their short $btc position\n\nthis user",
+            "timestamp": 1743461486
+          },
+          {
+            "user_id": 234848990,
+            "context": "hat's happening for btc!\nhttps://t.co/sdzew",
+            "timestamp": 1743688433
+          }
+        ]
+      },
+      {
+        "name": "tech",
+        "category": "tech",
+        "mention_count": 95,
+        "frequency": 0.003283,
+        "sample_contexts": [
+          {
+            "user_id": 1101723347249963008,
+            "context": "@cb_doge gud tech",
+            "timestamp": 1742718762
+          },
+          {
+            "user_id": 1524559440741306368,
+            "context": "@aiwayfinder insane tech.",
+            "timestamp": 1742947436
+          },
+          {
+            "user_id": 802898471544090624,
+            "context": "our 3d avatar. \n\nno tech skills needed. just",
+            "timestamp": 1743170983
+          },
+          {
+            "user_id": 548986652,
+            "context": "ulatory issue not a tech issue.",
+            "timestamp": 1742663156
+          },
+          {
+            "user_id": 20872437,
+            "context": "t us.\n\nfocus on the tech.",
+            "timestamp": 1742240447
+          }
+        ]
+      },
+      {
+        "name": "nft",
+        "category": "crypto",
+        "mention_count": 86,
+        "frequency": 0.002972,
+        "sample_contexts": [
+          {
+            "user_id": 1429631187543265286,
+            "context": "ve in.\n\ni've missed nft mints, plays, no ti",
+            "timestamp": 1742408366
+          },
+          {
+            "user_id": 802898471544090624,
+            "context": "dope @guttercatgang nft to celebrate the la",
+            "timestamp": 1743088487
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "@getgemsdotio is nft season back? 👀 \n\n/g",
+            "timestamp": 1743163505
+          },
+          {
+            "user_id": 765,
+            "context": "me lately that*:\n\n• nft market is primed to",
+            "timestamp": 1742666026
+          },
+          {
+            "user_id": 1490626149629980673,
+            "context": "nkrypto’s on1 force nft. https://t.co/yd8vb",
+            "timestamp": 1742757433
+          }
+        ]
+      },
+      {
+        "name": "ethereum",
+        "category": "crypto",
+        "mention_count": 84,
+        "frequency": 0.002903,
+        "sample_contexts": [
+          {
+            "user_id": 1448644422380310537,
+            "context": "the network works. ethereum blocks are full, th",
+            "timestamp": 1743367181
+          },
+          {
+            "user_id": 1448644422380310537,
+            "context": "y with $50m left on ethereum. \n\nit is a usd-back",
+            "timestamp": 1742730882
+          },
+          {
+            "user_id": 1463538031286231049,
+            "context": "rt @owocki: ethereum is for everyone\n\net",
+            "timestamp": 1742356280
+          },
+          {
+            "user_id": 54573794,
+            "context": "gja94 #cryptopunks #ethereum…",
+            "timestamp": 1743668093
+          },
+          {
+            "user_id": 1322453807293325312,
+            "context": "wn\n\nbitcoin 1.1% up\nethereum flat\nsolana 5.5% up",
+            "timestamp": 1743800540
+          }
+        ]
+      },
+      {
+        "name": "blockchain",
+        "category": "crypto",
+        "mention_count": 61,
+        "frequency": 0.002108,
+        "sample_contexts": [
+          {
+            "user_id": 1401592429938196480,
+            "context": "transferred to the blockchain.\n\nyou cannot transf",
+            "timestamp": 1742527430
+          },
+          {
+            "user_id": 1850055852,
+            "context": "nders @kennethbosak blockchain semantics lol",
+            "timestamp": 1743260672
+          },
+          {
+            "user_id": 38115087,
+            "context": "training or we use blockchain based incentive mec",
+            "timestamp": 1742091354
+          },
+          {
+            "user_id": 1850055852,
+            "context": "ve - bringing ai to blockchain and latest news htt",
+            "timestamp": 1743009236
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "be in tokens on the blockchain, not dollar bills i",
+            "timestamp": 1742423607
+          }
+        ]
+      },
+      {
+        "name": "trading",
+        "category": "finance",
+        "mention_count": 55,
+        "frequency": 0.001901,
+        "sample_contexts": [
+          {
+            "user_id": 1509912900038582272,
+            "context": "onekoshimizu: alpha trading group宣布永久封杀热宝，望所有想和",
+            "timestamp": 1743171724
+          },
+          {
+            "user_id": 1192644966343823360,
+            "context": "gic over emotion in trading",
+            "timestamp": 1744646788
+          },
+          {
+            "user_id": 1305859724802482178,
+            "context": "institutions start trading onchain\n\nmany of th",
+            "timestamp": 1742328127
+          },
+          {
+            "user_id": 32331693,
+            "context": "thdrawals, and spot trading are now live on hyp",
+            "timestamp": 1743092861
+          },
+          {
+            "user_id": 102953447,
+            "context": "xdexhawk: helios ai trading binance futures - 2",
+            "timestamp": 1743491198
+          }
+        ]
+      },
+      {
+        "name": "defi",
+        "category": "crypto",
+        "mention_count": 48,
+        "frequency": 0.001659,
+        "sample_contexts": [
+          {
+            "user_id": 1447862012906807296,
+            "context": "@defisoulog gmmmm defi! ☀",
+            "timestamp": 1743260642
+          },
+          {
+            "user_id": 1447862012906807296,
+            "context": "2/ @defi tiene más de 3 mill",
+            "timestamp": 1742492133
+          },
+          {
+            "user_id": 1447862012906807296,
+            "context": "@zacknfa @defi alpha!",
+            "timestamp": 1742467457
+          },
+          {
+            "user_id": 2328641624,
+            "context": "evenbartlett \n\nonly defi, depin related.",
+            "timestamp": 1742903331
+          },
+          {
+            "user_id": 1322453807293325312,
+            "context": "n,” “bitcoin,” and “defi” 20, 7, and 1 time",
+            "timestamp": 1743468940
+          }
+        ]
+      },
+      {
+        "name": "innovation",
+        "category": "tech",
+        "mention_count": 33,
+        "frequency": 0.00114,
+        "sample_contexts": [
+          {
+            "user_id": 1101723347249963008,
+            "context": "and also they push innovation on thier platform ⚡",
+            "timestamp": 1742703503
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "@ton_blockchain the innovation doesn’t stop over h",
+            "timestamp": 1742967914
+          },
+          {
+            "user_id": 1524559440741306368,
+            "context": "nding paths are the innovation we needed going for",
+            "timestamp": 1743531071
+          },
+          {
+            "user_id": 38115087,
+            "context": "= the next wave of innovation. at @0g_labs , team",
+            "timestamp": 1743283286
+          },
+          {
+            "user_id": 17390286,
+            "context": "but appreciate the innovation in the nft space!",
+            "timestamp": 1744000579
+          }
+        ]
+      },
+      {
+        "name": "finance",
+        "category": "finance",
+        "mention_count": 32,
+        "frequency": 0.001106,
+        "sample_contexts": [
+          {
+            "user_id": 38115087,
+            "context": "the intersection of finance and technology.\n\nth",
+            "timestamp": 1742022520
+          },
+          {
+            "user_id": 1463538031286231049,
+            "context": "ct \nethereum is for finance \nethereum is for ar",
+            "timestamp": 1742356280
+          },
+          {
+            "user_id": 548986652,
+            "context": "@ameensol pragmatic finance",
+            "timestamp": 1744143281
+          },
+          {
+            "user_id": 376626032,
+            "context": "futurre of finance!",
+            "timestamp": 1744576714
+          },
+          {
+            "user_id": 796375237763993600,
+            "context": "hest signal info on finance, crypto, and ai? st",
+            "timestamp": 1742830958
+          }
+        ]
+      },
+      {
+        "name": "stocks",
+        "category": "finance",
+        "mention_count": 31,
+        "frequency": 0.001071,
+        "sample_contexts": [
+          {
+            "user_id": 1448644422380310537,
+            "context": "ing everything from stocks to bonds and rea…",
+            "timestamp": 1744650712
+          },
+          {
+            "user_id": 548986652,
+            "context": "e vietnam dependent stocks with the expectatio",
+            "timestamp": 1743733448
+          },
+          {
+            "user_id": 1322453807293325312,
+            "context": "decouple from u.s. stocks?\n\ns&amp;p 500 -6.0%",
+            "timestamp": 1743800540
+          },
+          {
+            "user_id": 1305859724802482178,
+            "context": "assets (crypto and stocks)\n\nso while this is",
+            "timestamp": 1744221589
+          },
+          {
+            "user_id": 1322453807293325312,
+            "context": "asset classes like stocks and real estate. th",
+            "timestamp": 1742901329
+          }
+        ]
+      },
+      {
+        "name": "gaming",
+        "category": "gaming",
+        "mention_count": 14,
+        "frequency": 0.000484,
+        "sample_contexts": [
+          {
+            "user_id": 99184295,
+            "context": "lution of socialfi, gaming, excitement, and co",
+            "timestamp": 1742624262
+          },
+          {
+            "user_id": 1429631187543265286,
+            "context": "rd billions, casual gaming where you can make",
+            "timestamp": 1743625049
+          },
+          {
+            "user_id": 1322453807293325312,
+            "context": "tractchain the best gaming chain",
+            "timestamp": 1743653189
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "@avax gaming",
+            "timestamp": 1742304928
+          },
+          {
+            "user_id": 946430947662086144,
+            "context": "mutable @0xpolygon @gamingonavax @gamingonsola",
+            "timestamp": 1742787998
+          }
+        ]
+      },
+      {
+        "name": "investment",
+        "category": "finance",
+        "mention_count": 10,
+        "frequency": 0.000346,
+        "sample_contexts": [
+          {
+            "user_id": 766578266,
+            "context": "h_ considering a 5k investment",
+            "timestamp": 1742915718
+          },
+          {
+            "user_id": 1453982860663087107,
+            "context": "likbuterin mfer -ev investment",
+            "timestamp": 1744652837
+          },
+          {
+            "user_id": 1322453807293325312,
+            "context": "o, most trading and investment strategies end up u",
+            "timestamp": 1743569355
+          },
+          {
+            "user_id": 1305859724802482178,
+            "context": "orts on $hood as an investment \n\nthis is probably",
+            "timestamp": 1742508448
+          },
+          {
+            "user_id": 1509912900038582272,
+            "context": "only cryptocurrency investment project that the tr",
+            "timestamp": 1743535535
+          }
+        ]
+      },
+      {
+        "name": "player",
+        "category": "gaming",
+        "mention_count": 9,
+        "frequency": 0.000311,
+        "sample_contexts": [
+          {
+            "user_id": 1613350207336464384,
+            "context": "as a genius contra player that defeated the g",
+            "timestamp": 1743223294
+          },
+          {
+            "user_id": 1429631187543265286,
+            "context": "eam as the next big player in the defi space",
+            "timestamp": 1742574023
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "“ant is my favorite player in the league thoug",
+            "timestamp": 1743302869
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "ram will be a major player in the onboarding o",
+            "timestamp": 1742962201
+          },
+          {
+            "user_id": 1101723347249963008,
+            "context": "ards_ @nba favorite player in the league “.”",
+            "timestamp": 1743570212
+          }
+        ]
+      },
+      {
+        "name": "startup",
+        "category": "tech",
+        "mention_count": 4,
+        "frequency": 0.000138,
+        "sample_contexts": [
+          {
+            "user_id": 2328641624,
+            "context": "ng about building a startup is finding people s",
+            "timestamp": 1743678835
+          },
+          {
+            "user_id": 1609762513465352192,
+            "context": "to grow your crypto startup from 0 to 100 on so",
+            "timestamp": 1742594168
+          },
+          {
+            "user_id": 2328641624,
+            "context": "f acceleration. one startup’s journey.\n\nintrodu",
+            "timestamp": 1742404791
+          },
+          {
+            "user_id": 1448644422380310537,
+            "context": "ing a dao is like a startup. our new arbitrum d",
+            "timestamp": 1743154347
+          }
+        ]
+      }
+    ],
+    "category_summary": {
+      "crypto": 8,
+      "tech": 4,
+      "gaming": 3,
+      "finance": 4
+    }
+  }
+}

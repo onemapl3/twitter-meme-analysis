@@ -1,0 +1,660 @@
+{
+  "analysis_timestamp": "2025-08-19T22:15:21.617734",
+  "kol_report": {
+    "summary": {
+      "total_kols": 70,
+      "total_users": 82,
+      "kol_percentage": 85.36585365853658
+    },
+    "top_kols": [
+      {
+        "user_id": "766578266",
+        "user_name": "lowkeyrich_",
+        "influence_score": 82.94,
+        "follower_count": 954153,
+        "category": "general",
+        "kol_level": "Tier 1 (顶级KOL)",
+        "engagement_rate": 512.4701670644391
+      },
+      {
+        "user_id": "1174238635232845825",
+        "user_name": "0xNing0x",
+        "influence_score": 71.16,
+        "follower_count": 719645,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 4.41031941031941
+      },
+      {
+        "user_id": "945435420984336384",
+        "user_name": "Obijai",
+        "influence_score": 70.03,
+        "follower_count": 989366,
+        "category": "tech",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 22.581683168316832
+      },
+      {
+        "user_id": "32331693",
+        "user_name": "demigodzx_btc",
+        "influence_score": 67.04,
+        "follower_count": 909340,
+        "category": "crypto",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 10.231354642313546
+      },
+      {
+        "user_id": "1429631187543265286",
+        "user_name": "IcedNFTea",
+        "influence_score": 66.94,
+        "follower_count": 920449,
+        "category": "crypto",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 12.083333333333334
+      },
+      {
+        "user_id": "1463538031286231049",
+        "user_name": "iamnicki15",
+        "influence_score": 66.64,
+        "follower_count": 915175,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 671.1034482758621
+      },
+      {
+        "user_id": "1447862012906807296",
+        "user_name": "3jack23",
+        "influence_score": 65.9,
+        "follower_count": 833979,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 17.806772908366533
+      },
+      {
+        "user_id": "1401592429938196480",
+        "user_name": "GunStar_io",
+        "influence_score": 65.74,
+        "follower_count": 891816,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 5.527777777777778
+      },
+      {
+        "user_id": "1729492500",
+        "user_name": "DJThistle01",
+        "influence_score": 64.46,
+        "follower_count": 856796,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 45.74666666666667
+      },
+      {
+        "user_id": "1490626149629980673",
+        "user_name": "maccurated",
+        "influence_score": 64.04,
+        "follower_count": 818556,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 43.28325508607199
+      },
+      {
+        "user_id": "1173128142778748928",
+        "user_name": "victalk_eth",
+        "influence_score": 63.85,
+        "follower_count": 837798,
+        "category": "crypto",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 12.136363636363637
+      },
+      {
+        "user_id": "2338506822",
+        "user_name": "Dashpay",
+        "influence_score": 63.67,
+        "follower_count": 829777,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 17.919799498746865
+      },
+      {
+        "user_id": "1240392170026270725",
+        "user_name": "wronguser000",
+        "influence_score": 63.59,
+        "follower_count": 805049,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 239.0909090909091
+      },
+      {
+        "user_id": "3782012962",
+        "user_name": "SpaceBoby",
+        "influence_score": 63.57,
+        "follower_count": 838325,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 580.8064516129032
+      },
+      {
+        "user_id": "1305859724802482178",
+        "user_name": "KyleReidhead",
+        "influence_score": 63.44,
+        "follower_count": 820506,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 6.459312839059675
+      },
+      {
+        "user_id": "801518825690824707",
+        "user_name": "TateBerenbaum",
+        "influence_score": 62.97,
+        "follower_count": 819925,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 37.971014492753625
+      },
+      {
+        "user_id": "636563539",
+        "user_name": "Stonesxyz",
+        "influence_score": 62.71,
+        "follower_count": 810481,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 108.22968197879858
+      },
+      {
+        "user_id": "796375237763993600",
+        "user_name": "bgilliam1982",
+        "influence_score": 62.04,
+        "follower_count": 799288,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 326.06779661016947
+      },
+      {
+        "user_id": "1101723347249963008",
+        "user_name": "ApexOnChain",
+        "influence_score": 61.86,
+        "follower_count": 701669,
+        "category": "tech",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 2.961221779548473
+      },
+      {
+        "user_id": "102953447",
+        "user_name": "georgeeeboi",
+        "influence_score": 61.86,
+        "follower_count": 785840,
+        "category": "general",
+        "kol_level": "Tier 2 (高级KOL)",
+        "engagement_rate": 4.705093833780161
+      }
+    ],
+    "category_distribution": {
+      "general": 15,
+      "tech": 2,
+      "crypto": 3
+    },
+    "level_distribution": {
+      "Tier 1 (顶级KOL)": 1,
+      "Tier 2 (高级KOL)": 19
+    }
+  },
+  "network_metrics": {
+    "total_nodes": 82,
+    "total_edges": 228,
+    "density": 0.03432700993676603,
+    "avg_clustering": 0.15555236390444874,
+    "avg_shortest_path": Infinity
+  },
+  "top_kols": [
+    {
+      "user_id": "1101723347249963008",
+      "user_name": "ApexOnChain",
+      "influence_score": 61.86,
+      "category": "tech",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 701669,
+      "engagement_rate": 2.961221779548473
+    },
+    {
+      "user_id": "99184295",
+      "user_name": "nettaldo",
+      "influence_score": 53.37,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 570841,
+      "engagement_rate": 45.81261950286807
+    },
+    {
+      "user_id": "765",
+      "user_name": "seanbonner",
+      "influence_score": 58.83,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 712206,
+      "engagement_rate": 206.27598566308242
+    },
+    {
+      "user_id": "376626032",
+      "user_name": "JuanSGalt",
+      "influence_score": 47.2,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 217527,
+      "engagement_rate": 2662.2621184919212
+    },
+    {
+      "user_id": "1509912900038582272",
+      "user_name": "EnHeng456",
+      "influence_score": 55.51,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 598613,
+      "engagement_rate": 7.1617021276595745
+    },
+    {
+      "user_id": "32331693",
+      "user_name": "demigodzx_btc",
+      "influence_score": 67.04,
+      "category": "crypto",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 909340,
+      "engagement_rate": 10.231354642313546
+    },
+    {
+      "user_id": "234848990",
+      "user_name": "CryptoLifer33",
+      "influence_score": 48.83,
+      "category": "crypto",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 453674,
+      "engagement_rate": 36.30827067669173
+    },
+    {
+      "user_id": "1328686769508732929",
+      "user_name": "0xBeyondLee",
+      "influence_score": 34.76,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 85741,
+      "engagement_rate": 4.800627943485086
+    },
+    {
+      "user_id": "1174238635232845825",
+      "user_name": "0xNing0x",
+      "influence_score": 71.16,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 719645,
+      "engagement_rate": 4.41031941031941
+    },
+    {
+      "user_id": "20872437",
+      "user_name": "zariat",
+      "influence_score": 37.1,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 170437,
+      "engagement_rate": 315.8498168498169
+    },
+    {
+      "user_id": "874726588797136896",
+      "user_name": "bitpaq",
+      "influence_score": 37.1,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 17457,
+      "engagement_rate": 957.5876777251185
+    },
+    {
+      "user_id": "1721530942685077506",
+      "user_name": "TheGreekQue3n",
+      "influence_score": 34.86,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 117735,
+      "engagement_rate": 49.36363636363637
+    },
+    {
+      "user_id": "946430947662086144",
+      "user_name": "9FStudioArt",
+      "influence_score": 37.27,
+      "category": "entertainment",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 89200,
+      "engagement_rate": 3.042409508373852
+    },
+    {
+      "user_id": "945435420984336384",
+      "user_name": "Obijai",
+      "influence_score": 70.03,
+      "category": "tech",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 989366,
+      "engagement_rate": 22.581683168316832
+    },
+    {
+      "user_id": "1613350207336464384",
+      "user_name": "Inway2deep_rip",
+      "influence_score": 49.59,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 470569,
+      "engagement_rate": 29.037333333333333
+    },
+    {
+      "user_id": "1850055852",
+      "user_name": "MiggyCryptoX",
+      "influence_score": 52.53,
+      "category": "crypto",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 545976,
+      "engagement_rate": 4.543478260869565
+    },
+    {
+      "user_id": "1729492500",
+      "user_name": "DJThistle01",
+      "influence_score": 64.46,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 856796,
+      "engagement_rate": 45.74666666666667
+    },
+    {
+      "user_id": "1524559440741306368",
+      "user_name": "dezzaNZ",
+      "influence_score": 43.65,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 314910,
+      "engagement_rate": 19.606870229007633
+    },
+    {
+      "user_id": "107637333",
+      "user_name": "CryptoChihiro",
+      "influence_score": 44.66,
+      "category": "crypto",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 352574,
+      "engagement_rate": 24.018306636155607
+    },
+    {
+      "user_id": "1447862012906807296",
+      "user_name": "3jack23",
+      "influence_score": 65.9,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 833979,
+      "engagement_rate": 17.806772908366533
+    },
+    {
+      "user_id": "971039337017171970",
+      "user_name": "sylvechv",
+      "influence_score": 36.04,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 145683,
+      "engagement_rate": 9.277486910994764
+    },
+    {
+      "user_id": "1429631187543265286",
+      "user_name": "IcedNFTea",
+      "influence_score": 66.94,
+      "category": "crypto",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 920449,
+      "engagement_rate": 12.083333333333334
+    },
+    {
+      "user_id": "2328641624",
+      "user_name": "irishnftgal",
+      "influence_score": 46.79,
+      "category": "crypto",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 413420,
+      "engagement_rate": 25.445344129554655
+    },
+    {
+      "user_id": "1305859724802482178",
+      "user_name": "KyleReidhead",
+      "influence_score": 63.44,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 820506,
+      "engagement_rate": 6.459312839059675
+    },
+    {
+      "user_id": "1453982860663087107",
+      "user_name": "mememe69696969",
+      "influence_score": 54.04,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 581133,
+      "engagement_rate": 15.387919463087249
+    },
+    {
+      "user_id": "802898471544090624",
+      "user_name": "CarlBTC444",
+      "influence_score": 45.65,
+      "category": "crypto",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 379824,
+      "engagement_rate": 372.98873873873873
+    },
+    {
+      "user_id": "24700583",
+      "user_name": "pman555",
+      "influence_score": 32.34,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 52877,
+      "engagement_rate": 90.13793103448276
+    },
+    {
+      "user_id": "54573794",
+      "user_name": "sqda",
+      "influence_score": 35.42,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 126889,
+      "engagement_rate": 104.2156862745098
+    },
+    {
+      "user_id": "102953447",
+      "user_name": "georgeeeboi",
+      "influence_score": 61.86,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 785840,
+      "engagement_rate": 4.705093833780161
+    },
+    {
+      "user_id": "1448644422380310537",
+      "user_name": "tomwanhh",
+      "influence_score": 54.12,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 595545,
+      "engagement_rate": 10.708812260536398
+    },
+    {
+      "user_id": "1490626149629980673",
+      "user_name": "maccurated",
+      "influence_score": 64.04,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 818556,
+      "engagement_rate": 43.28325508607199
+    },
+    {
+      "user_id": "1513207803615141889",
+      "user_name": "tezvendsmachine",
+      "influence_score": 36.88,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 165487,
+      "engagement_rate": 10.887966804979254
+    },
+    {
+      "user_id": "636563539",
+      "user_name": "Stonesxyz",
+      "influence_score": 62.71,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 810481,
+      "engagement_rate": 108.22968197879858
+    },
+    {
+      "user_id": "766578266",
+      "user_name": "lowkeyrich_",
+      "influence_score": 82.94,
+      "category": "general",
+      "kol_level": "Tier 1 (顶级KOL)",
+      "follower_count": 954153,
+      "engagement_rate": 512.4701670644391
+    },
+    {
+      "user_id": "2338506822",
+      "user_name": "Dashpay",
+      "influence_score": 63.67,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 829777,
+      "engagement_rate": 17.919799498746865
+    },
+    {
+      "user_id": "1493501285592711171",
+      "user_name": "phklive",
+      "influence_score": 44.22,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 169158,
+      "engagement_rate": 6.488372093023256
+    },
+    {
+      "user_id": "1431776922103549958",
+      "user_name": "0ceans404",
+      "influence_score": 33.9,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 94080,
+      "engagement_rate": 28.849462365591396
+    },
+    {
+      "user_id": "1328315487835582466",
+      "user_name": "ethalorian",
+      "influence_score": 54.83,
+      "category": "crypto",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 613727,
+      "engagement_rate": 11.27016129032258
+    },
+    {
+      "user_id": "1438989380945854465",
+      "user_name": "greedfi",
+      "influence_score": 42.36,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 303181,
+      "engagement_rate": 15.211453744493392
+    },
+    {
+      "user_id": "548986652",
+      "user_name": "_TomHoward",
+      "influence_score": 36.12,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 135071,
+      "engagement_rate": 11.325190839694656
+    },
+    {
+      "user_id": "801518825690824707",
+      "user_name": "TateBerenbaum",
+      "influence_score": 62.97,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 819925,
+      "engagement_rate": 37.971014492753625
+    },
+    {
+      "user_id": "38115087",
+      "user_name": "michaelh_0g",
+      "influence_score": 54.58,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 603513,
+      "engagement_rate": 313.55555555555554
+    },
+    {
+      "user_id": "1401592429938196480",
+      "user_name": "GunStar_io",
+      "influence_score": 65.74,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 891816,
+      "engagement_rate": 5.527777777777778
+    },
+    {
+      "user_id": "1480504526369345539",
+      "user_name": "hahazwei",
+      "influence_score": 44.13,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 346776,
+      "engagement_rate": 5.602803738317757
+    },
+    {
+      "user_id": "3782012962",
+      "user_name": "SpaceBoby",
+      "influence_score": 63.57,
+      "category": "general",
+      "kol_level": "Tier 2 (高级KOL)",
+      "follower_count": 838325,
+      "engagement_rate": 580.8064516129032
+    },
+    {
+      "user_id": "1355981457710329860",
+      "user_name": "nftchance",
+      "influence_score": 31.5,
+      "category": "crypto",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 33775,
+      "engagement_rate": 2.621212121212121
+    },
+    {
+      "user_id": "1192644966343823360",
+      "user_name": "cecilia_hsueh",
+      "influence_score": 59.08,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 715773,
+      "engagement_rate": 82.70454545454545
+    },
+    {
+      "user_id": "1004393364987531264",
+      "user_name": "yeak__",
+      "influence_score": 40.07,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 83402,
+      "engagement_rate": 326.6904761904762
+    },
+    {
+      "user_id": "852067274760617984",
+      "user_name": "0xBackwards",
+      "influence_score": 39.72,
+      "category": "general",
+      "kol_level": "Tier 4 (初级KOL)",
+      "follower_count": 236562,
+      "engagement_rate": 15.842696629213483
+    },
+    {
+      "user_id": "1395919482544168964",
+      "user_name": "gruffishere",
+      "influence_score": 58.47,
+      "category": "general",
+      "kol_level": "Tier 3 (中级KOL)",
+      "follower_count": 708636,
+      "engagement_rate": 8.242990654205608
+    }
+  ]
+}

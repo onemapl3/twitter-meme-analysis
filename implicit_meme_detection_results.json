@@ -1,0 +1,457 @@
+{
+  "detection_timestamp": "2025-08-19T23:28:46.042530",
+  "implicit_memes": {
+    "pattern_community_signals": {
+      "type": "language_pattern",
+      "score": 3818,
+      "contexts": [
+        {
+          "user_id": 1101723347249963008,
+          "keyword": "pro",
+          "context": "@antons_profile congrats anton!",
+          "timestamp": 1742013962
+        },
+        {
+          "user_id": 765,
+          "keyword": "pro",
+          "context": "be derivatives, and consider pp a 2022 project.",
+          "timestamp": 1742055708
+        },
+        {
+          "user_id": 376626032,
+          "keyword": "og",
+          "context": "this publically  \n\nin 2021 i hit @cryptogodjohn paid group for 6 figs by hunting",
+          "timestamp": 1742060006
+        }
+      ]
+    },
+    "pattern_emotional_expressions": {
+      "type": "language_pattern",
+      "score": 1552,
+      "contexts": [
+        {
+          "user_id": 874726588797136896,
+          "keyword": "based",
+          "context": "@basedkarbon ca?",
+          "timestamp": 1742156400
+        },
+        {
+          "user_id": 946430947662086144,
+          "keyword": "epic",
+          "context": "z_eth @bucketman_pr gm abdeezz, have an epic day!",
+          "timestamp": 1742297091
+        },
+        {
+          "user_id": 1513207803615141889,
+          "keyword": "wild",
+          "context": "rt @wildmissingnos: still one of my fully on-cha",
+          "timestamp": 1742788537
+        }
+      ]
+    },
+    "emotion_positive": {
+      "type": "emotion",
+      "score": 1004,
+      "contexts": [
+        {
+          "user_id": 946430947662086144,
+          "emotion_word": "amazing",
+          "context": "acryptoqueen gm jana, have an amazing day!",
+          "timestamp": 1742220508
+        },
+        {
+          "user_id": 1429631187543265286,
+          "emotion_word": "love",
+          "context": "previous ones!\n\ngreat job and love your support",
+          "timestamp": 1742401308
+        },
+        {
+          "user_id": 946430947662086144,
+          "emotion_word": "fantastic",
+          "context": "ler_sol gm scrambller, have a fantastic day!",
+          "timestamp": 1742447050
+        }
+      ]
+    },
+    "context_price_movement": {
+      "type": "context_implication",
+      "score": 775,
+      "examples": [
+        {
+          "user_id": 1613350207336464384,
+          "pattern": "\\$[0-9]+",
+          "matches": [
+            "$90"
+          ],
+          "full_text": "rt @podsdotmedia: breaking: @0xdeployer makes an appearance on @zer0p0d🚨\n\nself-taught dev who sold e",
+          "timestamp": 1742506968
+        },
+        {
+          "user_id": 1850055852,
+          "pattern": "\\$[0-9]+",
+          "matches": [
+            "$84"
+          ],
+          "full_text": "rt @robertfcoleman: 📢 quick roll call 👨‍🏫\n\nhttps://t.co/c9sswyxdyz\n\nwho's coming?! \n\ntickets are jus",
+          "timestamp": 1742773492
+        },
+        {
+          "user_id": 1305859724802482178,
+          "pattern": "value",
+          "matches": [
+            "value"
+          ],
+          "full_text": "@theadvisorbtc @robustus bitcoin no - its not selling blockspace. it's decentralized money and store",
+          "timestamp": 1742311234
+        }
+      ]
+    },
+    "emotion_excitement": {
+      "type": "emotion",
+      "score": 664,
+      "contexts": [
+        {
+          "user_id": 1429631187543265286,
+          "emotion_word": "fuck",
+          "context": "chshundwizard: i've worked my fucking since oct 2023 on somethin",
+          "timestamp": 1742408366
+        },
+        {
+          "user_id": 802898471544090624,
+          "emotion_word": "damn",
+          "context": "@kodr_eth @guttercatgang damn, cat is clean 🔥",
+          "timestamp": 1742509691
+        },
+        {
+          "user_id": 946430947662086144,
+          "emotion_word": "shit",
+          "context": "_jdcomm @goodvibesssclub gm yoshitaka, have a great monday!",
+          "timestamp": 1742817536
+        }
+      ]
+    },
+    "pattern_timing_indicators": {
+      "type": "language_pattern",
+      "score": 432,
+      "contexts": [
+        {
+          "user_id": 234848990,
+          "keyword": "opportunity",
+          "context": "mmitting to the belief that you are the opportunity.",
+          "timestamp": 1742821934
+        },
+        {
+          "user_id": 1429631187543265286,
+          "keyword": "missed",
+          "context": "on something i truly believe in.\n\ni've missed nft mints, plays, no time for meme…",
+          "timestamp": 1742408366
+        },
+        {
+          "user_id": 1101723347249963008,
+          "keyword": "early",
+          "context": "@sajadflips we’re still early 🤣: https://t.co/iib7bc29el",
+          "timestamp": 1742546421
+        }
+      ]
+    },
+    "context_time_references": {
+      "type": "context_implication",
+      "score": 375,
+      "examples": [
+        {
+          "user_id": 1729492500,
+          "pattern": "recently",
+          "matches": [
+            "recently"
+          ],
+          "full_text": "@super_projects @tradermayne he's correct about clusters\n\ndifferent causes(subduction etc) &amp; roc",
+          "timestamp": 1742322631
+        },
+        {
+          "user_id": 946430947662086144,
+          "pattern": "today",
+          "matches": [
+            "today"
+          ],
+          "full_text": "@bruca gm bruca, let's make today amazing!!!",
+          "timestamp": 1742540598
+        },
+        {
+          "user_id": 24700583,
+          "pattern": "today",
+          "matches": [
+            "today"
+          ],
+          "full_text": "@batzdu picked up a few more today 🥂",
+          "timestamp": 1742591514
+        }
+      ]
+    },
+    "emotion_negative": {
+      "type": "emotion",
+      "score": 254,
+      "contexts": [
+        {
+          "user_id": 107637333,
+          "emotion_word": "scam",
+          "context": "@takeoverbsc mazi the scammer is back !!! \n\ndev rugged h",
+          "timestamp": 1742883696
+        },
+        {
+          "user_id": 107637333,
+          "emotion_word": "rug",
+          "context": "the scammer is back !!! \n\ndev rugged his last project and run a",
+          "timestamp": 1742883696
+        },
+        {
+          "user_id": 1328686769508732929,
+          "emotion_word": "rug",
+          "context": "@metaversedrug @world3_ai 是的吧，都是web3 ai llm",
+          "timestamp": 1743003135
+        }
+      ]
+    },
+    "pattern_trending_indicators": {
+      "type": "language_pattern",
+      "score": 184,
+      "contexts": [
+        {
+          "user_id": 2338506822,
+          "keyword": "fud",
+          "context": "@whalefud the dash evolution chain, since it's ba",
+          "timestamp": 1742953057
+        },
+        {
+          "user_id": 1101723347249963008,
+          "keyword": "trending",
+          "context": "n_blockchain @s0meone_u_know @zenithton trending for good reason 😮‍💨🔥",
+          "timestamp": 1743320901
+        },
+        {
+          "user_id": 107637333,
+          "keyword": "fud",
+          "context": "or sure that’s why i said i don’t wanna fud just let him know",
+          "timestamp": 1742990598
+        }
+      ]
+    },
+    "context_social_activity": {
+      "type": "context_implication",
+      "score": 67,
+      "examples": [
+        {
+          "user_id": 1101723347249963008,
+          "pattern": "trending",
+          "matches": [
+            "trending"
+          ],
+          "full_text": "@0xnije_nulya @telegram @ton_blockchain @s0meone_u_know @zenithton trending for good reason 😮‍💨🔥",
+          "timestamp": 1743320901
+        },
+        {
+          "user_id": 1613350207336464384,
+          "pattern": "followers",
+          "matches": [
+            "followers"
+          ],
+          "full_text": "i for the record, this post will produce zero new followers lol",
+          "timestamp": 1742931023
+        },
+        {
+          "user_id": 102953447,
+          "pattern": "viral",
+          "matches": [
+            "viral",
+            "viral"
+          ],
+          "full_text": "@lexaprotrader i’m just stating a very current trend on tl at the minute 🤣🤣\nbut views don’t mean a t",
+          "timestamp": 1742923748
+        }
+      ]
+    },
+    "emotion_fear": {
+      "type": "emotion",
+      "score": 49,
+      "contexts": [
+        {
+          "user_id": 1355981457710329860,
+          "emotion_word": "worried",
+          "context": "zoor @shemnon wowwwwee had me worried me for a second",
+          "timestamp": 1742011556
+        },
+        {
+          "user_id": 1524559440741306368,
+          "emotion_word": "worried",
+          "context": "ra piece of the pie. i am not worried. \n\nmain allo is from caching",
+          "timestamp": 1743456541
+        },
+        {
+          "user_id": 946430947662086144,
+          "emotion_word": "panic",
+          "context": "@spiral_panic gm fam, have a great thursday",
+          "timestamp": 1742463445
+        }
+      ]
+    },
+    "context_comparison_words": {
+      "type": "context_implication",
+      "score": 49,
+      "examples": [
+        {
+          "user_id": 1355981457710329860,
+          "pattern": "similar to",
+          "matches": [
+            "similar to"
+          ],
+          "full_text": "@jetjadeja a college friend went through something pretty similar to this after finding out he was g",
+          "timestamp": 1742227694
+        },
+        {
+          "user_id": 1004393364987531264,
+          "pattern": "better than",
+          "matches": [
+            "better than"
+          ],
+          "full_text": "@0xakina_ @bananagunbot stables/eth would fall under rev share right? i agree that’s the best way fo",
+          "timestamp": 1742581020
+        },
+        {
+          "user_id": 99184295,
+          "pattern": "better than",
+          "matches": [
+            "better than"
+          ],
+          "full_text": "@art818xx @deanbulla already better than iliquid real state market",
+          "timestamp": 1743749567
+        }
+      ]
+    },
+    "trend_fomo": {
+      "type": "trend_indicator",
+      "score": 47,
+      "contexts": [
+        {
+          "user_id": 1613350207336464384,
+          "trend_word": "fomo",
+          "context": "@fomotsar moooooooooooonster is the lp king",
+          "timestamp": 1742688013
+        },
+        {
+          "user_id": 1305859724802482178,
+          "trend_word": "fomo",
+          "context": "od news, it ain't over yet\n\nstill not the time to fomo down the risk curve (yet) https://t.co/xmcj7qotof",
+          "timestamp": 1744221589
+        },
+        {
+          "user_id": 107637333,
+          "trend_word": "fomo",
+          "context": "n u didn’t release 2 protocols and let it be $rsr fomo will kick it on…",
+          "timestamp": 1743710337
+        }
+      ]
+    },
+    "trend_viral": {
+      "type": "trend_indicator",
+      "score": 24,
+      "contexts": [
+        {
+          "user_id": 102953447,
+          "trend_word": "viral",
+          "context": "an a thing.\nespecially when they’re concentrated.\nvirality and massive value extends beyond the tl.\ntrad",
+          "timestamp": 1742923748
+        },
+        {
+          "user_id": 946430947662086144,
+          "trend_word": "viral",
+          "context": "memories make loyal communities.\nlet’s make yours viral! 🚀\ncommissioned by: @pipotheape $pipor \nthank you",
+          "timestamp": 1743528089
+        },
+        {
+          "user_id": 1523486330449244160,
+          "trend_word": "viral",
+          "context": "we caught the most viral trend $ghibli\n\n$336k &gt; $17.5 million ( 51x )",
+          "timestamp": 1743037224
+        }
+      ]
+    },
+    "trend_pumping": {
+      "type": "trend_indicator",
+      "score": 11,
+      "contexts": [
+        {
+          "user_id": 766578266,
+          "trend_word": "pumping",
+          "context": "crypto is pumping https://t.co/tyqrynx5an",
+          "timestamp": 1742917758
+        },
+        {
+          "user_id": 1101723347249963008,
+          "trend_word": "pumping",
+          "context": "@themooncarl keep it pumping carl!",
+          "timestamp": 1742796807
+        },
+        {
+          "user_id": 1490626149629980673,
+          "trend_word": "pumping",
+          "context": "re is nothing i like to see more than @beaniemaxi pumping my bags 😮‍💨\n\nsend $mint 😂📈📈📈",
+          "timestamp": 1742844878
+        }
+      ]
+    },
+    "trend_trending": {
+      "type": "trend_indicator",
+      "score": 7,
+      "contexts": [
+        {
+          "user_id": 1101723347249963008,
+          "trend_word": "trending",
+          "context": "legram @ton_blockchain @s0meone_u_know @zenithton trending for good reason 😮‍💨🔥",
+          "timestamp": 1743320901
+        },
+        {
+          "user_id": 1305859724802482178,
+          "trend_word": "trending",
+          "context": "t are you prepared to handle it if it does?\n\ndown-trending chop until end of…",
+          "timestamp": 1742152705
+        },
+        {
+          "user_id": 1305859724802482178,
+          "trend_word": "trending",
+          "context": "t are you prepared to handle it if it does?\n\ndown-trending chop until end of summer https://t.co/ylk8tlnnqy",
+          "timestamp": 1742134311
+        }
+      ]
+    },
+    "trend_undervalued": {
+      "type": "trend_indicator",
+      "score": 6,
+      "contexts": [
+        {
+          "user_id": 99184295,
+          "trend_word": "undervalued",
+          "context": "one house should be equal to one $house\n\nthis one undervalued as hell\n\ngo get that mf flying over ath\n\nca: dith",
+          "timestamp": 1743626219
+        },
+        {
+          "user_id": 1490626149629980673,
+          "trend_word": "undervalued",
+          "context": "y just did your research. \n0n1 force is massively undervalued and is renowned for breaking boundaries, it’s tim",
+          "timestamp": 1743406584
+        },
+        {
+          "user_id": 1490626149629980673,
+          "trend_word": "undervalued",
+          "context": "two extremely undervalued community builder projects on bitcoin. \nboth have",
+          "timestamp": 1743199334
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_indicators": 17,
+    "pattern_types": 4,
+    "emotion_types": 4,
+    "trend_indicators": 5,
+    "context_implications": 4
+  }
+}

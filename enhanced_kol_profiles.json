@@ -1,0 +1,1346 @@
+{
+  "enhancement_timestamp": "2025-08-19T22:46:28.109793",
+  "total_profiles": 20,
+  "enhanced_profiles": {
+    "1101723347249963008": {
+      "user_name": "ApexOnChain",
+      "influence_score": 61.86,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7602313974591652,
+          "tech": 0.6018117091619815,
+          "finance": 0.5567910537738124,
+          "entertainment": 0.4394528067214093,
+          "politics": 0.484929816100415
+        },
+        "confidence": 0.7602313974591652
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 252,
+            "total_engagement": "1583",
+            "avg_engagement": 6.281746031746032,
+            "influence_score": 708.8
+          },
+          "30d": {
+            "tweet_count": 3408,
+            "total_engagement": "10679",
+            "avg_engagement": 3.1335093896713615,
+            "influence_score": 5294.0
+          },
+          "90d": {
+            "tweet_count": 3765,
+            "total_engagement": "11149",
+            "avg_engagement": 2.961221779548473,
+            "influence_score": 5589.1
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 708.8,
+          "month_influence": 5294.0,
+          "change_rate": -0.866
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 54.8,
+          "length_variance": 1574.1,
+          "technical_ratio": 0.005,
+          "emoji_ratio": 0.595,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.001,
+          "technology": 0.029,
+          "finance": 0.009,
+          "social": 0.024
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.983,
+          "quote_rate": 0.0,
+          "retweet_rate": 0.016,
+          "avg_likes": 2.0,
+          "avg_retweets": 0.5,
+          "avg_replies": 0.5,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "99184295": {
+      "user_name": "nettaldo",
+      "influence_score": 53.37,
+      "enhanced_domain": {
+        "primary_domain": "finance",
+        "domain_scores": {
+          "crypto": 0.6808264986955331,
+          "tech": 0.45437306311890113,
+          "finance": 0.7566037735849056,
+          "entertainment": 0.4033795061763985,
+          "politics": 0.059362612969716184
+        },
+        "confidence": 0.7566037735849056
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 137,
+            "total_engagement": "7789",
+            "avg_engagement": 56.85401459854015,
+            "influence_score": 3156.7
+          },
+          "30d": {
+            "tweet_count": 507,
+            "total_engagement": "23645",
+            "avg_engagement": 46.6370808678501,
+            "influence_score": 9610.1
+          },
+          "90d": {
+            "tweet_count": 523,
+            "total_engagement": "23960",
+            "avg_engagement": 45.81261950286807,
+            "influence_score": 9740.9
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 3156.7,
+          "month_influence": 9610.1,
+          "change_rate": -0.672
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 83.2,
+          "length_variance": 2563.2,
+          "technical_ratio": 0.044,
+          "emoji_ratio": 0.101,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.002,
+          "technology": 0.029,
+          "finance": 0.027,
+          "social": 0.027
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.218,
+          "quote_rate": 0.094,
+          "retweet_rate": 0.6,
+          "avg_likes": 0.9,
+          "avg_retweets": 44.8,
+          "avg_replies": 0.1,
+          "interaction_type": "proactive"
+        }
+      }
+    },
+    "765": {
+      "user_name": "seanbonner",
+      "influence_score": 58.83,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7589838909541512,
+          "tech": 0.4056097383191194,
+          "finance": 0.1758889131860923,
+          "entertainment": 0.46424812304103796,
+          "politics": 0.23291639332312847
+        },
+        "confidence": 0.7589838909541512
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 55,
+            "total_engagement": "30000",
+            "avg_engagement": 545.4545454545455,
+            "influence_score": 12016.5
+          },
+          "30d": {
+            "tweet_count": 275,
+            "total_engagement": "57543",
+            "avg_engagement": 209.24727272727273,
+            "influence_score": 23099.7
+          },
+          "90d": {
+            "tweet_count": 279,
+            "total_engagement": "57551",
+            "avg_engagement": 206.27598566308242,
+            "influence_score": 23104.1
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 12016.5,
+          "month_influence": 23099.7,
+          "change_rate": -0.48
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 91.9,
+          "length_variance": 4410.5,
+          "technical_ratio": 0.011,
+          "emoji_ratio": 0.029,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.007,
+          "technology": 0.057,
+          "finance": 0.007,
+          "social": 0.054
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.566,
+          "quote_rate": 0.072,
+          "retweet_rate": 0.19,
+          "avg_likes": 10.5,
+          "avg_retweets": 195.3,
+          "avg_replies": 0.5,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "376626032": {
+      "user_name": "JuanSGalt",
+      "influence_score": 47.2,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7611650485436894,
+          "tech": 0.5275022065313328,
+          "finance": 0.4384642541924096,
+          "entertainment": 0.2742762577228597,
+          "politics": 0.48359223300970877
+        },
+        "confidence": 0.7611650485436894
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 139,
+            "total_engagement": "183922",
+            "avg_engagement": 1323.179856115108,
+            "influence_score": 73610.5
+          },
+          "30d": {
+            "tweet_count": 554,
+            "total_engagement": "1478609",
+            "avg_engagement": 2668.9693140794225,
+            "influence_score": 591609.8
+          },
+          "90d": {
+            "tweet_count": 557,
+            "total_engagement": "1482880",
+            "avg_engagement": 2662.2621184919212,
+            "influence_score": 593319.1
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 73610.5,
+          "month_influence": 591609.8,
+          "change_rate": -0.876
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 107.3,
+          "length_variance": 3250.9,
+          "technical_ratio": 0.016,
+          "emoji_ratio": 0.041,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.023,
+          "technology": 0.065,
+          "finance": 0.016,
+          "social": 0.036
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.217,
+          "quote_rate": 0.057,
+          "retweet_rate": 0.689,
+          "avg_likes": 2.0,
+          "avg_retweets": 2659.9,
+          "avg_replies": 0.3,
+          "interaction_type": "proactive"
+        }
+      }
+    },
+    "1509912900038582272": {
+      "user_name": "EnHeng456",
+      "influence_score": 55.51,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7615668464376952,
+          "tech": 0.3520809679250639,
+          "finance": 0.4700918961112688,
+          "politics": 0.059948907181379504,
+          "entertainment": 0.06131138234459267
+        },
+        "confidence": 0.7615668464376952
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 214,
+            "total_engagement": "827",
+            "avg_engagement": 3.864485981308411,
+            "influence_score": 395.0
+          },
+          "30d": {
+            "tweet_count": 1343,
+            "total_engagement": "9839",
+            "avg_engagement": 7.326135517498138,
+            "influence_score": 4338.5
+          },
+          "90d": {
+            "tweet_count": 1410,
+            "total_engagement": "10098",
+            "avg_engagement": 7.1617021276595745,
+            "influence_score": 4462.2
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 395.0,
+          "month_influence": 4338.5,
+          "change_rate": -0.909
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 48.9,
+          "length_variance": 1590.4,
+          "technical_ratio": 0.004,
+          "emoji_ratio": 0.057,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.001,
+          "technology": 0.013,
+          "finance": 0.004,
+          "social": 0.0
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.967,
+          "quote_rate": 0.039,
+          "retweet_rate": 0.019,
+          "avg_likes": 4.2,
+          "avg_retweets": 0.9,
+          "avg_replies": 2.1,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "32331693": {
+      "user_name": "demigodzx_btc",
+      "influence_score": 67.04,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7573844687946641,
+          "tech": 0.11256752299629862,
+          "finance": 0.4725506651519039,
+          "entertainment": 0.7288434052845678,
+          "politics": 0.10942316854179647
+        },
+        "confidence": 0.7573844687946641
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 116,
+            "total_engagement": "1464",
+            "avg_engagement": 12.620689655172415,
+            "influence_score": 620.4
+          },
+          "30d": {
+            "tweet_count": 629,
+            "total_engagement": "6482",
+            "avg_engagement": 10.305246422893482,
+            "influence_score": 2781.5
+          },
+          "90d": {
+            "tweet_count": 657,
+            "total_engagement": "6722",
+            "avg_engagement": 10.231354642313546,
+            "influence_score": 2885.9
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 620.4,
+          "month_influence": 2781.5,
+          "change_rate": -0.777
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 51.9,
+          "length_variance": 1710.0,
+          "technical_ratio": 0.027,
+          "emoji_ratio": 0.032,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.003,
+          "technology": 0.033,
+          "finance": 0.011,
+          "social": 0.006
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.807,
+          "quote_rate": 0.018,
+          "retweet_rate": 0.075,
+          "avg_likes": 3.8,
+          "avg_retweets": 5.7,
+          "avg_replies": 0.7,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "234848990": {
+      "user_name": "CryptoLifer33",
+      "influence_score": 48.83,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7580808080808081,
+          "tech": 0.23334054834054838,
+          "finance": 0.5083152958152959,
+          "entertainment": 0.14343795093795095,
+          "politics": 0.23182539682539685
+        },
+        "confidence": 0.7580808080808081
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 110,
+            "total_engagement": "6457",
+            "avg_engagement": 58.7,
+            "influence_score": 2615.8
+          },
+          "30d": {
+            "tweet_count": 501,
+            "total_engagement": "18552",
+            "avg_engagement": 37.02994011976048,
+            "influence_score": 7571.1
+          },
+          "90d": {
+            "tweet_count": 532,
+            "total_engagement": "19316",
+            "avg_engagement": 36.30827067669173,
+            "influence_score": 7886.0
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 2615.8,
+          "month_influence": 7571.1,
+          "change_rate": -0.655
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 100.2,
+          "length_variance": 6162.0,
+          "technical_ratio": 0.0,
+          "emoji_ratio": 0.0,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.006,
+          "technology": 0.053,
+          "finance": 0.032,
+          "social": 0.036
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.633,
+          "quote_rate": 0.028,
+          "retweet_rate": 0.006,
+          "avg_likes": 29.4,
+          "avg_retweets": 1.7,
+          "avg_replies": 5.1,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "1328686769508732929": {
+      "user_name": "0xBeyondLee",
+      "influence_score": 34.76,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.5978983516483516,
+          "tech": 0.14748626373626375,
+          "entertainment": 0.060164835164835166,
+          "politics": 0.06614010989010989,
+          "finance": 0.05831043956043956
+        },
+        "confidence": 0.5978983516483516
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 232,
+            "total_engagement": "1774",
+            "avg_engagement": 7.646551724137931,
+            "influence_score": 779.2
+          },
+          "30d": {
+            "tweet_count": 1254,
+            "total_engagement": "5945",
+            "avg_engagement": 4.740829346092504,
+            "influence_score": 2754.2
+          },
+          "90d": {
+            "tweet_count": 1274,
+            "total_engagement": "6116",
+            "avg_engagement": 4.800627943485086,
+            "influence_score": 2828.6
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 779.2,
+          "month_influence": 2754.2,
+          "change_rate": -0.717
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 40.6,
+          "length_variance": 925.9,
+          "technical_ratio": 0.027,
+          "emoji_ratio": 0.179,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.0,
+          "technology": 0.049,
+          "finance": 0.006,
+          "social": 0.0
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.983,
+          "quote_rate": 0.022,
+          "retweet_rate": 0.002,
+          "avg_likes": 2.6,
+          "avg_retweets": 0.5,
+          "avg_replies": 1.7,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "1174238635232845825": {
+      "user_name": "0xNing0x",
+      "influence_score": 71.16,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.60084,
+          "tech": 0.14844,
+          "finance": 0.15012,
+          "politics": 0.0648,
+          "entertainment": 0.055799999999999995
+        },
+        "confidence": 0.60084
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 47,
+            "total_engagement": "475",
+            "avg_engagement": 10.106382978723405,
+            "influence_score": 204.1
+          },
+          "30d": {
+            "tweet_count": 402,
+            "total_engagement": "1792",
+            "avg_engagement": 4.45771144278607,
+            "influence_score": 837.4
+          },
+          "90d": {
+            "tweet_count": 407,
+            "total_engagement": "1795",
+            "avg_engagement": 4.41031941031941,
+            "influence_score": 840.1
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 204.1,
+          "month_influence": 837.4,
+          "change_rate": -0.756
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 45.9,
+          "length_variance": 1251.0,
+          "technical_ratio": 0.017,
+          "emoji_ratio": 0.174,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.0,
+          "technology": 0.042,
+          "finance": 0.0,
+          "social": 0.0
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.914,
+          "quote_rate": 0.064,
+          "retweet_rate": 0.01,
+          "avg_likes": 2.2,
+          "avg_retweets": 1.2,
+          "avg_replies": 1.0,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "20872437": {
+      "user_name": "zariat",
+      "influence_score": 37.1,
+      "enhanced_domain": {
+        "primary_domain": "finance",
+        "domain_scores": {
+          "crypto": 0.7278711050042108,
+          "tech": 0.4671175923053057,
+          "finance": 0.759970745977572,
+          "entertainment": 0.46463100039891847,
+          "politics": 0.5313186472230841
+        },
+        "confidence": 0.759970745977572
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 58,
+            "total_engagement": "12020",
+            "avg_engagement": 207.24137931034483,
+            "influence_score": 4825.4
+          },
+          "30d": {
+            "tweet_count": 264,
+            "total_engagement": "86051",
+            "avg_engagement": 325.95075757575756,
+            "influence_score": 34499.6
+          },
+          "90d": {
+            "tweet_count": 273,
+            "total_engagement": "86227",
+            "avg_engagement": 315.8498168498169,
+            "influence_score": 34572.7
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 4825.4,
+          "month_influence": 34499.6,
+          "change_rate": -0.86
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 90.8,
+          "length_variance": 4150.7,
+          "technical_ratio": 0.018,
+          "emoji_ratio": 0.103,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.004,
+          "technology": 0.048,
+          "finance": 0.022,
+          "social": 0.059
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.575,
+          "quote_rate": 0.059,
+          "retweet_rate": 0.278,
+          "avg_likes": 1.3,
+          "avg_retweets": 314.2,
+          "avg_replies": 0.3,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "874726588797136896": {
+      "user_name": "bitpaq",
+      "influence_score": 37.1,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7592225609756098,
+          "tech": 0.24870807926829272,
+          "finance": 0.6088795731707317,
+          "entertainment": 0.1552515243902439,
+          "politics": 0.15793826219512194
+        },
+        "confidence": 0.7592225609756098
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 56,
+            "total_engagement": "83632",
+            "avg_engagement": 1493.4285714285713,
+            "influence_score": 33469.6
+          },
+          "30d": {
+            "tweet_count": 207,
+            "total_engagement": "194011",
+            "avg_engagement": 937.2512077294685,
+            "influence_score": 77666.5
+          },
+          "90d": {
+            "tweet_count": 211,
+            "total_engagement": "202051",
+            "avg_engagement": 957.5876777251185,
+            "influence_score": 80883.7
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 33469.6,
+          "month_influence": 77666.5,
+          "change_rate": -0.569
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 93.3,
+          "length_variance": 2070.5,
+          "technical_ratio": 0.028,
+          "emoji_ratio": 0.038,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.0,
+          "technology": 0.062,
+          "finance": 0.033,
+          "social": 0.019
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.227,
+          "quote_rate": 0.028,
+          "retweet_rate": 0.739,
+          "avg_likes": 1.0,
+          "avg_retweets": 956.6,
+          "avg_replies": 0.1,
+          "interaction_type": "proactive"
+        }
+      }
+    },
+    "1721530942685077506": {
+      "user_name": "TheGreekQue3n",
+      "influence_score": 34.86,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.5271210906174819,
+          "tech": 0.3986487570168404,
+          "politics": 0.058941459502806735,
+          "finance": 0.06134723336006415,
+          "entertainment": 0.058941459502806735
+        },
+        "confidence": 0.5271210906174819
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 28,
+            "total_engagement": "1754",
+            "avg_engagement": 62.642857142857146,
+            "influence_score": 710.0
+          },
+          "30d": {
+            "tweet_count": 139,
+            "total_engagement": "7044",
+            "avg_engagement": 50.67625899280576,
+            "influence_score": 2859.3
+          },
+          "90d": {
+            "tweet_count": 143,
+            "total_engagement": "7059",
+            "avg_engagement": 49.36363636363637,
+            "influence_score": 2866.5
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 710.0,
+          "month_influence": 2859.3,
+          "change_rate": -0.752
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 89.0,
+          "length_variance": 4152.8,
+          "technical_ratio": 0.0,
+          "emoji_ratio": 0.343,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.0,
+          "technology": 0.042,
+          "finance": 0.0,
+          "social": 0.014
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.301,
+          "quote_rate": 0.056,
+          "retweet_rate": 0.294,
+          "avg_likes": 4.8,
+          "avg_retweets": 43.9,
+          "avg_replies": 0.7,
+          "interaction_type": "proactive"
+        }
+      }
+    },
+    "946430947662086144": {
+      "user_name": "9FStudioArt",
+      "influence_score": 37.27,
+      "enhanced_domain": {
+        "primary_domain": "finance",
+        "domain_scores": {
+          "crypto": 0.7573856338306492,
+          "tech": 0.376030796592006,
+          "finance": 0.7607943879063334,
+          "entertainment": 0.5013250438919838,
+          "politics": 0.06138721470210453
+        },
+        "confidence": 0.7607943879063334
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 255,
+            "total_engagement": "2315",
+            "avg_engagement": 9.07843137254902,
+            "influence_score": 1002.5
+          },
+          "30d": {
+            "tweet_count": 3702,
+            "total_engagement": "11263",
+            "avg_engagement": 3.042409508373852,
+            "influence_score": 5615.8
+          },
+          "90d": {
+            "tweet_count": 3702,
+            "total_engagement": "11263",
+            "avg_engagement": 3.042409508373852,
+            "influence_score": 5615.8
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 1002.5,
+          "month_influence": 5615.8,
+          "change_rate": -0.821
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 42.9,
+          "length_variance": 1078.9,
+          "technical_ratio": 0.006,
+          "emoji_ratio": 0.053,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.0,
+          "technology": 0.079,
+          "finance": 0.001,
+          "social": 0.005
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.975,
+          "quote_rate": 0.0,
+          "retweet_rate": 0.0,
+          "avg_likes": 1.8,
+          "avg_retweets": 0.1,
+          "avg_replies": 1.1,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "945435420984336384": {
+      "user_name": "Obijai",
+      "influence_score": 70.03,
+      "enhanced_domain": {
+        "primary_domain": "finance",
+        "domain_scores": {
+          "crypto": 0.4747977391111604,
+          "tech": 0.5598271085004987,
+          "finance": 0.6386501163692785,
+          "entertainment": 0.057641582622187736,
+          "politics": 0.060512024825446084
+        },
+        "confidence": 0.6386501163692785
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 90,
+            "total_engagement": "5631",
+            "avg_engagement": 62.56666666666667,
+            "influence_score": 2279.4
+          },
+          "30d": {
+            "tweet_count": 378,
+            "total_engagement": "8957",
+            "avg_engagement": 23.695767195767196,
+            "influence_score": 3696.2
+          },
+          "90d": {
+            "tweet_count": 404,
+            "total_engagement": "9123",
+            "avg_engagement": 22.581683168316832,
+            "influence_score": 3770.4
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 2279.4,
+          "month_influence": 3696.2,
+          "change_rate": -0.383
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 51.7,
+          "length_variance": 2149.8,
+          "technical_ratio": 0.005,
+          "emoji_ratio": 0.186,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.0,
+          "technology": 0.02,
+          "finance": 0.032,
+          "social": 0.015
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.874,
+          "quote_rate": 0.017,
+          "retweet_rate": 0.04,
+          "avg_likes": 6.3,
+          "avg_retweets": 14.3,
+          "avg_replies": 2.0,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "1613350207336464384": {
+      "user_name": "Inway2deep_rip",
+      "influence_score": 49.59,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7573378839590443,
+          "tech": 0.5142561671058885,
+          "finance": 0.5115263317060527,
+          "entertainment": 0.40733367175011886,
+          "politics": 0.06245733788395904
+        },
+        "confidence": 0.7573378839590443
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 80,
+            "total_engagement": "15668",
+            "avg_engagement": 195.85,
+            "influence_score": 6291.2
+          },
+          "30d": {
+            "tweet_count": 707,
+            "total_engagement": "21604",
+            "avg_engagement": 30.55728429985856,
+            "influence_score": 8853.7
+          },
+          "90d": {
+            "tweet_count": 750,
+            "total_engagement": "21778",
+            "avg_engagement": 29.037333333333333,
+            "influence_score": 8936.2
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 6291.2,
+          "month_influence": 8853.7,
+          "change_rate": -0.289
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 73.5,
+          "length_variance": 2820.4,
+          "technical_ratio": 0.009,
+          "emoji_ratio": 0.141,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.004,
+          "technology": 0.04,
+          "finance": 0.011,
+          "social": 0.024
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.664,
+          "quote_rate": 0.085,
+          "retweet_rate": 0.172,
+          "avg_likes": 1.8,
+          "avg_retweets": 26.8,
+          "avg_replies": 0.4,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "1850055852": {
+      "user_name": "MiggyCryptoX",
+      "influence_score": 52.53,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7589065708418892,
+          "tech": 0.1672573268620497,
+          "finance": 0.11200392010453614,
+          "entertainment": 0.16841235766287105,
+          "politics": 0.16887436998319955
+        },
+        "confidence": 0.7589065708418892
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 121,
+            "total_engagement": "355",
+            "avg_engagement": 2.9338842975206614,
+            "influence_score": 178.3
+          },
+          "30d": {
+            "tweet_count": 658,
+            "total_engagement": "3062",
+            "avg_engagement": 4.6534954407294835,
+            "influence_score": 1422.2
+          },
+          "90d": {
+            "tweet_count": 690,
+            "total_engagement": "3135",
+            "avg_engagement": 4.543478260869565,
+            "influence_score": 1461.0
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 178.3,
+          "month_influence": 1422.2,
+          "change_rate": -0.875
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 61.4,
+          "length_variance": 2766.7,
+          "technical_ratio": 0.0,
+          "emoji_ratio": 0.43,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.0,
+          "technology": 0.026,
+          "finance": 0.003,
+          "social": 0.012
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.678,
+          "quote_rate": 0.023,
+          "retweet_rate": 0.206,
+          "avg_likes": 1.9,
+          "avg_retweets": 2.4,
+          "avg_replies": 0.3,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "1729492500": {
+      "user_name": "DJThistle01",
+      "influence_score": 64.46,
+      "enhanced_domain": {
+        "primary_domain": "politics",
+        "domain_scores": {
+          "crypto": 0.5730304259634889,
+          "finance": 0.6918945233265721,
+          "politics": 0.7649655172413794,
+          "tech": 0.06041379310344827,
+          "entertainment": 0.05793103448275862
+        },
+        "confidence": 0.7649655172413794
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 46,
+            "total_engagement": "82",
+            "avg_engagement": 1.7826086956521738,
+            "influence_score": 46.6
+          },
+          "30d": {
+            "tweet_count": 144,
+            "total_engagement": "6838",
+            "avg_engagement": 47.486111111111114,
+            "influence_score": 2778.4
+          },
+          "90d": {
+            "tweet_count": 150,
+            "total_engagement": "6862",
+            "avg_engagement": 45.74666666666667,
+            "influence_score": 2789.8
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 46.6,
+          "month_influence": 2778.4,
+          "change_rate": -0.983
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 125.2,
+          "length_variance": 7688.6,
+          "technical_ratio": 0.007,
+          "emoji_ratio": 0.033,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.047,
+          "technology": 0.04,
+          "finance": 0.053,
+          "social": 0.067
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.48,
+          "quote_rate": 0.253,
+          "retweet_rate": 0.073,
+          "avg_likes": 1.7,
+          "avg_retweets": 43.6,
+          "avg_replies": 0.5,
+          "interaction_type": "proactive"
+        }
+      }
+    },
+    "1524559440741306368": {
+      "user_name": "dezzaNZ",
+      "influence_score": 43.65,
+      "enhanced_domain": {
+        "primary_domain": "tech",
+        "domain_scores": {
+          "crypto": 0.7419461962948364,
+          "tech": 0.7581789515175403,
+          "finance": 0.5172669491525423,
+          "entertainment": 0.23495270003941665,
+          "politics": 0.056405202995664164
+        },
+        "confidence": 0.7581789515175403
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 167,
+            "total_engagement": "739",
+            "avg_engagement": 4.425149700598802,
+            "influence_score": 345.7
+          },
+          "30d": {
+            "tweet_count": 1042,
+            "total_engagement": "20501",
+            "avg_engagement": 19.674664107485604,
+            "influence_score": 8513.0
+          },
+          "90d": {
+            "tweet_count": 1048,
+            "total_engagement": "20548",
+            "avg_engagement": 19.606870229007633,
+            "influence_score": 8533.6
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 345.7,
+          "month_influence": 8513.0,
+          "change_rate": -0.959
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 92.8,
+          "length_variance": 4353.5,
+          "technical_ratio": 0.012,
+          "emoji_ratio": 0.164,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.001,
+          "technology": 0.1,
+          "finance": 0.008,
+          "social": 0.069
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.849,
+          "quote_rate": 0.027,
+          "retweet_rate": 0.083,
+          "avg_likes": 1.4,
+          "avg_retweets": 17.7,
+          "avg_replies": 0.4,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "107637333": {
+      "user_name": "CryptoChihiro",
+      "influence_score": 44.66,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.75748031496063,
+          "tech": 0.14160629921259846,
+          "finance": 0.5398110236220472,
+          "entertainment": 0.06692913385826772,
+          "politics": 0.06417322834645668
+        },
+        "confidence": 0.75748031496063
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 85,
+            "total_engagement": "5964",
+            "avg_engagement": 70.16470588235295,
+            "influence_score": 2411.1
+          },
+          "30d": {
+            "tweet_count": 432,
+            "total_engagement": "10442",
+            "avg_engagement": 24.171296296296298,
+            "influence_score": 4306.4
+          },
+          "90d": {
+            "tweet_count": 437,
+            "total_engagement": "10496",
+            "avg_engagement": 24.018306636155607,
+            "influence_score": 4329.5
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 2411.1,
+          "month_influence": 4306.4,
+          "change_rate": -0.44
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 62.7,
+          "length_variance": 2483.0,
+          "technical_ratio": 0.076,
+          "emoji_ratio": 0.478,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.0,
+          "technology": 0.037,
+          "finance": 0.027,
+          "social": 0.002
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.691,
+          "quote_rate": 0.057,
+          "retweet_rate": 0.101,
+          "avg_likes": 5.8,
+          "avg_retweets": 17.0,
+          "avg_replies": 1.3,
+          "interaction_type": "reactive"
+        }
+      }
+    },
+    "1447862012906807296": {
+      "user_name": "3jack23",
+      "influence_score": 65.9,
+      "enhanced_domain": {
+        "primary_domain": "crypto",
+        "domain_scores": {
+          "crypto": 0.7610528568371495,
+          "tech": 0.17147622962821135,
+          "finance": 0.1701922578755899,
+          "entertainment": 0.22732990190005295,
+          "politics": 0.06047506954846993
+        },
+        "confidence": 0.7610528568371495
+      },
+      "influence_timeline": {
+        "windows": {
+          "7d": {
+            "tweet_count": 252,
+            "total_engagement": "9607",
+            "avg_engagement": 38.12301587301587,
+            "influence_score": 3918.4
+          },
+          "30d": {
+            "tweet_count": 2495,
+            "total_engagement": "43484",
+            "avg_engagement": 17.428456913827656,
+            "influence_score": 18142.1
+          },
+          "90d": {
+            "tweet_count": 2510,
+            "total_engagement": "44695",
+            "avg_engagement": 17.806772908366533,
+            "influence_score": 18631.0
+          }
+        },
+        "trend": {
+          "trend": "decreasing",
+          "week_influence": 3918.4,
+          "month_influence": 18142.1,
+          "change_rate": -0.784
+        }
+      },
+      "content_features": {
+        "language_style": {
+          "avg_length": 25.2,
+          "length_variance": 412.7,
+          "technical_ratio": 0.006,
+          "emoji_ratio": 0.263,
+          "style_type": "casual"
+        },
+        "topic_distribution": {
+          "business": 0.0,
+          "technology": 0.009,
+          "finance": 0.005,
+          "social": 0.006
+        },
+        "interaction_patterns": {
+          "reply_rate": 0.963,
+          "quote_rate": 0.0,
+          "retweet_rate": 0.009,
+          "avg_likes": 6.6,
+          "avg_retweets": 6.8,
+          "avg_replies": 4.3,
+          "interaction_type": "reactive"
+        }
+      }
+    }
+  }
+}

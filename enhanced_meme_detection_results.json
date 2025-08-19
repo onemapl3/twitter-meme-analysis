@@ -1,0 +1,1039 @@
+{
+  "detection_timestamp": "2025-08-19T23:55:37.370514",
+  "detected_memes": {
+    "act": {
+      "symbol": "ACT",
+      "name": "Act I The AI Prophecy",
+      "category": "ai_meme",
+      "founded": "2024",
+      "description": "AI主题的叙事meme币",
+      "social": {
+        "twitter": "@ActTheAI",
+        "website": "act.ai"
+      },
+      "mention_count": 935,
+      "unique_users": 63,
+      "sentiment_score": -0.014973262032085561,
+      "total_score": 392.4508021390374,
+      "sample_mentions": [
+        {
+          "user_id": 1174238635232845825,
+          "text": "消费者链是CoinGecko评出的最值得期待TOP级加密叙事，我老早就开始关注这个赛道的Abstract、Morph、Xion等等项目。消费者链最能打动人的一点是，它们从一开始就是遵循Consumer/User-Centric理念设计开发的，而不像之前大多数L1/L2将某一抽象理念置于用户体验之上。…",
+          "timestamp": 1742123301,
+          "matched_term": "act"
+        },
+        {
+          "user_id": 1729492500,
+          "text": "@super_projects @Tradermayne he's correct about clusters\n\ndifferent causes(subduction etc) &amp; rock type will create different outcomes tho\n\nclusters before volcanic activity too. Mt. Adams had eart",
+          "timestamp": 1742322631,
+          "matched_term": "act"
+        },
+        {
+          "user_id": 54573794,
+          "text": "RT @thehejz: I just acquired my first low-ed (1/38) of @XCOPYART \"STEADY\" - the grandfather of the abstract era. \n\nSO STOKED. Long live the…",
+          "timestamp": 1742595482,
+          "matched_term": "act"
+        },
+        {
+          "user_id": 102953447,
+          "text": "@LovelyThings3 @AlexSchaumburg @OliLondonTV “Artist” ????\nLOL\n\nThey are ACTORS\n\nPaid for a ROLE.\nThey are not the director, they are not the producer.\n\nStfu, what kind of take is that 🤣🤣🤣🤣",
+          "timestamp": 1742714972,
+          "matched_term": "act"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@Abstract_Eco green is good ✳️ https://t.co/BSknY5MjoQ",
+          "timestamp": 1742080695,
+          "matched_term": "act"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "prompt": {
+      "symbol": "PROMPT",
+      "name": "Unknown Token (PROMPT)",
+      "category": "potential_meme",
+      "founded": "2024",
+      "description": "新发现的潜在meme币 $PROMPT",
+      "social": {
+        "twitter": "Unknown",
+        "website": "Unknown"
+      },
+      "mention_count": 72,
+      "unique_users": 4,
+      "meme_signals": 3,
+      "community_signals": 10,
+      "total_score": 274,
+      "sample_mentions": [
+        {
+          "user_id": 1524559440741306368,
+          "text": "@0xjaypeg $PROMPT is the ticker",
+          "timestamp": 1742847431
+        },
+        {
+          "user_id": 1524559440741306368,
+          "text": "RT @dezzaNZ: Yapping about @AIWayfinder just got even juicier!\n\nInitially 0.25% of the $PROMPT allocation is now doubled to 0.5%\n\nCache you…",
+          "timestamp": 1743454052
+        },
+        {
+          "user_id": 1524559440741306368,
+          "text": "quality info by king Naes below if anyone is just starting their @AIWayfinder journey!\n\n$PRIME // $PROMPT",
+          "timestamp": 1742862647
+        },
+        {
+          "user_id": 1524559440741306368,
+          "text": "@EtanBoss @AIWayfinder yessir $PROMPT TGE confirmed for april.",
+          "timestamp": 1743468467
+        },
+        {
+          "user_id": 1524559440741306368,
+          "text": "@ProofOfTravis @AIWayfinder I started yapping just prior to the campaign announcement , it definitely has encouraged me to work towards 100 yaps though . \n\nI’m very confident in wayfinder , parallel a",
+          "timestamp": 1743668269
+        }
+      ],
+      "detection_type": "potential_meme",
+      "market_cap": "New/Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unranked"
+    },
+    "doge": {
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "category": "animal_meme",
+      "founded": "2013",
+      "description": "基于柴犬meme的原创meme币",
+      "social": {
+        "twitter": "@dogecoin",
+        "website": "dogecoin.com"
+      },
+      "mention_count": 178,
+      "unique_users": 19,
+      "sentiment_score": 0.0056179775280898875,
+      "total_score": 77.0685393258427,
+      "sample_mentions": [
+        {
+          "user_id": 1447862012906807296,
+          "text": "@cb_doge it depends from who do u mean",
+          "timestamp": 1743351888,
+          "matched_term": "doge"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@cb_doge this was awesome 🤣",
+          "timestamp": 1743391937,
+          "matched_term": "doge"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@dogeofficialceo the TL rn: https://t.co/MBtjjXLXDx",
+          "timestamp": 1742796699,
+          "matched_term": "doge"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@dogeofficialceo being all 5: https://t.co/CAARuh6nOJ",
+          "timestamp": 1743385078,
+          "matched_term": "doge"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@cb_doge gud tech",
+          "timestamp": 1742718762,
+          "matched_term": "doge"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "ufd": {
+      "symbol": "UFD",
+      "name": "Unknown Token (UFD)",
+      "category": "potential_meme",
+      "founded": "2024",
+      "description": "新发现的潜在meme币 $UFD",
+      "social": {
+        "twitter": "Unknown",
+        "website": "Unknown"
+      },
+      "mention_count": 4,
+      "unique_users": 3,
+      "meme_signals": 3,
+      "community_signals": 0,
+      "total_score": 53,
+      "sample_mentions": [
+        {
+          "user_id": 946430947662086144,
+          "text": "I’ve mastered the art of memes for brands.\nReady to transform your brand with the power of memes?😎\nCommissioned by: @FARTADOR $UFD\nThank you for letting us be a part of building your brand. https://t.",
+          "timestamp": 1742745753
+        },
+        {
+          "user_id": 884957207435112448,
+          "text": "@BasementRon Ron and $UFD deserve my money, no cap",
+          "timestamp": 1743946631
+        },
+        {
+          "user_id": 802898471544090624,
+          "text": "RT @cryptochronic71: THIS IS ABSOLUTELY INSANE! \n\nRespectfully…… $UFD is the best memecoin on the market. No one else has plans IRL to onbo…",
+          "timestamp": 1743112140
+        },
+        {
+          "user_id": 946430947662086144,
+          "text": "Memes aren’t just jokes. They’re powerful branding tools.\nTime to get serious about being funny. 🤣\nCommissioned by: @ufdmemes $UFD\nThank you for letting us be a part of building your brand. https://t.",
+          "timestamp": 1743866730
+        }
+      ],
+      "detection_type": "potential_meme",
+      "market_cap": "New/Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unranked"
+    },
+    "goat": {
+      "symbol": "GOAT",
+      "name": "Goatseus Maximus",
+      "category": "ai_meme",
+      "founded": "2024",
+      "description": "AI生成的meme币",
+      "social": {
+        "twitter": "@GoatseusMaximus",
+        "website": "goat.ai"
+      },
+      "mention_count": 112,
+      "unique_users": 18,
+      "sentiment_score": 0.0,
+      "total_score": 50.2,
+      "sample_mentions": [
+        {
+          "user_id": 1174238635232845825,
+          "text": "@kevinliub @juzi66666 @GOATRollup DM啦，做了一把Web3赏金猎人🧐",
+          "timestamp": 1742001719,
+          "matched_term": "goat"
+        },
+        {
+          "user_id": 1447862012906807296,
+          "text": "@yuumiweb3 goated af",
+          "timestamp": 1743340929,
+          "matched_term": "goat"
+        },
+        {
+          "user_id": 945435420984336384,
+          "text": "@Notfgod @degencoinflip My goat ❤️",
+          "timestamp": 1743310724,
+          "matched_term": "goat"
+        },
+        {
+          "user_id": 945435420984336384,
+          "text": "@absolquant My goat",
+          "timestamp": 1743439632,
+          "matched_term": "goat"
+        },
+        {
+          "user_id": 1490626149629980673,
+          "text": "RT @maccurated: by far one of the most goated founders in in the space. \n@starlordyftw truly gives a fuck about everything he does and ever…",
+          "timestamp": 1742701441,
+          "matched_term": "goat"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "chad": {
+      "symbol": "CHAD",
+      "name": "Chad",
+      "category": "internet_culture",
+      "founded": "2023",
+      "description": "基于Chad meme的代币",
+      "social": {
+        "twitter": "@ChadCoinBSC",
+        "website": "chadcoin.io"
+      },
+      "mention_count": 94,
+      "unique_users": 14,
+      "sentiment_score": 0.02127659574468085,
+      "total_score": 42.43829787234043,
+      "sample_mentions": [
+        {
+          "user_id": 1850055852,
+          "text": "@chadpdq yooo",
+          "timestamp": 1742310845,
+          "matched_term": "chad"
+        },
+        {
+          "user_id": 1524559440741306368,
+          "text": "@WarrenNakamotoX @finalbosuX @kevinfinalbosu @kaito_ayo @LucaNetz had to repost, chad 🤝",
+          "timestamp": 1744672145,
+          "matched_term": "chad"
+        },
+        {
+          "user_id": 1490626149629980673,
+          "text": "@haoxitong @doodles what a chad",
+          "timestamp": 1743400664,
+          "matched_term": "chad"
+        },
+        {
+          "user_id": 1447862012906807296,
+          "text": "@BlightySZN chad moved",
+          "timestamp": 1742992934,
+          "matched_term": "chad"
+        },
+        {
+          "user_id": 107637333,
+          "text": "@wasserpest Ach schade ☹️",
+          "timestamp": 1742595989,
+          "matched_term": "chad"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "giga": {
+      "symbol": "GIGA",
+      "name": "Unknown Token (GIGA)",
+      "category": "potential_meme",
+      "founded": "2024",
+      "description": "新发现的潜在meme币 $GIGA",
+      "social": {
+        "twitter": "Unknown",
+        "website": "Unknown"
+      },
+      "mention_count": 3,
+      "unique_users": 2,
+      "meme_signals": 2,
+      "community_signals": 0,
+      "total_score": 36,
+      "sample_mentions": [
+        {
+          "user_id": 946430947662086144,
+          "text": "Meme pack = free marketing that never stops working. \nReady to get yours? 🚀 $GIGA $DOGGO\nCommissioned by: @Poe_Ether\nThank you for letting us be a part of building your brand. https://t.co/7br4AwghXm",
+          "timestamp": 1744639761
+        },
+        {
+          "user_id": 766578266,
+          "text": "RT @gigagriff: Normies shilling normies shilling normies.\n\nThere's a reason it feels like only like 50 guys own $GIGA on Crypto Twitter.\n\n&gt;…",
+          "timestamp": 1743466254
+        },
+        {
+          "user_id": 946430947662086144,
+          "text": "Meme pack = free marketing that never stops working.\nReady to get yours? \n$MUMU $DOGGO $PONKE $GIGA\nCommissioned by: @CryptoTalkMan\nThank you for letting us be a part of building your brand. https://t",
+          "timestamp": 1744301013
+        }
+      ],
+      "detection_type": "potential_meme",
+      "market_cap": "New/Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unranked"
+    },
+    "house": {
+      "symbol": "HOUSE",
+      "name": "Unknown Token (HOUSE)",
+      "category": "potential_meme",
+      "founded": "2024",
+      "description": "新发现的潜在meme币 $HOUSE",
+      "social": {
+        "twitter": "Unknown",
+        "website": "Unknown"
+      },
+      "mention_count": 9,
+      "unique_users": 2,
+      "meme_signals": 0,
+      "community_signals": 1,
+      "total_score": 36,
+      "sample_mentions": [
+        {
+          "user_id": 99184295,
+          "text": "RT @Arcane_Crypto_: ONE HOUSE SHOULD BE EQUAL TO ONE $HOUSE\n\nTHIS ONE UNDERVALUED AS HELL\n\nGO GET THAT MF FLYING OVER ATH\n\nCA: DitHyRMQiSDh…",
+          "timestamp": 1743626219
+        },
+        {
+          "user_id": 1523486330449244160,
+          "text": "Check out the recent scalp wins from @LooksFrosty 🗡️\n\n4 straight wins 🔥\n$TITCOIN +16% ($2K)\n$HOUSE +17% ($1.9K)\n$42069COIN +33% ($1.1K)\n$POINTS +13% ($523)\n\n45+ SOL PROFIT with multiple entries/exits ",
+          "timestamp": 1744405982
+        },
+        {
+          "user_id": 99184295,
+          "text": "RT @deanbulla: There is going to be a really violent repricing for $HOUSE soon and when you think about it it was super obvious in hindsigh…",
+          "timestamp": 1743782279
+        },
+        {
+          "user_id": 99184295,
+          "text": "RT @PattyIceWife: $HOUSE coin looking strong in a falling market. Just wait until we recover. \n\nThis $house has no ceiling https://t.co/PHr…",
+          "timestamp": 1743842835
+        },
+        {
+          "user_id": 99184295,
+          "text": "RT @deanbulla: I highly suggest you get $HOUSE here, even at these levels\n\nI get to see what the community is working on behind the scenes…",
+          "timestamp": 1743749536
+        }
+      ],
+      "detection_type": "potential_meme",
+      "market_cap": "New/Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unranked"
+    },
+    "trump": {
+      "symbol": "TRUMP",
+      "name": "Unknown Token (TRUMP)",
+      "category": "potential_meme",
+      "founded": "2024",
+      "description": "新发现的潜在meme币 $TRUMP",
+      "social": {
+        "twitter": "Unknown",
+        "website": "Unknown"
+      },
+      "mention_count": 3,
+      "unique_users": 2,
+      "meme_signals": 2,
+      "community_signals": 0,
+      "total_score": 36,
+      "sample_mentions": [
+        {
+          "user_id": 946430947662086144,
+          "text": "Trump can tax the world, but he can’t tax BITCOIN. 😍\nCommissioned by: $TRUMP\nThank you for letting us be a part of building your brand. https://t.co/uEbmaUt5CJ",
+          "timestamp": 1744385301
+        },
+        {
+          "user_id": 946430947662086144,
+          "text": "Memes are the future of branding.\nStart building yours now! 🏆 $PEIPEI $PEPE $TRUMP\nCommissioned by: @Peipeierc20 \nThank you for letting us be a part of building your brand. https://t.co/6X0BJvc6a4",
+          "timestamp": 1742914352
+        },
+        {
+          "user_id": 766578266,
+          "text": "RT @dappsidesanchez: 🔥Top 10 Trending #DappSide  \n\n1. $RFC @RFindercoin\n2. $TRUMP @GetTrumpMemes\n3. #Buckazoids @buckazoidssol\n4. $TIM @tim…",
+          "timestamp": 1743460987
+        }
+      ],
+      "detection_type": "potential_meme",
+      "market_cap": "New/Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unranked"
+    },
+    "pepe": {
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "category": "internet_culture",
+      "founded": "2023",
+      "description": "基于Pepe青蛙meme的代币",
+      "social": {
+        "twitter": "@pepecoineth",
+        "website": "pepe.vip"
+      },
+      "mention_count": 67,
+      "unique_users": 14,
+      "sentiment_score": 0.08955223880597014,
+      "total_score": 33.6865671641791,
+      "sample_mentions": [
+        {
+          "user_id": 1509912900038582272,
+          "text": "恭喜获得了本次抽奖，多让我眼熟大家👀，pepeboost也在抽奖，欢迎参加，感谢大家支持\n\nhttps://t.co/C0KGkY0RIU",
+          "timestamp": 1742982539,
+          "matched_term": "pepe"
+        },
+        {
+          "user_id": 1447862012906807296,
+          "text": "@thePepeBoss gm pepe boss",
+          "timestamp": 1742550882,
+          "matched_term": "pepe"
+        },
+        {
+          "user_id": 24700583,
+          "text": "Congratulations on being the first community curated meme card, Pepe X!\n@Ars0nic @punk6529 https://t.co/zMjImOIO7m",
+          "timestamp": 1743597561,
+          "matched_term": "pepe"
+        },
+        {
+          "user_id": 1613350207336464384,
+          "text": "@chris_thabuildR @MLeeJr Easiest layup since Pepe",
+          "timestamp": 1743600259,
+          "matched_term": "pepe"
+        },
+        {
+          "user_id": 1509912900038582272,
+          "text": "@thankUcrypto @Nyenchenpepe @CyberPhilos @ShioneKoshimizu @0xpeas @Ru7Longcrypto @Solomon_Nahhh @btc_jx @BoxMrChen @kajiweb3 @xingzhu4real @mirrorzk @ChenSistine @vvxiaoyu8888 @Xiaoyu_184CM 不要维权啊，医药费我",
+          "timestamp": 1744194000,
+          "matched_term": "pepe"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "book": {
+      "symbol": "BOOK",
+      "name": "Book of Meme",
+      "category": "community_meme",
+      "founded": "2024",
+      "description": "meme文化百科全书",
+      "social": {
+        "twitter": "@BookOfMeme",
+        "website": "bookofmeme.com"
+      },
+      "mention_count": 54,
+      "unique_users": 27,
+      "sentiment_score": 0.0,
+      "total_score": 29.700000000000003,
+      "sample_mentions": [
+        {
+          "user_id": 1850055852,
+          "text": "@RareEvo @IOHK_Charles @dapp_central @AltcoinDailyio @hoskytoken @CashAnvil @theother_dave @KennethBosak @adamKDean @TheNodeFather_ @WorldMobilers @Rob_LLAP @CloverNodes @SirLost_ @CornucopiasGame @Ma",
+          "timestamp": 1742244288,
+          "matched_term": "book"
+        },
+        {
+          "user_id": 1613350207336464384,
+          "text": "@MLeeJr Bookmarked this. Gonna be glorious to revisit in 6 months",
+          "timestamp": 1742916144,
+          "matched_term": "book"
+        },
+        {
+          "user_id": 765,
+          "text": "I recently collected the series into a book, so it’s more digestible as a complete work. Obviously it’s nice to sell the 1/1s but the book tells the whole story better. \n\nhttps://t.co/VjuR4I6hqk https",
+          "timestamp": 1742226393,
+          "matched_term": "book"
+        },
+        {
+          "user_id": 1524559440741306368,
+          "text": "@broskisol @pudgypenguins Pengu IP truly might be one of most versatile we have seen . children books , stores , water parks? \n\nWouldn’t be surprised to see a kids series on Nickelodeon one day",
+          "timestamp": 1743808057,
+          "matched_term": "book"
+        },
+        {
+          "user_id": 1480330966698708994,
+          "text": "@PackBagPoints Booked everything + flights back in dec w crypto, lowkey feelsgood\n\nlooks like I'll be w you on the table lol",
+          "timestamp": 1744043700,
+          "matched_term": "book"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "rfc": {
+      "symbol": "RFC",
+      "name": "Unknown Token (RFC)",
+      "category": "potential_meme",
+      "founded": "2024",
+      "description": "新发现的潜在meme币 $RFC",
+      "social": {
+        "twitter": "Unknown",
+        "website": "Unknown"
+      },
+      "mention_count": 4,
+      "unique_users": 2,
+      "meme_signals": 1,
+      "community_signals": 0,
+      "total_score": 28,
+      "sample_mentions": [
+        {
+          "user_id": 766578266,
+          "text": "RT @dappsidesanchez: 🔥Top 10 Trending #DappSide  \n\n1. $RFC @RFindercoin\n2. $TRUMP @GetTrumpMemes\n3. #Buckazoids @buckazoidssol\n4. $TIM @tim…",
+          "timestamp": 1743460987
+        },
+        {
+          "user_id": 1523486330449244160,
+          "text": "While others are crying bear market, Kanto members are BOOKING PROFITS\n\nOne of our traders just turned 201 SOL into 384 SOL on $RFC for a clean +$19.4K profit.\n\nThat's +92% ROI with perfect execution.",
+          "timestamp": 1744234922
+        },
+        {
+          "user_id": 766578266,
+          "text": "RT @lookonchain: A whale sold 1.56M $Fartcoin($1.26M) to buy 11.62M $RFC 30 minutes ago, causing $RFC's market cap to surge to over $100M.…",
+          "timestamp": 1744634118
+        },
+        {
+          "user_id": 766578266,
+          "text": "RT @lookonchain: A whale sold 1.56M $Fartcoin($1.26M) to buy 11.62M $RFC 30 minutes ago, causing $RFC's market cap to surge to over $100M.…",
+          "timestamp": 1744634118
+        }
+      ],
+      "detection_type": "potential_meme",
+      "market_cap": "New/Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unranked"
+    },
+    "wif": {
+      "symbol": "WIF",
+      "name": "Dogwifhat",
+      "category": "animal_meme",
+      "founded": "2023",
+      "description": "戴帽子的狗狗meme币",
+      "social": {
+        "twitter": "@dogwifhat",
+        "website": "dogwifhat.com"
+      },
+      "mention_count": 39,
+      "unique_users": 19,
+      "sentiment_score": 0.02564102564102564,
+      "total_score": 22.06923076923077,
+      "sample_mentions": [
+        {
+          "user_id": 1322453807293325312,
+          "text": "Larry Fink referenced “token,” “Bitcoin,” and “DeFi” 20, 7, and 1 time respectively in BlackRock’s annual letter. Below are the key quotes and contexts for each term https://t.co/4lT1fhQlnc\n\n1. Token ",
+          "timestamp": 1743468940,
+          "matched_term": "wif"
+        },
+        {
+          "user_id": 99184295,
+          "text": "RT @PattyIceWife: Been touching grass and spending time with some friends who flew out to see me from my home state this weekend. \n\nWatchin…",
+          "timestamp": 1743916580,
+          "matched_term": "wif"
+        },
+        {
+          "user_id": 1322453807293325312,
+          "text": "WOW the quality of chatGPT image is insane. \n\nMe and my wife https://t.co/Cto1uxflub",
+          "timestamp": 1742990350,
+          "matched_term": "wif"
+        },
+        {
+          "user_id": 54573794,
+          "text": "RT @ChrizRoc: me: I just won a raffle!\n\nwifey: so we rich?\n\nme: sort of... first need to spend 2 ETH, but it's worth much more.\n\nwifey: how…",
+          "timestamp": 1743607195,
+          "matched_term": "wif"
+        },
+        {
+          "user_id": 99184295,
+          "text": "RT @PattyIceWife: $HOUSE coin looking strong in a falling market. Just wait until we recover. \n\nThis $house has no ceiling https://t.co/PHr…",
+          "timestamp": 1743842835,
+          "matched_term": "wif"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "om": {
+      "symbol": "OM",
+      "name": "Unknown Token (OM)",
+      "category": "potential_meme",
+      "founded": "2024",
+      "description": "新发现的潜在meme币 $OM",
+      "social": {
+        "twitter": "Unknown",
+        "website": "Unknown"
+      },
+      "mention_count": 6,
+      "unique_users": 2,
+      "meme_signals": 0,
+      "community_signals": 0,
+      "total_score": 22,
+      "sample_mentions": [
+        {
+          "user_id": 107637333,
+          "text": "$OM deleted their TG channel after someone compared it with Terra Luna https://t.co/e7gFuhgyhc",
+          "timestamp": 1744573210
+        },
+        {
+          "user_id": 107637333,
+          "text": "next rug after $OM will be $PI ‼️",
+          "timestamp": 1744573515
+        },
+        {
+          "user_id": 107637333,
+          "text": "$OM",
+          "timestamp": 1744577329
+        },
+        {
+          "user_id": 234848990,
+          "text": "Did $OM just rug?  What! Thank goodness I do not own any yikes!     Mantra Dao is Mantra Down!! https://t.co/c4Vp39DwLK",
+          "timestamp": 1744584222
+        },
+        {
+          "user_id": 107637333,
+          "text": "RT @CryptoChihiro: $OM rugged!!! stay away from ‼️\n\nThis is why iam a $RSR maxi https://t.co/JefzjsSC6O",
+          "timestamp": 1744623700
+        }
+      ],
+      "detection_type": "potential_meme",
+      "market_cap": "New/Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unranked"
+    },
+    "hype": {
+      "symbol": "HYPE",
+      "name": "Unknown Token (HYPE)",
+      "category": "potential_meme",
+      "founded": "2024",
+      "description": "新发现的潜在meme币 $HYPE",
+      "social": {
+        "twitter": "Unknown",
+        "website": "Unknown"
+      },
+      "mention_count": 5,
+      "unique_users": 2,
+      "meme_signals": 0,
+      "community_signals": 0,
+      "total_score": 20,
+      "sample_mentions": [
+        {
+          "user_id": 1004393364987531264,
+          "text": "RT @simononchain: While everyone's focused on $HYPE, a lesser-known protocol has quietly processed $1B+ in volume.\n\nMeet @hyperunit: the to…",
+          "timestamp": 1744675976
+        },
+        {
+          "user_id": 32331693,
+          "text": "RT @HypioHL: 485 $HYPE ($6712.4) sale on this Catbal just now\n\nYeah I'm thinking we're back. https://t.co/M81OkQPK3N",
+          "timestamp": 1742354786
+        },
+        {
+          "user_id": 32331693,
+          "text": "RT @HypioHL: Wealthy Hypio Babies are the first Hyperliquid NFT to surpass 100K $HYPE ($1.6M) volume on the HyperEVM.\n\nThanks for your supp…",
+          "timestamp": 1742929153
+        },
+        {
+          "user_id": 32331693,
+          "text": "Hyperliquid Defi-Summer Recap on Protocols &amp; Buttons you should be clicking:\n\n-Getting positive APY net on @felixprotocol after you borrow from your $HYPE and deposit $feUSD pool is why this is an",
+          "timestamp": 1743710061
+        },
+        {
+          "user_id": 32331693,
+          "text": "You are farming big token on a digital pixel miner, me? Im farming HYPE EVM by lending/borrowing against my $HYPE and $BUDDY getting bonus points for also holding @HypioHL .\n\nWe are not the same. @alr",
+          "timestamp": 1744396082
+        }
+      ],
+      "detection_type": "potential_meme",
+      "market_cap": "New/Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unranked"
+    },
+    "mog": {
+      "symbol": "MOG",
+      "name": "Mog Coin",
+      "category": "animal_meme",
+      "founded": "2023",
+      "description": "猫咪主题meme币",
+      "social": {
+        "twitter": "@MogCoinEth",
+        "website": "mogcoin.org"
+      },
+      "mention_count": 33,
+      "unique_users": 11,
+      "sentiment_score": 0.09090909090909091,
+      "total_score": 19.227272727272727,
+      "sample_mentions": [
+        {
+          "user_id": 1101723347249963008,
+          "text": "@Cryptoshi_Calls feel free to mog it whenever you want 🫵😹 https://t.co/n7Y7vjfwx1",
+          "timestamp": 1742180022,
+          "matched_term": "mog"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@kmoney_69 @mogcoin 🫵😹 https://t.co/bdjtaYy4e1",
+          "timestamp": 1742974500,
+          "matched_term": "mog"
+        },
+        {
+          "user_id": 1438989380945854465,
+          "text": "RT @betamogger: $DAWAE A bastion of strength during this recession because it’s up for debate whether the holders are even consciously awar…",
+          "timestamp": 1743986012,
+          "matched_term": "mog"
+        },
+        {
+          "user_id": 971039337017171970,
+          "text": "@ILiketoCope And this one as well https://t.co/L9mOG3K8qo",
+          "timestamp": 1742931678,
+          "matched_term": "mog"
+        },
+        {
+          "user_id": 99184295,
+          "text": "RT @digitalartchick: I've been made aware of another \"Murad\" list going around (created by a different person entirely) and that MOG is on…",
+          "timestamp": 1742247653,
+          "matched_term": "mog"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "neiro": {
+      "symbol": "NEIRO",
+      "name": "Neiro",
+      "category": "animal_meme",
+      "founded": "2024",
+      "description": "Doge继承者，新柴犬meme币",
+      "social": {
+        "twitter": "@NeiroEthereum",
+        "website": "neiro.dog"
+      },
+      "mention_count": 4,
+      "unique_users": 2,
+      "sentiment_score": 0.25,
+      "total_score": 9.7,
+      "sample_mentions": [
+        {
+          "user_id": 946430947662086144,
+          "text": "Gifs packs designed to elevate your brand. Let’s turn your ideas into motion! 🔥\nCommissioned by: @NeiroOnEthereum $NEIRO \nThank you for letting us be a part of building your brand. https://t.co/TZ87eB",
+          "timestamp": 1744644548,
+          "matched_term": "neiro"
+        },
+        {
+          "user_id": 766578266,
+          "text": "RT @PochitaBNB: Pochita was adopted after Balltze, who inspired the Cheems meme and Bonk token, passed away Similarly, \n\nNeiro was adopted…",
+          "timestamp": 1742349362,
+          "matched_term": "neiro"
+        },
+        {
+          "user_id": 946430947662086144,
+          "text": "Make your community chats 10x more fun with a custom animated sticker pack! 🎬 $NEIRO\nCommissioned by: @NeiroOnEthereum \nThank you for letting us be a part of building your brand. https://t.co/fY9FQ2v0",
+          "timestamp": 1743090062,
+          "matched_term": "neiro"
+        },
+        {
+          "user_id": 946430947662086144,
+          "text": "Pump it. 🚀 $NEIRO\nCommissioned by: @NeiroOnEthereum \nThank you for letting us be a part of building your brand. https://t.co/q8J6uKkb8t",
+          "timestamp": 1743091725,
+          "matched_term": "neiro"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "shib": {
+      "symbol": "SHIB",
+      "name": "Shiba Inu",
+      "category": "animal_meme",
+      "founded": "2020",
+      "description": "Dogecoin杀手，柴犬主题",
+      "social": {
+        "twitter": "@Shibtoken",
+        "website": "shibatoken.com"
+      },
+      "mention_count": 15,
+      "unique_users": 6,
+      "sentiment_score": 0.0,
+      "total_score": 7.8,
+      "sample_mentions": [
+        {
+          "user_id": 852067274760617984,
+          "text": "It resembles $SHIB during 2021. \n\nI'm just gonna $RELAX until 0 or millions. https://t.co/ErBpNhGLpB",
+          "timestamp": 1743718138,
+          "matched_term": "shib"
+        },
+        {
+          "user_id": 636563539,
+          "text": "The @satoshibigmoto Bigcoin project is super fun to say the least. Mine Bigcoin, save or sell, upgrade your room/miners or take profit.\n\nIf you aren't on this yet, you can get a free potato miner and ",
+          "timestamp": 1744227579,
+          "matched_term": "shib"
+        },
+        {
+          "user_id": 636563539,
+          "text": "RT @satoshibigmoto: The goods have finally passed through customs.\n\nUnfortunately the rock had to pay extra duties at the border due to the…",
+          "timestamp": 1744302152,
+          "matched_term": "shib"
+        },
+        {
+          "user_id": 1524559440741306368,
+          "text": "@itskkoma @AbstractChain @satoshibigmoto fed the streets and trenches while markets were cooked. abstract is the green chain for a reason",
+          "timestamp": 1744410978,
+          "matched_term": "shib"
+        },
+        {
+          "user_id": 946430947662086144,
+          "text": "@xelf_sol @ToshiBet @SolCardCC Always",
+          "timestamp": 1742380139,
+          "matched_term": "shib"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "bonk": {
+      "symbol": "BONK",
+      "name": "Bonk",
+      "category": "animal_meme",
+      "founded": "2022",
+      "description": "Solana生态的柴犬meme币",
+      "social": {
+        "twitter": "@bonk_inu",
+        "website": "bonkcoin.com"
+      },
+      "mention_count": 10,
+      "unique_users": 4,
+      "sentiment_score": 0.0,
+      "total_score": 5.2,
+      "sample_mentions": [
+        {
+          "user_id": 766578266,
+          "text": "RT @PochitaBNB: Pochita was adopted after Balltze, who inspired the Cheems meme and Bonk token, passed away Similarly, \n\nNeiro was adopted…",
+          "timestamp": 1742349362,
+          "matched_term": "bonk"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@bonk_inu Late night vibes https://t.co/kAgIvHrsDN",
+          "timestamp": 1743484921,
+          "matched_term": "bonk"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@bonk_inu * everyday",
+          "timestamp": 1743385700,
+          "matched_term": "bonk"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@bonk_inu !BONK",
+          "timestamp": 1742423717,
+          "matched_term": "bonk"
+        },
+        {
+          "user_id": 1101723347249963008,
+          "text": "@SportsCenter The hockey world is going to go absolutely bonkers when and if he breaks it 👀",
+          "timestamp": 1742081709,
+          "matched_term": "bonk"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "pnut": {
+      "symbol": "PNUT",
+      "name": "Peanut the Squirrel",
+      "category": "animal_meme",
+      "founded": "2024",
+      "description": "花生松鼠meme币",
+      "social": {
+        "twitter": "@PnutSolana",
+        "website": "pnut.meme"
+      },
+      "mention_count": 1,
+      "unique_users": 1,
+      "sentiment_score": 0.0,
+      "total_score": 0.7,
+      "sample_mentions": [
+        {
+          "user_id": 874726588797136896,
+          "text": "RT @cold_xyz: robinhood listing pnut\n\ncoinbase listing doginme\n\nholy fuck these guys are retarded",
+          "timestamp": 1742009760,
+          "matched_term": "pnut"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "chillguy": {
+      "symbol": "CHILLGUY",
+      "name": "Chill Guy",
+      "category": "internet_culture",
+      "founded": "2024",
+      "description": "淡定哥meme币",
+      "social": {
+        "twitter": "@ChillGuyMeme",
+        "website": "chillguy.fun"
+      },
+      "mention_count": 1,
+      "unique_users": 1,
+      "sentiment_score": 0.0,
+      "total_score": 0.7,
+      "sample_mentions": [
+        {
+          "user_id": 1489594414381080578,
+          "text": "He's just a chill guy... https://t.co/7kzbM0IFX0",
+          "timestamp": 1744275660,
+          "matched_term": "chill guy"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    },
+    "floki": {
+      "symbol": "FLOKI",
+      "name": "Floki Inu",
+      "category": "animal_meme",
+      "founded": "2021",
+      "description": "埃隆马斯克的狗狗主题meme币",
+      "social": {
+        "twitter": "@RealFlokiInu",
+        "website": "floki.com"
+      },
+      "mention_count": 4,
+      "unique_users": 1,
+      "sentiment_score": -0.75,
+      "total_score": -20.6,
+      "sample_mentions": [
+        {
+          "user_id": 1850055852,
+          "text": "@DeFiFUDDestroy @BAGMIcryptoBROS @XCohost @FlokiViking456 @SrChois @ShubzyM I got stuck at work and couldn't get time to join 🥲🥲🥲",
+          "timestamp": 1742414116,
+          "matched_term": "floki"
+        },
+        {
+          "user_id": 1850055852,
+          "text": "RT @DeFiFUDDestroy: @BAGMIcryptoBROS special poster Episode 28\n@FlokiViking456 @SrChois @DeFiFUDDestroy \n\nFind yourself brothers and sister…",
+          "timestamp": 1744195392,
+          "matched_term": "floki"
+        },
+        {
+          "user_id": 1850055852,
+          "text": "@DeFiFUDDestroy @BAGMIcryptoBROS @FlokiViking456 @SrChois @KennethBosak Let's get it yo",
+          "timestamp": 1744195398,
+          "matched_term": "floki"
+        },
+        {
+          "user_id": 1850055852,
+          "text": "@BAGMIcryptoBROS @doktor_DeFi @KennethBosak @XCohost @SrChois @FlokiViking456 @X @streamlabs 🤝✌️",
+          "timestamp": 1743631730,
+          "matched_term": "floki"
+        }
+      ],
+      "detection_type": "known_meme",
+      "market_cap": "Unknown",
+      "price_change_24h": "Unknown",
+      "volume_24h": "Unknown",
+      "rank": "Unknown"
+    }
+  },
+  "summary": {
+    "total_memes": 22,
+    "known_memes": 14,
+    "potential_memes": 8,
+    "detection_method": "增强版检测 - 已知meme币 + 潜在发现",
+    "features": [
+      "项目信息",
+      "社交媒体",
+      "情感分析",
+      "社区信号"
+    ]
+  }
+}

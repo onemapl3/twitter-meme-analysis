@@ -1,0 +1,930 @@
+{
+  "detection_timestamp": "2025-08-19T23:33:43.707963",
+  "potential_memes": {
+    "it": {
+      "mention_count": 44,
+      "unique_users": 15,
+      "contexts": [
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "IT",
+          "context": "@TheBullishTradR SQUEEZE IT!",
+          "timestamp": 1742380518
+        },
+        {
+          "user_id": 1447862012906807296,
+          "original_match": "IT",
+          "context": "DEV SLOW COOK PROJECTS TO MILLIONS\n\nGET IN BEFORE IT’S TOO LATE! 🚀\n\nGz6oYXK5zDA3jMjgqzLQ9wPkkpMcorjL7L",
+          "timestamp": 1743117254
+        },
+        {
+          "user_id": 1447862012906807296,
+          "original_match": "IT",
+          "context": "@0xDeflect LETS DO IT",
+          "timestamp": 1743430545
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "IT",
+          "context": "@bruiserscalls RUN IT UP!",
+          "timestamp": 1742032952
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "IT",
+          "context": "@web3gatsby @ApeChainRILLAZ @apecoin KEEP IT RILLA!",
+          "timestamp": 1742344336
+        }
+      ],
+      "total_contexts": 44,
+      "emerging_score": 3,
+      "community_score": 3,
+      "total_score": 183,
+      "score_breakdown": {
+        "base_score": 88,
+        "user_diversity": 50,
+        "emerging_bonus": 30,
+        "community_bonus": 15
+      }
+    },
+    "breaking": {
+      "mention_count": 40,
+      "unique_users": 11,
+      "contexts": [
+        {
+          "user_id": 1613350207336464384,
+          "original_match": "BREAKING",
+          "context": "RT @podsdotmedia: BREAKING: @0xDeployer makes an appearance on @ZER0P0D🚨\n\nSe",
+          "timestamp": 1742506968
+        },
+        {
+          "user_id": 802898471544090624,
+          "original_match": "BREAKING",
+          "context": "RT @drsimonegold: BREAKING: RFK Jr. has announced that he is working with st",
+          "timestamp": 1742608747
+        },
+        {
+          "user_id": 766578266,
+          "original_match": "BREAKING",
+          "context": "RT @GoldTelegraph_: BREAKING NEWS \n\nSPOT GOLD SURPASSES $3100 IN US DOLLAR TER",
+          "timestamp": 1743403224
+        },
+        {
+          "user_id": 802898471544090624,
+          "original_match": "BREAKING",
+          "context": "RT @BoLoudon: 🚨BREAKING: HHS Secretary RFK Jr just announced the FDA is E",
+          "timestamp": 1741995888
+        },
+        {
+          "user_id": 802898471544090624,
+          "original_match": "BREAKING",
+          "context": "RT @BoredApeGazette: BREAKING NEWS » @GutterCatGang Owner @YugenLBS Just Announ",
+          "timestamp": 1743467993
+        }
+      ],
+      "total_contexts": 40,
+      "emerging_score": 9,
+      "community_score": 7,
+      "total_score": 180,
+      "score_breakdown": {
+        "base_score": 80,
+        "user_diversity": 50,
+        "emerging_bonus": 30,
+        "community_bonus": 20
+      }
+    },
+    "binance": {
+      "mention_count": 44,
+      "unique_users": 11,
+      "contexts": [
+        {
+          "user_id": 1328686769508732929,
+          "original_match": "@binance",
+          "context": "@2lambro @binance @cz_binance @heyibinance nice",
+          "timestamp": 1742406123
+        },
+        {
+          "user_id": 1328686769508732929,
+          "original_match": "@binance",
+          "context": "@Alvin0617 @binance @BNBCHAIN @cz_binance @heyibinance @CryptoWesearc",
+          "timestamp": 1742667224
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@binance",
+          "context": "@binance love y’all too 🤝🗺️💛",
+          "timestamp": 1742032852
+        },
+        {
+          "user_id": 1509912900038582272,
+          "original_match": "@binance",
+          "context": "的身份同时，为您提供奖励1万美金～5百万美金，的安全漏洞奖金；比老鼠仓好赚多了，举报邮箱：audit@binance.com",
+          "timestamp": 1744636076
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@binance",
+          "context": "@binance Dogs always do it best",
+          "timestamp": 1742112118
+        }
+      ],
+      "total_contexts": 44,
+      "emerging_score": 4,
+      "community_score": 2,
+      "total_score": 178,
+      "score_breakdown": {
+        "base_score": 88,
+        "user_diversity": 50,
+        "emerging_bonus": 30,
+        "community_bonus": 10
+      }
+    },
+    "tge": {
+      "mention_count": 49,
+      "unique_users": 8,
+      "contexts": [
+        {
+          "user_id": 1524559440741306368,
+          "original_match": "TGE",
+          "context": "RT @dezzaNZ: AI Wayfinder TGE is getting very close. We have seen a sustained n",
+          "timestamp": 1743271756
+        },
+        {
+          "user_id": 1524559440741306368,
+          "original_match": "TGE",
+          "context": "@EtanBoss @AIWayfinder yessir $PROMPT TGE confirmed for april.",
+          "timestamp": 1743468467
+        },
+        {
+          "user_id": 802898471544090624,
+          "original_match": "TGE",
+          "context": "RT @Hawley: $GANG TGE ~6-7:30 PM ET 3/31/25.\n\nUpcoming ApeChain activat",
+          "timestamp": 1743453650
+        },
+        {
+          "user_id": 1524559440741306368,
+          "original_match": "TGE",
+          "context": "@Rare_Mattt Influx of unique caches after TGE and open access to the agents, no doubt. \n\nCan’t",
+          "timestamp": 1743666227
+        },
+        {
+          "user_id": 38115087,
+          "original_match": "TGE",
+          "context": "@0x0g4i Should be asking wen ETF instead of wen TGE 😝",
+          "timestamp": 1742195787
+        }
+      ],
+      "total_contexts": 49,
+      "emerging_score": 5,
+      "community_score": 1,
+      "total_score": 173,
+      "score_breakdown": {
+        "base_score": 98,
+        "user_diversity": 40,
+        "emerging_bonus": 30,
+        "community_bonus": 5
+      }
+    },
+    "aixbt_agent": {
+      "mention_count": 46,
+      "unique_users": 10,
+      "contexts": [
+        {
+          "user_id": 1328686769508732929,
+          "original_match": "@aixbt_agent",
+          "context": "HelloLydia13 @SEFATUBA3 @HM010169 @silverfang88 😭 @aixbt_agent 什么原因？",
+          "timestamp": 1743432556
+        },
+        {
+          "user_id": 1328686769508732929,
+          "original_match": "@aixbt_agent",
+          "context": "@aixbt_agent @phill76815 @base @KaitoAI @0G_labs @SuccinctLabs",
+          "timestamp": 1743345191
+        },
+        {
+          "user_id": 1328686769508732929,
+          "original_match": "@aixbt_agent",
+          "context": "@Web3zy8 @SuccinctLabs @aixbt_agent @KaitoAI 1🌟5u现在玩还来得及吗",
+          "timestamp": 1742309625
+        },
+        {
+          "user_id": 1328686769508732929,
+          "original_match": "@aixbt_agent",
+          "context": "@NFTMILK @monad_xyz @monadscores_xyz @aixbt_agent @AlvaApp @soon_svm monad感觉已经被工作室卷麻了",
+          "timestamp": 1743351357
+        },
+        {
+          "user_id": 1438989380945854465,
+          "original_match": "@aixbt_agent",
+          "context": "RT @aixbt_agent: @greedfi @FrothlessPlease the original knuckles",
+          "timestamp": 1742822133
+        }
+      ],
+      "total_contexts": 46,
+      "emerging_score": 7,
+      "community_score": 0,
+      "total_score": 172,
+      "score_breakdown": {
+        "base_score": 92,
+        "user_diversity": 50,
+        "emerging_bonus": 30,
+        "community_bonus": 0
+      }
+    },
+    "usdc": {
+      "mention_count": 38,
+      "unique_users": 15,
+      "contexts": [
+        {
+          "user_id": 1509912900038582272,
+          "original_match": "USDC",
+          "context": "oy Are you running a campaign to go long on USDT, USDC, and BNB?",
+          "timestamp": 1743521453
+        },
+        {
+          "user_id": 1524559440741306368,
+          "original_match": "USDC",
+          "context": "and replied perfectly to me.\n\n$2 swap from ETH to USDC in under 2 minutes and he… https://t.co/l9oHVREui",
+          "timestamp": 1743551078
+        },
+        {
+          "user_id": 801518825690824707,
+          "original_match": "$USDC",
+          "context": "RT @Lorimer_Jenkins: $USDC pool at 99.66% utilisation, we need $USDC lenders",
+          "timestamp": 1744214749
+        },
+        {
+          "user_id": 801518825690824707,
+          "original_match": "$USDC",
+          "context": "RT @Lorimer_Jenkins: $USDC pool at 99.66% utilisation, we need $USDC lenders",
+          "timestamp": 1744214749
+        },
+        {
+          "user_id": 801518825690824707,
+          "original_match": "USDC",
+          "context": "RT @Lorimer_Jenkins: $USDC pool at 99.66% utilisation, we need $USDC lenders",
+          "timestamp": 1744214749
+        }
+      ],
+      "total_contexts": 38,
+      "emerging_score": 3,
+      "community_score": 3,
+      "total_score": 171,
+      "score_breakdown": {
+        "base_score": 76,
+        "user_diversity": 50,
+        "emerging_bonus": 30,
+        "community_bonus": 15
+      }
+    },
+    "arbitrum": {
+      "mention_count": 44,
+      "unique_users": 8,
+      "contexts": [
+        {
+          "user_id": 1448644422380310537,
+          "original_match": "@arbitrum",
+          "context": "@RyskyGeronimo @EntropyAdvisors @arbitrum @Dune Thank you ser! We have a section for estima",
+          "timestamp": 1743081965
+        },
+        {
+          "user_id": 1448644422380310537,
+          "original_match": "@arbitrum",
+          "context": "RT @arbitrum: Teams like @FTDA_US, @Securitize, @DigiFTTech an",
+          "timestamp": 1744650712
+        },
+        {
+          "user_id": 1448644422380310537,
+          "original_match": "@arbitrum",
+          "context": "@buiquangnhat @EntropyAdvisors @arbitrum @GMX_IO @PremiaFinance @Uniswap They are being di",
+          "timestamp": 1743522484
+        },
+        {
+          "user_id": 1448644422380310537,
+          "original_match": "@arbitrum",
+          "context": "@lobbyfinance @EntropyAdvisors @arbitrum @Dune @l2beat @gauntlet_xyz @wintermute_t @blockw",
+          "timestamp": 1744119958
+        },
+        {
+          "user_id": 1448644422380310537,
+          "original_match": "@arbitrum",
+          "context": "RT @EntropyAdvisors: Last week, @arbitrum protocols generated $1.1M in revenue (+93% WoW).",
+          "timestamp": 1744203651
+        }
+      ],
+      "total_contexts": 44,
+      "emerging_score": 4,
+      "community_score": 1,
+      "total_score": 163,
+      "score_breakdown": {
+        "base_score": 88,
+        "user_diversity": 40,
+        "emerging_bonus": 30,
+        "community_bonus": 5
+      }
+    },
+    "og": {
+      "mention_count": 34,
+      "unique_users": 15,
+      "contexts": [
+        {
+          "user_id": 32331693,
+          "original_match": "OG",
+          "context": "t to @roboppio and @0xRyomenSukuna. Airdropped to OG @HypioHL \n\nFortune favors the https://t.co/zuen0c",
+          "timestamp": 1742089294
+        },
+        {
+          "user_id": 1447862012906807296,
+          "original_match": "OG",
+          "context": "@bloodweb3 gm OG",
+          "timestamp": 1743067616
+        },
+        {
+          "user_id": 1447862012906807296,
+          "original_match": "OG",
+          "context": "@bloodweb3 gmgm OG",
+          "timestamp": 1743334184
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "OG",
+          "context": "g the future might look like 🤝\n\nbonglo one of the OG good guys frl 💎",
+          "timestamp": 1743559738
+        },
+        {
+          "user_id": 234848990,
+          "original_match": "OG",
+          "context": "@CryptoBilly111 he looks like such an OG, a true American hero,  God bless your family",
+          "timestamp": 1743640744
+        }
+      ],
+      "total_contexts": 34,
+      "emerging_score": 35,
+      "community_score": 2,
+      "total_score": 158,
+      "score_breakdown": {
+        "base_score": 68,
+        "user_diversity": 50,
+        "emerging_bonus": 30,
+        "community_bonus": 10
+      }
+    },
+    "starlordyftw": {
+      "mention_count": 49,
+      "unique_users": 4,
+      "contexts": [
+        {
+          "user_id": 1490626149629980673,
+          "original_match": "@starlordyftw",
+          "context": "@guccheetah @starlordyftw @0n1Force @BoredApeYC the world is def in order",
+          "timestamp": 1743467688
+        },
+        {
+          "user_id": 1490626149629980673,
+          "original_match": "@starlordyftw",
+          "context": "RT @davekebo: @maccurated @starlordyftw @0n1Force Nauts love 0N1. Starlordy is one of the",
+          "timestamp": 1742696715
+        },
+        {
+          "user_id": 1490626149629980673,
+          "original_match": "@starlordyftw",
+          "context": "one of the most goated founders in in the space. \n@starlordyftw truly gives a fuck about everything he does and e",
+          "timestamp": 1742701441
+        },
+        {
+          "user_id": 1490626149629980673,
+          "original_match": "@starlordyftw",
+          "context": "@starlordyftw @jahshaka0x 😮‍💨",
+          "timestamp": 1744235267
+        },
+        {
+          "user_id": 1490626149629980673,
+          "original_match": "@starlordyftw",
+          "context": "@Tocelot @starlordyftw @speedrun @0n1Force allow me. \n🤫 we are early.",
+          "timestamp": 1743636062
+        }
+      ],
+      "total_contexts": 49,
+      "emerging_score": 6,
+      "community_score": 2,
+      "total_score": 158,
+      "score_breakdown": {
+        "base_score": 98,
+        "user_diversity": 20,
+        "emerging_bonus": 30,
+        "community_bonus": 10
+      }
+    },
+    "to": {
+      "mention_count": 38,
+      "unique_users": 20,
+      "contexts": [
+        {
+          "user_id": 234848990,
+          "original_match": "TO",
+          "context": "HUGE NEWS \n\n🇯🇵 JAPAN TO GIVE CRYPTO ASSETS\nLEGAL STATUS AS FINANCIAL PROD",
+          "timestamp": 1743336271
+        },
+        {
+          "user_id": 1490626149629980673,
+          "original_match": "@TO",
+          "context": "RT @TO: Make\n\nBitcoin\n\nOrdinals\n\nFun\n\nAgain https://t.co",
+          "timestamp": 1743550241
+        },
+        {
+          "user_id": 1490626149629980673,
+          "original_match": "TO",
+          "context": "RT @TO: Make\n\nBitcoin\n\nOrdinals\n\nFun\n\nAgain https://t.co",
+          "timestamp": 1743550241
+        },
+        {
+          "user_id": 1447862012906807296,
+          "original_match": "TO",
+          "context": "COPPED A LIL BAG HAVE SEEN DEV SLOW COOK PROJECTS TO MILLIONS\n\nGET IN BEFORE IT’S TOO LATE! 🚀\n\nGz6oYXK",
+          "timestamp": 1743117254
+        },
+        {
+          "user_id": 99184295,
+          "original_match": "TO",
+          "context": "RT @Arcane_Crypto_: ONE HOUSE SHOULD BE EQUAL TO ONE $HOUSE\n\nTHIS ONE UNDERVALUED AS HELL\n\nGO GET",
+          "timestamp": 1743626219
+        }
+      ],
+      "total_contexts": 38,
+      "emerging_score": 3,
+      "community_score": 0,
+      "total_score": 156,
+      "score_breakdown": {
+        "base_score": 76,
+        "user_diversity": 50,
+        "emerging_bonus": 30,
+        "community_bonus": 0
+      }
+    },
+    "waleswoosh": {
+      "mention_count": 44,
+      "unique_users": 9,
+      "contexts": [
+        {
+          "user_id": 946430947662086144,
+          "original_match": "@waleswoosh",
+          "context": "@waleswoosh We are so back 😍",
+          "timestamp": 1742826378
+        },
+        {
+          "user_id": 99184295,
+          "original_match": "@waleswoosh",
+          "context": "@deepname99 @waleswoosh @Azuki do it for tedism",
+          "timestamp": 1742008939
+        },
+        {
+          "user_id": 946430947662086144,
+          "original_match": "@waleswoosh",
+          "context": "@waleswoosh Gm Wale, have a blessed day!",
+          "timestamp": 1742375052
+        },
+        {
+          "user_id": 946430947662086144,
+          "original_match": "@waleswoosh",
+          "context": "@waleswoosh Omg 😨",
+          "timestamp": 1743962736
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@waleswoosh",
+          "context": "@waleswoosh gm fam ☀️",
+          "timestamp": 1742627206
+        }
+      ],
+      "total_contexts": 44,
+      "emerging_score": 2,
+      "community_score": 0,
+      "total_score": 153,
+      "score_breakdown": {
+        "base_score": 88,
+        "user_diversity": 45,
+        "emerging_bonus": 20,
+        "community_bonus": 0
+      }
+    },
+    "on": {
+      "mention_count": 33,
+      "unique_users": 17,
+      "contexts": [
+        {
+          "user_id": 1613350207336464384,
+          "original_match": "ON",
+          "context": "RT @eitzisart: HOLD ON\nstill available for nearly nothing 🤯🔥 https://t.c",
+          "timestamp": 1742421296
+        },
+        {
+          "user_id": 1401592429938196480,
+          "original_match": "ON",
+          "context": "⚔️THE PVP MODE HAS ARRIVED ON VICTION VERSION ⚔️\n\nWelcome to the First Battle P",
+          "timestamp": 1742966816
+        },
+        {
+          "user_id": 801518825690824707,
+          "original_match": "ON",
+          "context": "ilding AO itself. Not necessarily anyone building ON AO. That list is called the PEDG and is mentioned",
+          "timestamp": 1743177437
+        },
+        {
+          "user_id": 945435420984336384,
+          "original_match": "ON",
+          "context": "WE DID IT BABY ON FUCKIN STREAMMMMMMMMM https://t.co/1Lel5SrL1j",
+          "timestamp": 1744313281
+        },
+        {
+          "user_id": 1513207803615141889,
+          "original_match": "ON",
+          "context": "IN 2 DAYS ON APRIL 9TH WED. NOON PST (19:00 UTC) \n\n@endless_ma",
+          "timestamp": 1744077899
+        }
+      ],
+      "total_contexts": 33,
+      "emerging_score": 5,
+      "community_score": 1,
+      "total_score": 151,
+      "score_breakdown": {
+        "base_score": 66,
+        "user_diversity": 50,
+        "emerging_bonus": 30,
+        "community_bonus": 5
+      }
+    },
+    "usd": {
+      "mention_count": 38,
+      "unique_users": 10,
+      "contexts": [
+        {
+          "user_id": 1448644422380310537,
+          "original_match": "USD",
+          "context": "BUSD was once the 3rd largest stablecoin by market cap",
+          "timestamp": 1742730882
+        },
+        {
+          "user_id": 802898471544090624,
+          "original_match": "USD",
+          "context": "Bot: Gutter Cat #1623 bought for 0.21 ETH (392.63 USD) on Opensea  #GutterCatGang #GCG  \n\nhttps://t.co/",
+          "timestamp": 1743464419
+        },
+        {
+          "user_id": 54573794,
+          "original_match": "USD",
+          "context": ": Punk 4668 has a new bid of 150 ETH ($286,321.51 USD) placed by 0x539c86. https://t.co/5PKa9gJa94 #cry",
+          "timestamp": 1743668093
+        },
+        {
+          "user_id": 1305859724802482178,
+          "original_match": "USD",
+          "context": "in)\n\n2. Tariffs remain, slowing growth globally, USD tanks as do yields around the world (deflation fr",
+          "timestamp": 1743699050
+        },
+        {
+          "user_id": 1305859724802482178,
+          "original_match": "USD",
+          "context": "hey hold - it will all be abstracted away as just USD\n\nCoinbase imo might as well have the thing under",
+          "timestamp": 1743871823
+        }
+      ],
+      "total_contexts": 38,
+      "emerging_score": 2,
+      "community_score": 0,
+      "total_score": 146,
+      "score_breakdown": {
+        "base_score": 76,
+        "user_diversity": 50,
+        "emerging_bonus": 20,
+        "community_bonus": 0
+      }
+    },
+    "house": {
+      "mention_count": 47,
+      "unique_users": 4,
+      "contexts": [
+        {
+          "user_id": 99184295,
+          "original_match": "$HOUSE",
+          "context": "@Arcane_Crypto_: ONE HOUSE SHOULD BE EQUAL TO ONE $HOUSE\n\nTHIS ONE UNDERVALUED AS HELL\n\nGO GET THAT MF FLY",
+          "timestamp": 1743626219
+        },
+        {
+          "user_id": 99184295,
+          "original_match": "HOUSE",
+          "context": "RT @Arcane_Crypto_: ONE HOUSE SHOULD BE EQUAL TO ONE $HOUSE\n\nTHIS ONE UNDERVALU",
+          "timestamp": 1743626219
+        },
+        {
+          "user_id": 99184295,
+          "original_match": "HOUSE",
+          "context": "RT @Arcane_Crypto_: ONE HOUSE SHOULD BE EQUAL TO ONE $HOUSE\n\nTHIS ONE UNDERVALU",
+          "timestamp": 1743626219
+        },
+        {
+          "user_id": 99184295,
+          "original_match": "$house",
+          "context": "1 house = 1 housecoin\n$house https://t.co/ilJGvJ9JwZ",
+          "timestamp": 1743750236
+        },
+        {
+          "user_id": 99184295,
+          "original_match": "$house",
+          "context": "Great Thesis for Housecoin.\n\nThe $house has no ceilings.",
+          "timestamp": 1743794681
+        }
+      ],
+      "total_contexts": 47,
+      "emerging_score": 3,
+      "community_score": 0,
+      "total_score": 144,
+      "score_breakdown": {
+        "base_score": 94,
+        "user_diversity": 20,
+        "emerging_bonus": 30,
+        "community_bonus": 0
+      }
+    },
+    "litecoin": {
+      "mention_count": 49,
+      "unique_users": 3,
+      "contexts": [
+        {
+          "user_id": 2338506822,
+          "original_match": "@litecoin",
+          "context": "@ZimriRosas @litecoin Just the best!",
+          "timestamp": 1743529913
+        },
+        {
+          "user_id": 2338506822,
+          "original_match": "@litecoin",
+          "context": "AY at 5pm UTC! 🚨\n\nEpisode 2 of Crypto Quorum with @litecoin dives into Stablecoins: Are they the future of di",
+          "timestamp": 1744679420
+        },
+        {
+          "user_id": 2338506822,
+          "original_match": "@litecoin",
+          "context": "@LayerOneX @litecoin @TheDesertLynx Happy to have you!",
+          "timestamp": 1744641758
+        },
+        {
+          "user_id": 2338506822,
+          "original_match": "@litecoin",
+          "context": "@thefloattankguy @litecoin MCCA",
+          "timestamp": 1743537479
+        },
+        {
+          "user_id": 2338506822,
+          "original_match": "@litecoin",
+          "context": "G NEWS! 📢\n\nWe're teaming up with our best buddies @litecoin to launch a new weekly show here on X🤝🎙️\n\nThe Cry",
+          "timestamp": 1743559666
+        }
+      ],
+      "total_contexts": 49,
+      "emerging_score": 5,
+      "community_score": 0,
+      "total_score": 143,
+      "score_breakdown": {
+        "base_score": 98,
+        "user_diversity": 15,
+        "emerging_bonus": 30,
+        "community_bonus": 0
+      }
+    },
+    "okxchinese": {
+      "mention_count": 49,
+      "unique_users": 5,
+      "contexts": [
+        {
+          "user_id": 1509912900038582272,
+          "original_match": "@okxchinese",
+          "context": "@littlelanbo @okxchinese @btc_cai 感谢公主翻牌",
+          "timestamp": 1742234762
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@okxchinese",
+          "context": "@okxchinese gm 🌇",
+          "timestamp": 1742095066
+        },
+        {
+          "user_id": 1509912900038582272,
+          "original_match": "@okxchinese",
+          "context": "@Builder3org @okxchinese @btc_cai 这个不是技术流啊，说白了就是找一个便宜的渠道加钱卖出去",
+          "timestamp": 1742201715
+        },
+        {
+          "user_id": 1328686769508732929,
+          "original_match": "@okxchinese",
+          "context": "@Crypto0xHelen @Mercy_okx @Evelyn_okx @okxchinese 是的兄弟！",
+          "timestamp": 1743648941
+        },
+        {
+          "user_id": 1480504526369345539,
+          "original_match": "@okxchinese",
+          "context": "@okxchinese gmmm~",
+          "timestamp": 1743729002
+        }
+      ],
+      "total_contexts": 49,
+      "emerging_score": 2,
+      "community_score": 0,
+      "total_score": 143,
+      "score_breakdown": {
+        "base_score": 98,
+        "user_diversity": 25,
+        "emerging_bonus": 20,
+        "community_bonus": 0
+      }
+    },
+    "ct": {
+      "mention_count": 26,
+      "unique_users": 17,
+      "contexts": [
+        {
+          "user_id": 32331693,
+          "original_match": "CT",
+          "context": "RT @goldensuspended: List of accounts on CT I find credible:\n(Non-exhaustive and in no order)",
+          "timestamp": 1744500715
+        },
+        {
+          "user_id": 2328641624,
+          "original_match": "CT",
+          "context": "y introverted to like technology and to daily use CT. \n\nI do hate when people can’t read the room and",
+          "timestamp": 1743543580
+        },
+        {
+          "user_id": 1524559440741306368,
+          "original_match": "CT",
+          "context": "Why is @AIWayfinder taking CT by storm? Info in the post below 👇",
+          "timestamp": 1743184750
+        },
+        {
+          "user_id": 20872437,
+          "original_match": "CT",
+          "context": "RT @decentricity: (CT MARKET PARTICIPANTS ONLY)\nru a:",
+          "timestamp": 1742155857
+        },
+        {
+          "user_id": 1448644422380310537,
+          "original_match": "CT",
+          "context": "i: GM.\n\nMade a list of the top 50 most insightful CT that I read and learn daily. \n\nThe list included",
+          "timestamp": 1742291539
+        }
+      ],
+      "total_contexts": 26,
+      "emerging_score": 3,
+      "community_score": 2,
+      "total_score": 142,
+      "score_breakdown": {
+        "base_score": 52,
+        "user_diversity": 50,
+        "emerging_bonus": 30,
+        "community_bonus": 10
+      }
+    },
+    "sama": {
+      "mention_count": 40,
+      "unique_users": 6,
+      "contexts": [
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@sama",
+          "context": "@sama Use ChatGPT 🫵",
+          "timestamp": 1744671427
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@sama",
+          "context": "@MyCryptoAdvent8 @sama famous painting IYKYK 👀",
+          "timestamp": 1743312817
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@sama",
+          "context": "@sama Onboard the world to AI 2025-26",
+          "timestamp": 1743606881
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@sama",
+          "context": "@sama team goated",
+          "timestamp": 1743722166
+        },
+        {
+          "user_id": 796375237763993600,
+          "original_match": "@sama",
+          "context": "@sama, just FYI, your profile picture is in violation o",
+          "timestamp": 1743167225
+        }
+      ],
+      "total_contexts": 40,
+      "emerging_score": 3,
+      "community_score": 0,
+      "total_score": 140,
+      "score_breakdown": {
+        "base_score": 80,
+        "user_diversity": 30,
+        "emerging_bonus": 30,
+        "community_bonus": 0
+      }
+    },
+    "slingdeez": {
+      "mention_count": 37,
+      "unique_users": 7,
+      "contexts": [
+        {
+          "user_id": 1453982860663087107,
+          "original_match": "@slingdeez",
+          "context": "@slingdeez Hi",
+          "timestamp": 1742231370
+        },
+        {
+          "user_id": 1438989380945854465,
+          "original_match": "@slingdeez",
+          "context": "@slingdeez I have been bull posting the same ticker for mont",
+          "timestamp": 1743261349
+        },
+        {
+          "user_id": 99184295,
+          "original_match": "@slingdeez",
+          "context": "@slingdeez Easy: #housecoin .\n\nu can even buy some with #Far",
+          "timestamp": 1743872802
+        },
+        {
+          "user_id": 1453982860663087107,
+          "original_match": "@slingdeez",
+          "context": "@slingdeez @MadStonedMonkey Ah you making very good investme",
+          "timestamp": 1744418283
+        },
+        {
+          "user_id": 766578266,
+          "original_match": "@slingdeez",
+          "context": "RT @slingdeez: the reasons ppl should practice round tripping p",
+          "timestamp": 1743460064
+        }
+      ],
+      "total_contexts": 37,
+      "emerging_score": 3,
+      "community_score": 0,
+      "total_score": 139,
+      "score_breakdown": {
+        "base_score": 74,
+        "user_diversity": 35,
+        "emerging_bonus": 30,
+        "community_bonus": 0
+      }
+    },
+    "magiceden": {
+      "mention_count": 34,
+      "unique_users": 10,
+      "contexts": [
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@MagicEden",
+          "context": "@SlingshotCrypto @MagicEden should be a fun summer 👀 https://t.co/FHcIgg9Kwk",
+          "timestamp": 1744238151
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "MagicEden",
+          "context": "@SlingshotCrypto @MagicEden should be a fun summer 👀 https://t.co/FHcIgg9Kwk",
+          "timestamp": 1744238151
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "@MagicEden",
+          "context": "@MagicEden Happy birthday sol fam 🎂",
+          "timestamp": 1742163862
+        },
+        {
+          "user_id": 1101723347249963008,
+          "original_match": "MagicEden",
+          "context": "@MagicEden Happy birthday sol fam 🎂",
+          "timestamp": 1742163862
+        },
+        {
+          "user_id": 1524559440741306368,
+          "original_match": "@MagicEden",
+          "context": "@noahmajor1776 @bearish_af @MagicEden @AbstractChain @Abstract_Eco @LucaNetz @tolibear_",
+          "timestamp": 1743367818
+        }
+      ],
+      "total_contexts": 34,
+      "emerging_score": 2,
+      "community_score": 0,
+      "total_score": 138,
+      "score_breakdown": {
+        "base_score": 68,
+        "user_diversity": 50,
+        "emerging_bonus": 20,
+        "community_bonus": 0
+      }
+    }
+  },
+  "summary": {
+    "total_projects": 20,
+    "detection_method": "挖掘还没火的meme币",
+    "focus": "具体项目名称而非分析指标"
+  }
+}

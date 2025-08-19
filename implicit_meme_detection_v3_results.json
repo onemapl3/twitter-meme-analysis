@@ -1,0 +1,106 @@
+{
+  "detection_timestamp": "2025-08-19T23:39:58.561176",
+  "potential_memes": {
+    "prompt": {
+      "mention_count": 75,
+      "unique_users": 4,
+      "contexts": [
+        {
+          "user_id": 1524559440741306368,
+          "full_match": "$PROMPT",
+          "context": "@0xjaypeg $PROMPT is the ticker",
+          "timestamp": 1742847431
+        },
+        {
+          "user_id": 1524559440741306368,
+          "full_match": "$PROMPT",
+          "context": "@AIWayfinder just got even juicier!\n\nInitially 0.25% of the $PROMPT allocation is now doubled to 0.5%\n\nCache you…",
+          "timestamp": 1743454052
+        },
+        {
+          "user_id": 1524559440741306368,
+          "full_match": "$PROMPT",
+          "context": "one is just starting their @AIWayfinder journey!\n\n$PRIME // $PROMPT",
+          "timestamp": 1742862647
+        },
+        {
+          "user_id": 1524559440741306368,
+          "full_match": "$PROMPT",
+          "context": "@EtanBoss @AIWayfinder yessir $PROMPT TGE confirmed for april.",
+          "timestamp": 1743468467
+        },
+        {
+          "user_id": 1524559440741306368,
+          "full_match": "$PROMPT",
+          "context": "allel and their place in the ecosystem going forward. Extra $PROMPT will be kept safe and used as collateral for me",
+          "timestamp": 1743668269
+        }
+      ],
+      "total_contexts": 75,
+      "meme_score": 7,
+      "community_score": 8,
+      "context_quality": 10,
+      "total_score": 220,
+      "score_breakdown": {
+        "base_score": 100,
+        "user_diversity": 20,
+        "meme_feature": 45,
+        "community_feature": 30,
+        "context_quality": 25
+      }
+    },
+    "house": {
+      "mention_count": 34,
+      "unique_users": 3,
+      "contexts": [
+        {
+          "user_id": 99184295,
+          "full_match": "$HOUSE",
+          "context": "RT @Arcane_Crypto_: ONE HOUSE SHOULD BE EQUAL TO ONE $HOUSE\n\nTHIS ONE UNDERVALUED AS HELL\n\nGO GET THAT MF FLYING OVER",
+          "timestamp": 1743626219
+        },
+        {
+          "user_id": 99184295,
+          "full_match": "$house",
+          "context": "1 house = 1 housecoin\n$house https://t.co/ilJGvJ9JwZ",
+          "timestamp": 1743750236
+        },
+        {
+          "user_id": 99184295,
+          "full_match": "$house",
+          "context": "Great Thesis for Housecoin.\n\nThe $house has no ceilings.",
+          "timestamp": 1743794681
+        },
+        {
+          "user_id": 99184295,
+          "full_match": "$house",
+          "context": "Estate Agent (real)\n$house https://t.co/b9N3UbmGq5",
+          "timestamp": 1743831446
+        },
+        {
+          "user_id": 99184295,
+          "full_match": "$house",
+          "context": "the great long\n🏡\n$house",
+          "timestamp": 1744335745
+        }
+      ],
+      "total_contexts": 34,
+      "meme_score": 2,
+      "community_score": 0,
+      "context_quality": 7,
+      "total_score": 138,
+      "score_breakdown": {
+        "base_score": 68,
+        "user_diversity": 15,
+        "meme_feature": 30,
+        "community_feature": 0,
+        "context_quality": 25
+      }
+    }
+  },
+  "summary": {
+    "total_projects": 2,
+    "detection_method": "带$符号的meme币识别",
+    "focus": "真正的meme币项目，过滤通用词汇和公司名"
+  }
+}
