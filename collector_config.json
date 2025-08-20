@@ -1,0 +1,47 @@
+{
+  "environment": "development",
+  "database": {
+    "type": "postgresql",
+    "host": "localhost",
+    "port": 5432,
+    "database": "twitter_meme_data",
+    "user": "twitter_user",
+    "password": "twitter_password",
+    "pool_size": 5,
+    "max_overflow": 10
+  },
+  "twitter_api": {
+    "bearer_token": "YOUR_BEARER_TOKEN_HERE",
+    "base_url": "https://api.twitter.com/2",
+    "rate_limit": 450,
+    "rate_limit_window": 900,
+    "retry_attempts": 3,
+    "retry_delay": 60
+  },
+  "collection": {
+    "max_tweets_per_run": 5000,
+    "max_users_per_run": 200,
+    "time_window_hours": 24,
+    "kol_priority": true,
+    "meme_keywords": [
+      "doge", "shib", "pepe", "moon", "pump", "fomo", 
+      "elon", "crypto", "nft", "defi", "meme", "coin"
+    ],
+    "kol_users": [
+      "elonmusk", "cz_binance", "SBF_FTX", "VitalikButerin",
+      "michael_saylor", "jack", "saylor", "rogerkver"
+    ]
+  },
+  "analysis": {
+    "update_frequency_hours": 6,
+    "min_meme_score": 20,
+    "top_meme_count": 50,
+    "batch_size": 1000
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "twitter_collector.log",
+    "max_size_mb": 10,
+    "backup_count": 5
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "export_timestamp": "2025-08-20T23:42:33.003927",
+  "tweets": [
+    {
+      "tweet_id": "kol_001_0_1755704553",
+      "text": "这是用户 kol_001 关于 #meme #doge 的推文",
+      "user_id": "kol_001",
+      "hashtags": [
+        "meme",
+        "doge",
+        "crypto"
+      ]
+    },
+    {
+      "tweet_id": "kol_001_1_1755704553",
+      "text": "用户 kol_001 分享了一个有趣的 #pepe 项目",
+      "user_id": "kol_001",
+      "hashtags": [
+        "pepe",
+        "project"
+      ]
+    },
+    {
+      "tweet_id": "kol_001_2_1755704553",
+      "text": "用户 kol_001 的推文，包含 #moon 和 #pump",
+      "user_id": "kol_001",
+      "hashtags": [
+        "moon",
+        "pump"
+      ]
+    },
+    {
+      "tweet_id": "kol_002_0_1755704553",
+      "text": "这是用户 kol_002 关于 #meme #doge 的推文",
+      "user_id": "kol_002",
+      "hashtags": [
+        "meme",
+        "doge",
+        "crypto"
+      ]
+    },
+    {
+      "tweet_id": "kol_002_1_1755704553",
+      "text": "用户 kol_002 分享了一个有趣的 #pepe 项目",
+      "user_id": "kol_002",
+      "hashtags": [
+        "pepe",
+        "project"
+      ]
+    },
+    {
+      "tweet_id": "kol_002_2_1755704553",
+      "text": "用户 kol_002 的推文，包含 #moon 和 #pump",
+      "user_id": "kol_002",
+      "hashtags": [
+        "moon",
+        "pump"
+      ]
+    },
+    {
+      "tweet_id": "kol_003_0_1755704553",
+      "text": "这是用户 kol_003 关于 #meme #doge 的推文",
+      "user_id": "kol_003",
+      "hashtags": [
+        "meme",
+        "doge",
+        "crypto"
+      ]
+    },
+    {
+      "tweet_id": "kol_003_1_1755704553",
+      "text": "用户 kol_003 分享了一个有趣的 #pepe 项目",
+      "user_id": "kol_003",
+      "hashtags": [
+        "pepe",
+        "project"
+      ]
+    },
+    {
+      "tweet_id": "kol_003_2_1755704553",
+      "text": "用户 kol_003 的推文，包含 #moon 和 #pump",
+      "user_id": "kol_003",
+      "hashtags": [
+        "moon",
+        "pump"
+      ]
+    },
+    {
+      "tweet_id": "kol_004_0_1755704553",
+      "text": "这是用户 kol_004 关于 #meme #doge 的推文",
+      "user_id": "kol_004",
+      "hashtags": [
+        "meme",
+        "doge",
+        "crypto"
+      ]
+    },
+    {
+      "tweet_id": "kol_004_1_1755704553",
+      "text": "用户 kol_004 分享了一个有趣的 #pepe 项目",
+      "user_id": "kol_004",
+      "hashtags": [
+        "pepe",
+        "project"
+      ]
+    },
+    {
+      "tweet_id": "kol_004_2_1755704553",
+      "text": "用户 kol_004 的推文，包含 #moon 和 #pump",
+      "user_id": "kol_004",
+      "hashtags": [
+        "moon",
+        "pump"
+      ]
+    },
+    {
+      "tweet_id": "kol_005_0_1755704553",
+      "text": "这是用户 kol_005 关于 #meme #doge 的推文",
+      "user_id": "kol_005",
+      "hashtags": [
+        "meme",
+        "doge",
+        "crypto"
+      ]
+    },
+    {
+      "tweet_id": "kol_005_1_1755704553",
+      "text": "用户 kol_005 分享了一个有趣的 #pepe 项目",
+      "user_id": "kol_005",
+      "hashtags": [
+        "pepe",
+        "project"
+      ]
+    },
+    {
+      "tweet_id": "kol_005_2_1755704553",
+      "text": "用户 kol_005 的推文，包含 #moon 和 #pump",
+      "user_id": "kol_005",
+      "hashtags": [
+        "moon",
+        "pump"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "user_id": "kol_001",
+      "username": "user_kol_001",
+      "is_kol": true,
+      "kol_score": 77.0,
+      "kol_tier": "Tier 2"
+    },
+    {
+      "user_id": "kol_002",
+      "username": "user_kol_002",
+      "is_kol": true,
+      "kol_score": 98.0,
+      "kol_tier": "Tier 1"
+    },
+    {
+      "user_id": "kol_003",
+      "username": "user_kol_003",
+      "is_kol": true,
+      "kol_score": 97.0,
+      "kol_tier": "Tier 2"
+    },
+    {
+      "user_id": "kol_004",
+      "username": "user_kol_004",
+      "is_kol": true,
+      "kol_score": 78.0,
+      "kol_tier": "Tier 3"
+    },
+    {
+      "user_id": "kol_005",
+      "username": "user_kol_005",
+      "is_kol": true,
+      "kol_score": 87.0,
+      "kol_tier": "Tier 4"
+    }
+  ]
+}

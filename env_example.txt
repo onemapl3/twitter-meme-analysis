@@ -1,0 +1,13 @@
+# Twitter API配置
+TWITTER_BEARER_TOKEN=your_bearer_token_here
+
+# 数据库配置
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=twitter_meme_data
+DB_USER=twitter_user
+DB_PASSWORD=twitter_password
+
+# 系统配置
+ENVIRONMENT=development
+LOG_LEVEL=INFO
