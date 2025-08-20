@@ -39,7 +39,8 @@ class KOLVisualization:
             print("✓ 加载KOL分析结果")
             
             # 加载KOL增强档案
-            with open('enhanced_kol_profiles.json', 'r', encoding='utf-8') as f:
+            from config.paths import KOL_PROFILES_FILE
+            with open(KOL_PROFILES_FILE, 'r', encoding='utf-8') as f:
                 self.enhanced_profiles = json.load(f)
             print("✓ 加载KOL增强档案")
             

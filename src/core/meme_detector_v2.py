@@ -296,7 +296,8 @@ def main():
     
     try:
         # 1. 加载数据
-        detector.load_data('sample_tweets.csv')
+        from config.paths import TWEETS_FILE
+        detector.load_data(str(TWEETS_FILE))
         
         # 2. 检测Meme
         detected_memes = detector.detect_memes()

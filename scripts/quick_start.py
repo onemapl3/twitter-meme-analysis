@@ -111,9 +111,9 @@ class QuickStart:
         self.print_step("检查数据文件")
         
         data_files = [
-            'sample_tweets.csv',
-            'sample_followings.csv',
-            'enhanced_kol_profiles.json'
+            'data/raw/sample_tweets.csv',
+            'data/raw/sample_followings.csv',
+            'data/processed/enhanced_kol_profiles.json'
         ]
         
         missing_files = []

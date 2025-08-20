@@ -39,14 +39,16 @@ class MemeDataService:
                 logger.info("✓ 加载meme数据成功")
             
             # 加载KOL数据
-            if os.path.exists('kol_analysis_results.json'):
-                with open('kol_analysis_results.json', 'r', encoding='utf-8') as f:
+            from config.paths import KOL_ANALYSIS_FILE
+            if os.path.exists(KOL_ANALYSIS_FILE):
+                with open(KOL_ANALYSIS_FILE, 'r', encoding='utf-8') as f:
                     self.data_cache['kol_data'] = json.load(f)
                 logger.info("✓ 加载KOL数据成功")
             
             # 加载KOL增强档案
-            if os.path.exists('enhanced_kol_profiles.json'):
-                with open('enhanced_kol_profiles.json', 'r', encoding='utf-8') as f:
+            from config.paths import KOL_PROFILES_FILE
+            if os.path.exists(KOL_PROFILES_FILE):
+                with open(KOL_PROFILES_FILE, 'r', encoding='utf-8') as f:
                     self.data_cache['kol_profiles'] = json.load(f)
                 logger.info("✓ 加载KOL档案成功")
             

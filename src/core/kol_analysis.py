@@ -593,7 +593,8 @@ def main():
     
     try:
         # 1. 数据加载阶段
-        analyzer.load_data('sample_tweets.csv', 'sample_followings.csv')
+        from config.paths import TWEETS_FILE, FOLLOWINGS_FILE
+        analyzer.load_data(str(TWEETS_FILE), str(FOLLOWINGS_FILE))
         
         # 2. Mock数据生成阶段
         analyzer.generate_mock_kol_data()

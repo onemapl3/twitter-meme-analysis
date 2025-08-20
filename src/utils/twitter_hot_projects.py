@@ -33,8 +33,8 @@ logger = logging.getLogger(__name__)
 
 # 配置参数
 CONFIG = {
-    'tweets_file': 'sample_tweets.csv',
-    'followings_file': 'sample_followings.csv',
+    'tweets_file': 'data/raw/sample_tweets.csv',
+    'followings_file': 'data/raw/sample_followings.csv',
     'min_mentions': 5,
     'min_engagement': 10,
     'min_score': 20,

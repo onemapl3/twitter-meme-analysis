@@ -91,7 +91,8 @@ class DataPipelineIntegrator:
         
         try:
             # 读取CSV文件
-            tweets_df = pd.read_csv('sample_tweets.csv')
+            from config.paths import TWEETS_FILE
+            tweets_df = pd.read_csv(TWEETS_FILE)
             print(f"    读取到 {len(tweets_df)} 条推文")
             
             cursor = self.db_conn.cursor()
@@ -168,7 +169,8 @@ class DataPipelineIntegrator:
         
         try:
             # 读取CSV文件
-            followings_df = pd.read_csv('sample_followings.csv')
+            from config.paths import FOLLOWINGS_FILE
+            followings_df = pd.read_csv(FOLLOWINGS_FILE)
             print(f"    读取到 {len(followings_df)} 条用户关系")
             
             cursor = self.db_conn.cursor()
@@ -224,7 +226,8 @@ class DataPipelineIntegrator:
         
         try:
             # 读取JSON文件
-            with open('enhanced_kol_profiles.json', 'r', encoding='utf-8') as f:
+            from config.paths import KOL_PROFILES_FILE
+            with open(KOL_PROFILES_FILE, 'r', encoding='utf-8') as f:
                 kol_data = json.load(f)
             
             if 'kol_profiles' not in kol_data:

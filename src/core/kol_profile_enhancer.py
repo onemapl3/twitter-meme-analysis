@@ -424,8 +424,10 @@ def main():
         
         # 加载数据
         print("加载数据...")
-        tweets_df = pd.read_csv('sample_tweets.csv')
-        followings_df = pd.read_csv('sample_followings.csv')
+        from config.paths import TWEETS_FILE
+        tweets_df = pd.read_csv(TWEETS_FILE)
+        from config.paths import FOLLOWINGS_FILE
+        followings_df = pd.read_csv(FOLLOWINGS_FILE)
         
         # 数据预处理
         tweets_df['created_at'] = pd.to_datetime(tweets_df['created_at'], unit='s')
