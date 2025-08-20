@@ -461,7 +461,14 @@
         // 加载Meme币列表
         async function loadMemes() {
             try {
-                const response = await fetch(`/api/memes?limit=${currentLimit}&offset=${currentPage * currentLimit}&category=${currentCategory}&sort_by=${currentSortBy}`);
+                // 构建API URL，处理空分类参数
+                let url = `/api/memes?limit=${currentLimit}&offset=${currentPage * currentLimit}&sort_by=${currentSortBy}`;
+                if (currentCategory && currentCategory.trim() !== '') {
+                    url += `&category=${currentCategory}`;
+                }
+                
+                console.log('请求URL:', url);
+                const response = await fetch(url);
                 const data = await response.json();
                 
                 if (data.error) {
@@ -473,18 +480,23 @@
                 displayMemes();
                 displayPagination(data.pagination);
                 
-                // 创建所有图表
-                createScoreChart(allMemes);
-                createTopMemesChart(allMemes);
-                createEngagementChart(allMemes);
-                createRadarChart(allMemes);
-                createDetectionTypeChart(allMemes);
-                createTrendChart(allMemes);
-                createTimelineChart(allMemes);
+                // 创建图表（添加错误处理）
+                try {
+                    createScoreChart(allMemes);
+                    createTopMemesChart(allMemes);
+                    createEngagementChart(allMemes);
+                    createRadarChart(allMemes);
+                    createDetectionTypeChart(allMemes);
+                    createTrendChart(allMemes);
+                    createTimelineChart(allMemes);
+                } catch (chartError) {
+                    console.warn('部分图表创建失败:', chartError);
+                    // 图表创建失败不影响主要功能
+                }
                 
             } catch (error) {
                 console.error('加载Meme币列表失败:', error);
-                showError('加载Meme币列表失败');
+                showError(`加载Meme币列表失败: ${error.message}`);
             }
         }
 
@@ -625,6 +637,13 @@
             currentSortBy = document.getElementById('sort-filter').value;
             currentLimit = parseInt(document.getElementById('limit-filter').value);
             currentPage = 0;
+            
+            console.log('应用筛选:', {
+                category: currentCategory,
+                sortBy: currentSortBy,
+                limit: currentLimit,
+                page: currentPage
+            });
             
             loadMemes();
         }

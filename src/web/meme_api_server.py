@@ -33,12 +33,17 @@ class MemeDataService:
         """加载所有数据文件"""
         try:
             # 加载增强版meme数据
-            if os.path.exists('enhanced_meme_detection_results.json'):
-                with open('enhanced_meme_detection_results.json', 'r', encoding='utf-8') as f:
+            import sys
+            sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
+            from config.paths import MEME_DETECTION_FILE
+            if os.path.exists(MEME_DETECTION_FILE):
+                with open(MEME_DETECTION_FILE, 'r', encoding='utf-8') as f:
                     self.data_cache['meme_data'] = json.load(f)
                 logger.info("✓ 加载meme数据成功")
             
             # 加载KOL数据
+            import sys
+            sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
             from config.paths import KOL_ANALYSIS_FILE
             if os.path.exists(KOL_ANALYSIS_FILE):
                 with open(KOL_ANALYSIS_FILE, 'r', encoding='utf-8') as f:
@@ -84,8 +89,8 @@ class MemeDataService:
         
         memes = self.data_cache['meme_data']['detected_memes']
         
-        # 过滤
-        if category:
+        # 过滤 - 改进空分类参数处理
+        if category and category.strip() != '':
             memes = {k: v for k, v in memes.items() if v.get('category') == category}
         
         # 排序
@@ -292,6 +297,11 @@ data_service = MemeDataService()
 def index():
     """主页"""
     return render_template('index.html')
+
+@app.route('/debug')
+def debug():
+    """调试页面"""
+    return render_template('debug_filter.html')
 
 @app.route('/api/health')
 def health_check():

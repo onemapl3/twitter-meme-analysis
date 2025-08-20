@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>筛选功能调试</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .debug-section { margin: 20px 0; padding: 15px; border: 1px solid #ccc; }
+        .error { color: red; }
+        .success { color: green; }
+        button { margin: 5px; padding: 10px; }
+        select { margin: 5px; padding: 5px; }
+    </style>
+</head>
+<body>
+    <h1>🔍 筛选功能调试页面</h1>
+    
+    <div class="debug-section">
+        <h3>筛选器设置</h3>
+        <label>分类筛选:</label>
+        <select id="category-filter">
+            <option value="">所有分类</option>
+            <option value="ai_meme">AI主题</option>
+            <option value="animal_meme">动物主题</option>
+            <option value="internet_culture">网络文化</option>
+            <option value="community_meme">社区驱动</option>
+            <option value="potential_meme">潜在项目</option>
+        </select>
+        
+        <label>排序方式:</label>
+        <select id="sort-filter">
+            <option value="total_score">热度分数</option>
+            <option value="mention_count">提及次数</option>
+            <option value="unique_users">用户数量</option>
+        </select>
+        
+        <label>每页显示:</label>
+        <select id="limit-filter">
+            <option value="10">10条</option>
+            <option value="20">20条</option>
+            <option value="50" selected>50条</option>
+        </select>
+        
+        <button onclick="testFilter()">测试筛选</button>
+        <button onclick="testAllCategories()">测试所有分类</button>
+    </div>
+    
+    <div class="debug-section">
+        <h3>API测试结果</h3>
+        <div id="api-result"></div>
+    </div>
+    
+    <div class="debug-section">
+        <h3>控制台日志</h3>
+        <div id="console-log"></div>
+    </div>
+
+    <script>
+        // 全局变量
+        let currentPage = 0;
+        let currentLimit = 50;
+        let currentCategory = '';
+        let currentSortBy = 'total_score';
+        
+        // 重写console.log来显示在页面上
+        const originalLog = console.log;
+        const originalError = console.error;
+        
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            document.getElementById('console-log').innerHTML += `<div class="success">LOG: ${args.join(' ')}</div>`;
+        };
+        
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            document.getElementById('console-log').innerHTML += `<div class="error">ERROR: ${args.join(' ')}</div>`;
+        };
+        
+        // 测试筛选功能
+        async function testFilter() {
+            currentCategory = document.getElementById('category-filter').value;
+            currentSortBy = document.getElementById('sort-filter').value;
+            currentLimit = parseInt(document.getElementById('limit-filter').value);
+            
+            console.log('筛选参数:', {
+                category: currentCategory,
+                sortBy: currentSortBy,
+                limit: currentLimit,
+                page: currentPage
+            });
+            
+            try {
+                const url = `/api/memes?limit=${currentLimit}&offset=${currentPage * currentLimit}&category=${currentCategory}&sort_by=${currentSortBy}`;
+                console.log('请求URL:', url);
+                
+                const response = await fetch(url);
+                console.log('响应状态:', response.status);
+                
+                const data = await response.json();
+                console.log('响应数据:', data);
+                
+                if (data.error) {
+                    document.getElementById('api-result').innerHTML = `<div class="error">API错误: ${data.error}</div>`;
+                } else {
+                    document.getElementById('api-result').innerHTML = `
+                        <div class="success">
+                            <h4>筛选成功!</h4>
+                            <p>找到 ${data.data.length} 条记录</p>
+                            <p>总计: ${data.pagination.total} 条</p>
+                            <p>分类: ${currentCategory || '所有分类'}</p>
+                            <p>排序: ${currentSortBy}</p>
+                        </div>
+                    `;
+                }
+                
+            } catch (error) {
+                console.error('筛选测试失败:', error);
+                document.getElementById('api-result').innerHTML = `<div class="error">请求失败: ${error.message}</div>`;
+            }
+        }
+        
+        // 测试所有分类
+        async function testAllCategories() {
+            const categories = ['', 'ai_meme', 'animal_meme', 'internet_culture', 'community_meme', 'potential_meme'];
+            const results = [];
+            
+            for (const category of categories) {
+                try {
+                    const url = `/api/memes?limit=5&category=${category}`;
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    
+                    results.push({
+                        category: category || '所有分类',
+                        status: response.status,
+                        count: data.data ? data.data.length : 0,
+                        error: data.error || null
+                    });
+                    
+                } catch (error) {
+                    results.push({
+                        category: category || '所有分类',
+                        status: 'ERROR',
+                        count: 0,
+                        error: error.message
+                    });
+                }
+            }
+            
+            console.log('所有分类测试结果:', results);
+            document.getElementById('api-result').innerHTML = `
+                <div class="success">
+                    <h4>所有分类测试完成!</h4>
+                    <pre>${JSON.stringify(results, null, 2)}</pre>
+                </div>
+            `;
+        }
+        
+        // 页面加载完成后显示初始状态
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('页面加载完成');
+            console.log('初始筛选参数:', {
+                category: currentCategory,
+                sortBy: currentSortBy,
+                limit: currentLimit,
+                page: currentPage
+            });
+        });
+    </script>
+</body>
+</html>
